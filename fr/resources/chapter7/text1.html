@@ -1,0 +1,72 @@
+  <script src="js/encart.js"></script> 
+  <script type="text/javascript" src="js/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+  <script type="text/javascript" src="js/slidedeck.jquery.js"></script>
+     <link rel="stylesheet" type="text/css" href="css/slidedeck.skin.css" media="screen,handheld" />
+<div class="encart textepageG1">
+
+
+
+<div id="slidedeck_frame" class="skin-slidedeck">
+			<dl class="slidedeck">
+				<dt><img src="img/sciences.png" class="btnMenuSlideSciences"/>Sciences</dt>
+				<dd><ul class="slidesVertical"><li>Contenu des Sciences</li></ul></dd>
+				<dt><img src="img/art.png" class="btnMenuSlide"/>Histoire de l'art</dt>
+				<dd>
+                    <ul class="slidesVertical">
+                        <li><p><h1>Le coin malin</h1><strong>- 460 : le combat de Thésée et du Minotaure. Vase appartenant à la collection... </br>Quis enim aut eum diligat quem metuat, aut eum a quo se metui putet? Coluntur tamen simulatione dumtaxat ad tempus. Quod si forte, ut fit plerumque, ceciderunt, tum intellegitur quam fuerint inopes amicorum. Quod Tarquinium dixisse ferunt, tum exsulantem se intellexisse quos fidos amicos habuisset, quos infidos, cum iam neutris gratiam referre posset.</strong></p>
+                        <img src="bonus/1.jpg"  class="bonusimage" /> </li>
+                           <li><p><strong>- 340 : La reine Pasiphaé et son fils, le minotaure </strong></p>
+                        <img src="bonus/2.jpg"  class="bonusimage" /> </li>
+                           <li><p><strong>1520-1523 : Titien, Bacchus et Ariane, , National Gallery, Londres. </strong></p>
+                        <img src="bonus/3.jpg"  class="bonusimage" /> </li>
+                           <li><p><strong>Sebastino Ricci, Bacchus et Ariane, 1700-1710. </strong></p>
+                        <img src="bonus/4.jpg"  class="bonusimage" /> </li>
+                           <li><p><strong>Nicolas Poussin, Thésée retrouve l’épée de son père, huile sur toile, vers 1638, 98x134, musée Condé, Chantilly. </strong></p>
+                        <img src="bonus/5.jpg"  class="bonusimage" /> </li>
+                          <li><p><strong>Theseus fighting the Minotaur by Étienne-Jules Ramey (French, 1796–1852). Marble, 1826. In the Tuileries Gardens, Paris. </strong></p>
+                        <img src="bonus/6.jpg"  class="bonusimage" /> </li>
+                          <li><p><strong>Rubens, La chute d'Icare, 1636  </strong></p>
+                        <img src="bonus/7.jpg"  class="bonusimage" /> </li>
+                           <li><p><strong>Planche au pochoir d'après les gouaches et sur les découpages d’Henri Matisse. 1952 </strong></p>
+                        <img src="bonus/8.jpg"  class="bonusimage" /> </li>
+                           <li><p><strong>Picasso : le minotaure portant un cheval, 1937</strong></p>
+                        <img src="bonus/9.jpg"  class="bonusimage" /> </li>
+                        <li><p><strong>Thésée et le Minotaure (Teseo contro il minotauro) peplum italien de Silvio Amadio (1960).</strong></p>
+                        <img src="bonus/10.jpg"  class="bonusimage" /> </li>
+                        <li><p><strong>un tauren, minotaure dans le jeu Vidéo World of Warcraft de Blizzard, 2005</strong></p>
+                        <img src="bonus/11.jpg"  class="bonusimage" /> </li>
+                        
+                    </ul>
+				</dd>
+                <dt><img src="img/geo.png" class="btnMenuSlideGeo"/>Géographie</dt>
+                <dd>Contenu de Géographie</dd>
+                <dt><img src="img/educ.png" class="btnMenuSlideEduc"/>Education civique</dt>
+                <dd>Contenu Education civique</dd>
+			</dl>
+		</div>
+       
+       <!-- <div id="console">
+        </div>-->
+        
+		<script type="text/javascript">
+            /* Initiate the SlideDeck */
+    		$('.skin-slidedeck dl.slidedeck').slidedeck({
+                autoPlay: false,
+                autoPlayInterval: 2000,
+                before: function( deck ){
+                    $('#console').prepend( "<p>Before! The current slide is #" + deck.current + "</p>" );
+                },
+                complete: function( deck ){
+                    $('#console').prepend( "<p>Complete! The current slide is #" + deck.current + "</p>" );
+                }
+            }).vertical({
+                before: function( deck ){
+                    $('#console').prepend( "<p>Before Vertical! The current slide is #" + deck.current + "</p>" );
+                },
+                complete: function( deck ){
+                    $('#console').prepend( "<p>Complete Vertical! The current slide is #" + deck.current + "</p>" );
+                }
+            });
+		</script>
+
+  </div>

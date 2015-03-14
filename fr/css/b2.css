@@ -1,0 +1,484 @@
+
+
+
+
+#chouette2.envol2 {
+  
+	left:24%;
+	top:34%;
+}
+
+
+
+#btnPlus2 {
+
+    left: 19.4%;
+  
+    top: 30.95%;
+
+}
+
+
+
+#bulle2BIG {
+
+    height: 22%;
+    left: 17%;
+
+    top: 1%;
+    width: 22%;
+
+}
+.page6 #thesee {
+	
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter2/img/b/thesee1.png");
+	left: 32.3%;
+	top: 31.8%;
+	height: 38.8%;
+	width: 20.1%;
+}
+.page6 #arche{
+	
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 8; 
+	background-image: url("../resources/chapter2/img/b/arcade.png");
+	left: 39%;
+	top: 0%;
+	height: 12%;
+	width: 61%;
+}
+
+
+
+.page6 #nuage21.bas1 {
+	
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	height: 7.1%;
+	width: 16%;
+	  position: absolute;
+    z-index: 6; 
+	top: 5.2%;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	left: 40%;
+}
+.page6 #nuage22.bas1 {
+		
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	height: 7.1%;
+	width: 16%;
+	  position: absolute;
+    z-index: 6; 
+	top: 5.2%;
+	background-image: url("../resources/chapter1/img/a/nuage2.png");
+	left: 45%;
+}
+.page6 #nuage23.bas1 {
+		
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	height: 7.1%;
+	width: 16%;
+	  position: absolute;
+    z-index: 6; 
+	top: 5.2%;
+	background-image: url("../resources/chapter1/img/a/nuage3.png");
+	left: 50%;
+}
+
+
+.page6 .bulle21{
+	
+ background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 28%;
+	left: 40%;
+    width: 9%;
+	 height: 4%;
+
+
+
+ -webkit-animation:bulle121 15s ease-in  ;
+	-moz-animation:bulle121 15s ease-in  ;
+	animation:bulle121 15s ease-in  ;
+}
+@-webkit-keyframes bulle121 {
+0%		{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:1;
+	}
+	40%		{
+		opacity:1;
+	}
+	50%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulle121 {
+0%		{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:1;
+	}
+	40%		{
+		opacity:1;
+	}
+	50%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulle121 {
+0%		{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:1;
+	}
+	40%		{
+		opacity:1;
+	}
+	50%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+}
+
+
+.page6 .bulle22{
+	
+ background-image: url("../img/bulledroite.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 29%;
+	left: 19%;
+    width: 9%;
+	 height: 4%;
+ -webkit-animation:bulle122 15s ease-in  ;
+	-moz-animation:bulle122 15s ease-in  ;
+	animation:bulle122 15s ease-in  ;
+}
+@-webkit-keyframes bulle122 {
+0%		{
+		opacity:0;
+	}
+	
+	20%	{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:1;
+	}
+	50%		{
+		opacity:1;
+	}
+	60%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulle122 {
+0%		{
+		opacity:0;
+	}
+	
+	20%	{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:1;
+	}
+	50%		{
+		opacity:1;
+	}
+	60%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulle122 {
+0%		{
+		opacity:0;
+	}
+	
+	20%	{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:1;
+	}
+	50%		{
+		opacity:1;
+	}
+	60%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+}
+
+
+
+.page6 .bulle23{
+	
+  background-image: url("../img/bulledroite.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 25%;
+	left: 20%;
+    width: 9%;
+	 height: 4%;
+ -webkit-animation:bulle123 15s ease-in  ;
+	-moz-animation:bulle123 15s ease-in  ;
+	animation:bulle123 15s ease-in  ;
+}
+@-webkit-keyframes bulle123 {
+0%		{
+		opacity:0;
+	}
+	
+	30%	{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:1;
+	}
+	60%		{
+		opacity:1;
+	}
+	70%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulle123 {
+0%		{
+		opacity:0;
+	}
+	
+	30%	{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:1;
+	}
+	60%		{
+		opacity:1;
+	}
+	70%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulle123 {
+0%		{
+		opacity:0;
+	}
+	
+	30%	{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:1;
+	}
+	60%		{
+		opacity:1;
+	}
+	70%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+}
+
+
+
+
+.page6 .bulle24{
+	
+  background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 25%;
+	left: 40%;
+    width: 9%;
+	 height: 4%;
+ -webkit-animation:bulle124 15s ease-in  ;
+	-moz-animation:bulle124 15s ease-in  ;
+	animation:bulle124 15s ease-in  ;
+}
+@-webkit-keyframes bulle124 {
+0%		{
+		opacity:0;
+	}
+	
+	40%	{
+		opacity:0;
+	}
+	
+	55%	{
+		opacity:1;
+	}
+	70%		{
+		opacity:1;
+	}
+	80%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulle124 {
+0%		{
+		opacity:0;
+	}
+	
+	40%	{
+		opacity:0;
+	}
+	
+	55%	{
+		opacity:1;
+	}
+	70%		{
+		opacity:1;
+	}
+	80%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulle124 {
+0%		{
+		opacity:0;
+	}
+	
+	40%	{
+		opacity:0;
+	}
+	
+	55%	{
+		opacity:1;
+	}
+	70%		{
+		opacity:1;
+	}
+	80%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+}
+
+

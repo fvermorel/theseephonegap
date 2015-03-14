@@ -1,0 +1,507 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.page16 #chouette.envol {
+  
+	left: 27%;
+    top: 69%;
+}
+
+.page16 #chouette.envol:hover {
+	cursor:pointer;
+}
+
+
+.page16 #btnPlus {
+    left: 32.97%;
+
+    top: 64.95%;
+
+}
+
+.page16 #btnPlus:hover {
+	cursor:pointer;
+}
+
+.page16 #bulle1BIG {
+
+    height: 22%;
+    left: 4%;
+
+    top: 35%;
+    width: 22%;
+  
+}
+
+.page16 #arbregauche {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 8; 
+	background-image: url("../resources/chapter4/img/d/arbregauche.png");
+	left:0%;
+	top: 0%;
+	height:20.05% ;
+	width:33.83%;
+	
+}
+
+.page16 #hirondelle {
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter4/img/d/hirondelle0.png");
+	left: 40%;
+	top: 10%;
+	height:8.72% ;
+	width: 6.10%;
+}
+
+.page16 #crabe {
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter4/img/d/crabe0.png");
+	left: 54%;
+	top: 95%;
+	height:4.10% ;
+	width: 4.88%;
+}
+.page16 .bulleb1{
+	
+ background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 57%;
+	left: 20%;
+    width: 9%;
+	 height: 4%;
+-webkit-animation:bulleb11 18s ease-in  ;
+	-moz-animation:bulleb11 18s ease-in  ;
+	animation:bulleb11 18s ease-in  ;
+}
+@-webkit-keyframes bulleb11 {
+0%		{
+		opacity:0;
+	}
+	
+	5%	{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:1;
+	}
+	40%		{
+		opacity:1;
+	}
+
+	45%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulleb11 {
+0%		{
+		opacity:0;
+	}
+	
+	5%	{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:1;
+	}
+	40%		{
+		opacity:1;
+	}
+
+	45%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulleb11 {
+0%		{
+		opacity:0;
+	}
+	
+	5%	{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:1;
+	}
+	40%		{
+		opacity:1;
+	}
+
+	45%		{
+		opacity:0;
+	}
+}
+
+.page16 .bulleb2{
+	
+  background-image: url("../img/bulledroite.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 60%;
+	left: 5%;
+    width: 6%;
+	 height: 4%;
+-webkit-animation:bulleb21 18s ease-in  ;
+	-moz-animation:bulleb21 18s ease-in  ;
+	animation:bulleb21 18s ease-in  ;
+}
+@-webkit-keyframes bulleb21 {
+0%		{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:0;
+	}
+	
+	20%	{
+		opacity:1;
+	}
+	50%		{
+		opacity:1;
+	}
+
+	55%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulleb21 {
+0%		{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:0;
+	}
+	
+	20%	{
+		opacity:1;
+	}
+	50%		{
+		opacity:1;
+	}
+
+	55%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulleb21 {
+0%		{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:0;
+	}
+	
+	20%	{
+		opacity:1;
+	}
+	50%		{
+		opacity:1;
+	}
+
+	55%		{
+		opacity:0;
+	}
+}
+
+
+
+.page16 .bulleb3{
+	
+  background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 60%;
+	left: 20%;
+    width: 4%;
+	 height: 3%;
+-webkit-animation:bulleb31 18s ease-in  ;
+	-moz-animation:bulleb31 18s ease-in  ;
+	animation:bulleb31 18s ease-in  ;
+}
+@-webkit-keyframes bulleb31 {
+0%		{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:0;
+	}
+	
+	30%	{
+		opacity:1;
+	}
+	60%		{
+		opacity:1;
+	}
+
+	65%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulleb31 {
+0%		{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:0;
+	}
+	
+	30%	{
+		opacity:1;
+	}
+	60%		{
+		opacity:1;
+	}
+
+	65%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulleb31 {
+0%		{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:0;
+	}
+	
+	30%	{
+		opacity:1;
+	}
+	60%		{
+		opacity:1;
+	}
+
+	65%		{
+		opacity:0;
+	}
+}
+
+
+
+.page16 .bulleb4{
+	
+  background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 57%;
+	left: 13%;
+    width: 9%;
+	 height: 4%;
+-webkit-animation:bulleb41 18s ease-in  ;
+	-moz-animation:bulleb41 18s ease-in  ;
+	animation:bulleb41 18s ease-in  ;
+}
+@-webkit-keyframes bulleb41 {
+0%		{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:0;
+	}
+	
+	40%	{
+		opacity:1;
+	}
+	70%		{
+		opacity:1;
+	}
+
+	75%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulleb41 {
+0%		{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:0;
+	}
+	
+	40%	{
+		opacity:1;
+	}
+	70%		{
+		opacity:1;
+	}
+
+	75%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulleb41 {
+0%		{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:0;
+	}
+	
+	40%	{
+		opacity:1;
+	}
+	70%		{
+		opacity:1;
+	}
+
+	75%		{
+		opacity:0;
+	}
+}
+
+.page16 .bulle5{
+	
+  background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 55%;
+	left: 13%;
+    width: 11%;
+	 height: 4%;
+-webkit-animation:bulleb51 18s ease-in  ;
+	-moz-animation:bulleb51 18s ease-in  ;
+	animation:bulleb51 18s ease-in  ;
+}
+@-webkit-keyframes bulleb51 {
+0%		{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:0;
+	}
+	
+	50%	{
+		opacity:1;
+	}
+	80%		{
+		opacity:1;
+	}
+
+	85%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulleb51 {
+0%		{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:0;
+	}
+	
+	50%	{
+		opacity:1;
+	}
+	80%		{
+		opacity:1;
+	}
+
+	85%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulleb51 {
+0%		{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:0;
+	}
+	
+	50%	{
+		opacity:1;
+	}
+	80%		{
+		opacity:1;
+	}
+
+	85%		{
+		opacity:0;
+	}
+}

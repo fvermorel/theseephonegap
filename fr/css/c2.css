@@ -1,0 +1,567 @@
+
+
+
+
+.page10 #chouette.envol {
+  
+	left: 47%;
+    top: 69%;
+}
+
+.page10 #chouette.envol:hover {
+	cursor:pointer;
+}
+
+
+.page10 #btnPlus {
+    left: 52.97%;
+  
+    top: 64.95%;
+
+}
+
+.page10 #btnPlus:hover {
+	cursor:pointer;
+}
+
+.page10 #bulle1BIG {
+
+    height: 22%;
+    left: 24%;
+
+    top: 35%;
+    width: 22%;
+
+}
+.page10 #voile {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 7; 
+	background-image: url("../resources/chapter3/img/b/voilehaut.png");
+	left: 56%;
+	top: 0%;
+	height:8% ;
+	width: 44%;
+	
+}
+.page10 #vague {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 7; 
+	background-image: url("../resources/chapter3/img/b/vague.png");
+	left: 0%;
+	top: 84.7%;
+	height:15.3% ;
+	width: 100%;
+	
+}
+
+
+.page10 #poisson1 {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter3/img/b/poisson1.png");
+	left: 15%;
+	top: 80%;
+	height:5.27% ;
+	width: 6.59%;
+	
+}
+
+.page10 #poisson2 {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter3/img/b/poisson2.png");
+	left: 20%;
+	top: 77%;
+	height:5.27% ;
+	width: 6.59%;
+	
+}
+
+.page10 #poisson3 {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter3/img/b/poisson3.png");
+	left: 45%;
+	top: 80%;
+	height:5.27% ;
+	width: 6.59%;
+	
+}
+
+.page10 #poisson4 {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter3/img/b/poisson4.png");
+	left: 50%;
+	top: 82%;
+	height:5.27% ;
+	width: 6.59%;
+	
+}
+
+.page10 #poisson5 {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter3/img/b/poisson5.png");
+	left: 55%;
+	top: 75%;
+	height:5.27% ;
+	width: 6.59%;
+	
+}
+.page10 .bullea1{
+	
+ background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 25%;
+	left: 10%;
+    width: 9%;
+	 height: 4%;
+
+
+ -webkit-animation:bullea11 20s ease-in  ;
+	-moz-animation:bullea11 20s ease-in  ;
+	animation:bullea11 20s ease-in  ;
+}
+@-webkit-keyframes bullea11 {
+0%		{
+		opacity:0;
+	}
+	
+	5%	{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:1;
+	}
+	35%		{
+		opacity:1;
+	}
+
+	40%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bullea11 {
+0%		{
+		opacity:0;
+	}
+	
+	5%	{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:1;
+	}
+	35%		{
+		opacity:1;
+	}
+
+	40%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bullea11 {
+0%		{
+		opacity:0;
+	}
+	
+	5%	{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:1;
+	}
+	35%		{
+		opacity:1;
+	}
+
+	40%		{
+		opacity:0;
+	}
+}
+
+
+.page10 .bullea2{
+	
+  background-image: url("../img/bulledroite.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 24%;
+	left: 10%;
+    width: 9%;
+	 height: 4%;
+ -webkit-animation:bullea12 20s ease-in  ;
+	-moz-animation:bullea12 20s ease-in  ;
+	animation:bullea12 20s ease-in  ;
+}
+@-webkit-keyframes bullea12 {
+0%		{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:0;
+	}
+	
+	20%	{
+		opacity:1;
+	}
+	45%		{
+		opacity:1;
+	}
+
+	50%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bullea12 {
+0%		{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:0;
+	}
+	
+	20%	{
+		opacity:1;
+	}
+	45%		{
+		opacity:1;
+	}
+
+	50%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bullea12 {
+0%		{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:0;
+	}
+	
+	20%	{
+		opacity:1;
+	}
+	45%		{
+		opacity:1;
+	}
+
+	50%		{
+		opacity:0;
+	}
+}
+
+.page10 .bullea3{
+	
+  background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 34%;
+	left: 74%;
+    width: 9%;
+	 height: 4%;
+ -webkit-animation:bullea13 20s ease-in  ;
+	-moz-animation:bullea13 20s ease-in  ;
+	animation:bullea13 20s ease-in  ;
+}
+@-webkit-keyframes bullea13 {
+0%		{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:0;
+	}
+	
+	30%	{
+		opacity:1;
+	}
+	55%		{
+		opacity:1;
+	}
+
+	60%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bullea13 {
+0%		{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:0;
+	}
+	
+	30%	{
+		opacity:1;
+	}
+	55%		{
+		opacity:1;
+	}
+
+	60%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bullea13 {
+0%		{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:0;
+	}
+	
+	30%	{
+		opacity:1;
+	}
+	55%		{
+		opacity:1;
+	}
+
+	60%		{
+		opacity:0;
+	}
+}
+
+
+.page10 .bullea4{
+	
+  background-image: url("../img/bulledroite.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 35%;
+	left: 80%;
+    width: 10%;
+	 height: 5%;
+ -webkit-animation:bullea14 20s ease-in  ;
+	-moz-animation:bullea14 20s ease-in  ;
+	animation:bullea14 20s ease-in  ;
+}
+@-webkit-keyframes bullea14 {
+0%		{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:0;
+	}
+	
+	40%	{
+		opacity:1;
+	}
+	65%		{
+		opacity:1;
+	}
+
+	70%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bullea14 {
+0%		{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:0;
+	}
+	
+	40%	{
+		opacity:1;
+	}
+	65%		{
+		opacity:1;
+	}
+
+	70%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bullea14 {
+0%		{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:0;
+	}
+	
+	40%	{
+		opacity:1;
+	}
+	65%		{
+		opacity:1;
+	}
+
+	70%		{
+		opacity:0;
+	}
+}
+.page10 .bullea5{
+	
+background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+    height: 4%;
+    left: 48%;
+    opacity: 0;
+    padding: 3%;
+    position: absolute;
+    top: 25%;
+    width: 13%;
+    z-index: 8;
+	
+ -webkit-animation:bullea15 20s ease-in  ;
+	-moz-animation:bullea15  20s ease-in  ;
+	animation:bullea15 20s ease-in  ;
+}
+@-webkit-keyframes bullea15  {
+0%		{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:0;
+	}
+	
+	50%	{
+		opacity:1;
+	}
+	75%		{
+		opacity:1;
+	}
+
+	80%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bullea15  {
+0%		{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:0;
+	}
+	
+	50%	{
+		opacity:1;
+	}
+	75%		{
+		opacity:1;
+	}
+
+	80%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bullea15  {
+0%		{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:0;
+	}
+	
+	50%	{
+		opacity:1;
+	}
+	75%		{
+		opacity:1;
+	}
+
+	80%		{
+		opacity:0;
+	}
+}
+

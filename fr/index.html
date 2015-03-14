@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+             <meta name="apple-mobile-web-app-capable" content="yes" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/old.js"></script>	
+		 <script type="text/javascript" src="js/book.js"></script> 	
+ 
+      <!-- Plugin jQuery pour animations basées sur courbe de Bézier (ex : sinusoïde) -->
+<script src="js/jquery.path.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<!-- API CCom Interactive -->
+<script src="js/ccom.js"></script>
+<!-- script rindra -->
+ <script type="text/javascript" src="js/script.js"></script>
+ 
+ 
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="apple-touch-icon" href="iconoracle.png" />
+        <style type="text/css">
+		
+		@font-face {
+    font-family: "EccentricStd";
+    src: url(img/EccentricStd.otf);
+		}
+		@font-face{
+	font-family: "Offside";
+	src: url(img/Offside-Regular.ttf);
+}
+  
+        #autreslivres {
+    background-color: rgba(223, 233, 235, 0.7);
+    border-radius: 10px;
+    height: 85%;
+    overflow: auto;
+    padding: 0.9%;
+    position: absolute;
+    right: 5%;
+    top: 7%;
+    width: 15%;
+    z-index: 2;
+	}
+	
+.livre {
+	width:100%;
+	overflow:none;
+
+}
+
+#background img {
+    height: 100%;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 0;
+}
+
+#titreCollec {
+	font-family: "EccentricStd";
+	font-weight: normal;
+	color:#4e7b7a;
+	font-size: 1.6em;
+}
+
+#lecture {
+    height: 10%;
+    width: 40%;
+    z-index: 6;
+}
+
+#reduire {
+	height: 3.1%;
+    left: 92%;
+    position: absolute;
+    top: 3%;
+    width: 4%;
+    z-index: 6;
+}
+
+.plusMoins{
+background-image: url(img/btn-ouvrir.png);
+    background-repeat: no-repeat;
+    background-size: 65% 100%;
+    float: left;
+    height: 100%;
+    margin-right: 5%;
+    width: 94%;
+}
+
+#titreCOUV {
+	color: #3A2719;
+    font-family: "EccentricStd";
+    font-size: 5.6em;
+    font-weight: normal;
+    height: 30%;
+    left: 7%;
+    letter-spacing: 0.14em;
+    line-height: 1;
+    position: absolute;
+    top: 5%;
+    width: 50%;
+    z-index: 6;
+}
+
+.bateaux li {
+    background-image: url("resources/couv/img/bateau.png");
+    background-repeat: no-repeat;
+    background-size: 115% auto;
+    color: #03BDB6;
+    font-family: eccentricstd;
+    font-size: 1.6em;
+    height: 31%;
+    line-height: 4.5em;
+    list-style: none outside none;	
+}
+
+.bateaux {
+	height: 100%;
+    width: 100%;
+	padding: 0;
+}
+
+#navigation {
+    height: 60%;
+    left: 4%;
+    position: absolute;
+    top: 31%;
+    width: 17%;
+    z-index: 6;
+	}
+
+.bateaux li p {
+    margin-left: 38.3%;
+    margin-top: 3.7%;
+    position: absolute;
+}
+
+.bateaux li a {
+	list-style:none;
+	text-decoration:none;
+	color: #03BDB6;
+}
+
+#boiteBoutons{
+	height: 5%;
+    left: 4%;
+    position: absolute;
+    top: 92%;
+    width: 20%;
+    z-index: 6;
+	
+}
+
+#btnChouette{
+	height:100%;
+	width:18%;
+	background-image:url(resources/couv/img/btnChouette.png);
+	background-repeat:no-repeat;
+	background-size: 100% auto;
+}
+
+#btnInfo{
+	background-image: url("resources/couv/img/btnInfo.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+    left: 34%;
+    position: absolute;
+    top: 0;
+    width: 18%;
+}
+
+#btnSon{
+	background-image: url("resources/couv/img/btnSon.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+    left: 66%;
+    position: absolute;
+    top: 0;
+    width: 18%;
+}
+
+        </style>
+        <script>
+$(document).ready(function() {
+    $.ajax({
+ type: "GET"
+, url: 'http://www.oracle-editions.com/json/autreslivres.json'
+, dataType: "text json"
+, success: function(data, status) {
+var livres = [];
+$.each(data, function(nom, collection) {
+livres.push('<div id="titreCollec">' + nom + '</div>');
+$.each(collection, function(col, livre) {
+livres.push('<div><img src="' + livre + '" class="livre"></div>');
+});
+});
+$('#autreslivres').append(livres.join(''));
+}
+
+})
+});
+ 
+		</script>
+        
+        <title>Th&eacute;s&eacute;e</title>
+	</head>
+	<body>
+		<div id="wrapper">
+            
+            <script>
+                $(document).ready(function(){
+                    $('#getFileContents').click(function(){
+                        window.location="../en/index.html";
+                        });
+                    });
+                </script>
+
+            
+     
+         		<a href="../en/index.html"> <img src="img/drapeau-anglais.png" width="70" height="70" id="getFileContents"></a>
+          <div id="histoire" class="titre"><a href="chapitre1.html">L'histoire</a></div>
+        <div id="coinmalin" class="titre"><a href="coinmalin.html">coin malin</a></div>
+        <div id="bateauhome"></div>
+        
+        
+        
+        <div class="titre">
+            
+            <button id='setFileContents'>SET file contents</button>
+            
+            
+        </div>
+        
+<!--getFileContents
+        <div id="navigation">
+		 <ul class="bateaux">
+        <li><p><a href="chapitre1.html">L'histoire</a></p></li>
+        <li><p><a href="coinmalin.html">coin malin</a></p></li>
+        </ul>
+        </div>-->
+        
+        <div id="reduire"><div id="plusMoins" class="plusMoins"></div></div>
+        <div id="boiteBoutons"><div id="btnChouette"></div><div id="btnInfo"></div><div id="btnSon"></div></div> 
+        <div id="autreslivres">
+        
+       <!-- <div id="titreCollec">Dans la même collection</div>
+        	<div >
+            <img src="resources/couv/img/origine.jpg" class="livre"> </div>
+            <div class="livre"> <img src="resources/couv/img/jason.jpg" class="livre">
+            </div>-->
+           
+        
+        </div>
+        
+        
+			
+			<div id="background" ><!-- ici seront chargés les background des pages -->
+		<img id="page" src="resources/couv/img/couverture.jpg" />
+			</div>
+			 <div class="pagination"></div>
+  <div id="nav">
+    <div id="menu"> <img id="menuImg" src="img/menu.png" alt="menu" /> </div>
+  </div>
+			<div id="chapters">
+			</div>
+		</div>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+            </script>
+        
+    </body>
+</html>

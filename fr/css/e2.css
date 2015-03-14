@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.page20 #chouette.envol {
+  
+	left: 27%;
+    top: 69%;
+}
+
+.page20 #chouette.envol:hover {
+	cursor:pointer;
+}
+
+
+.page20 #btnPlus {
+    left: 32.97%;
+  
+    top: 64.95%;
+
+}
+
+.page20 #btnPlus:hover {
+	cursor:pointer;
+}
+
+.page20 #bulle1BIG {
+
+    height: 22%;
+    left: 4%;
+
+    top: 35%;
+    width: 22%;
+ 
+}
+.page20 #plume1{
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 7; 
+	background-image: url("../resources/chapter5/img/b/plume1.png");
+	left: 21.6%;
+	top: 71.9%;
+	height:20.05% ;
+	width: 9.17%;
+
+	   -webkit-animation:plume12 3.5s step-start infinite;
+    -moz-animation:plume12 3.5s step-start infinite;
+    animation:plume12 3.5s step-start infinite;
+	}
+	
+@-webkit-keyframes plume12 {
+	0%		{
+		top: 71.9%;
+	}
+	
+	80%	{
+		top: 100%;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+	
+	90%	{
+		top: 65%;
+	
+	}
+}
+
+@-moz-keyframes plume12 {
+	0%		{
+		top: 71.9%;
+	}
+	
+	80%	{
+		top: 100%;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+	
+	90%	{
+		top: 65%;
+	
+	}
+	
+	
+}
+
+@keyframes plume12 {
+0%		{
+		top: 71.9%;
+	}
+	
+	80%	{
+		top: 100%;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+	
+	90%	{
+		top: 65%;
+	
+	}
+}
+
+
+.page20 #plume2{
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 7; 
+	background-image: url("../resources/chapter5/img/b/plume2.png");
+	left: 29.6%;
+	top: 73.9%;
+	height:18.29% ;
+	width: 7.37%;
+}
+
+.page20 #plume3{
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 7; 
+	background-image: url("../resources/chapter5/img/b/plume3.png");
+	left: 45.6%;
+	top: 85.9%;
+	height:20.24% ;
+	width: 9.52%;
+}
+
+.page20 #plume4{
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 7; 
+	background-image: url("../resources/chapter5/img/b/plume4.png");
+	left: 55.6%;
+	top: 70.9%;
+	height:17.05% ;
+	width: 7.37%;
+}
+
+.page20 #plume5{
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 7; 
+	background-image: url("../resources/chapter5/img/b/plume5.png");
+	left: 65.6%;
+	top: 70.9%;
+	height:15.23% ;
+	width: 6.39%;
+}
+
+.page20 #yeuxicare{
+	   background-repeat: no-repeat;
+    background-size: 200% 100%; 
+	
+	  position: absolute;
+    z-index: 7; 
+	background-image: url("../resources/chapter5/img/b/yeuxicare.jpg");
+	left: 5.3%;
+	top: 12.2%;
+	height:3.05% ;
+	width: 8.54%;
+-webkit-animation:yeuxicare 2s step-start infinite;
+	-moz-animation:yeuxicare 2s step-start infinite;
+	animation:yeuxicare 2s step-start infinite;
+}
+
+
+@-webkit-keyframes yeuxicare {
+	0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	30%	{
+		background-position:0;
+	}
+	
+}
+
+@-moz-keyframes yeuxicare{
+	0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	30%	{
+		background-position:0;
+	}
+	
+}
+
+@keyframes yeuxicare {
+	0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	30%	{
+		background-position:0;
+	}
+}
+
+
+
+.page20 #yeuxdedale{
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 7; 
+	background-image: url("../resources/chapter5/img/b/yeuxdedale.jpg");
+	left: 72.6%;
+	top: 32.6%;
+	height:4.29% ;
+	width: 3.22%;
+	opacity:0;
+-webkit-animation:yeuxdedale 2.8s step-start infinite;
+	-moz-animation:yeuxdedale 2.8s step-start infinite;
+	animation:yeuxdedale 2.8s step-start infinite;
+}
+
+
+@-webkit-keyframes yeuxdedale {
+	0%		{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:1;
+	}
+	
+	20%	{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes yeuxdedale {
+	0%		{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:1;
+	}
+	
+	20%	{
+		opacity:0;
+	}
+	
+	
+}
+
+@keyframes yeuxdedale {
+0%		{
+		opacity:0;
+	}
+	
+	10%	{
+		opacity:1;
+	}
+	
+	20%	{
+		opacity:0;
+	}
+}
+
+
+
+.page20 #lumierea{
+	   background-repeat: no-repeat;
+    background-size: 300% 100%; 
+	
+	  position: absolute;
+    z-index: 7; 
+	background-image: url("../resources/chapter5/img/b/lumiere2.jpg");
+	left: 60%;
+	top: 49%;
+	height:24.1% ;
+	width: 16.1%;
+	
+-webkit-animation:lumierea2 1s step-start infinite;
+	-moz-animation:lumierea2 1s step-start infinite;
+	animation:lumierea2 1s step-start infinite;
+}
+
+
+@-webkit-keyframes lumierea2 {
+	0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	60%	{
+		background-position:+200%;
+	}
+	90%		{
+		background-position:0;
+	}
+}
+
+@-moz-keyframes lumierea2{
+0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	60%	{
+		background-position:+200%;
+	}
+	90%		{
+		background-position:0;
+	}
+	
+}
+
+@keyframes lumierea2 {
+0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	60%	{
+		background-position:+200%;
+	}
+	90%		{
+		background-position:0;
+	}
+}

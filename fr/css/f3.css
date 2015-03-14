@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.page25 #chouette.envol {
+  
+	left: 47%;
+    top: 39%;
+}
+
+.page25 #chouette.envol:hover {
+	cursor:pointer;
+}
+
+
+.page25 #btnPlus {
+    left: 52.97%;
+ 
+    top: 34.95%;
+
+}
+
+.page25 #btnPlus:hover {
+	cursor:pointer;
+}
+
+.page25 #bulle1BIG {
+
+    height: 22%;
+    left: 24%;
+ 
+    top: 5%;
+    width: 22%;
+   
+}
+
+
+.page25 #dionysos {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter3/img/b/dionysos.jpg");
+	left: 22%;
+	top: 9%;
+	height:54% ;
+	width: 74%;
+	
+}

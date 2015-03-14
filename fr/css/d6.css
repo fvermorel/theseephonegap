@@ -1,0 +1,116 @@
+
+
+
+
+.page18 #chouette.envol {
+  
+	left:66%;
+	top:37%;
+}
+
+.page18 #chouette.envol:hover {
+	cursor:pointer;
+}
+
+
+.page18 #btnPlus {
+    left: 61.5%;
+
+    top: 30.95%;
+ 
+}
+
+.page18 #btnPlus:hover {
+	cursor:pointer;
+}
+
+.page18 #bulle1BIG {
+
+    height: 22%;
+    left: 59.13%;
+
+    top: 0.8%;
+    width: 22%;
+
+}
+.page18 #hautgauche{
+	   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 9; 
+	background-image: url("../resources/chapter4/img/f/hautgauche.png");
+	left: 0;
+	top: 0%;
+	height:24% ;
+	width: 34%;
+}
+.page18 #ciel{
+	   background-repeat: no-repeat;
+    background-size: 400% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter4/img/f/ciel2.jpg");
+	left: 0;
+	top: 0%;
+	height:24.00% ;
+	width: 100%;
+	
+-webkit-animation:ciel2 6s step-start infinite;
+	-moz-animation:ciel2 6s step-start infinite;
+	animation:ciel2 6s step-start infinite;
+}
+
+
+@-webkit-keyframes ciel2 {
+	0%		{
+		background-position:0;
+	}
+	
+	25%	{
+		background-position:+100%;
+	}
+	
+	50%	{
+		background-position:+200%;
+	}
+	75%		{
+		background-position:+300%;
+	}
+}
+
+@-moz-keyframes ciel2{
+0%		{
+		background-position:0;
+	}
+	
+	25%	{
+		background-position:+100%;
+	}
+	
+	50%	{
+		background-position:+200%;
+	}
+	75%		{
+		background-position:+300%;
+	}
+	
+}
+
+@keyframes ciel2 {
+0%		{
+		background-position:0;
+	}
+	
+	25%	{
+		background-position:+100%;
+	}
+	
+	50%	{
+		background-position:+200%;
+	}
+	75%		{
+		background-position:+300%;
+	}
+}

@@ -1,0 +1,667 @@
+
+
+
+
+#chouette4.envol4 {
+  
+	left:66.7%;
+	top:53%;
+}
+
+
+
+
+#btnPlus4 {
+    left: 61.2%;
+    top: 46.8%;
+
+}
+
+
+#bulle4BIG {
+
+    height: 22%;
+    left: 58.8%;
+
+    top: 16.7%;
+    width: 22%;
+  
+}
+.page8 #egee {
+	
+		   background-repeat: no-repeat;
+    background-size: 200% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter2/img/d/egee2.jpg");
+	left: 57.6%;
+	top: 44.1%;
+	height:2% ;
+	width: 3.5%;
+	
+	-webkit-animation:yeuxminos2 3s step-start infinite;
+	-moz-animation:yeuxminos2 3s step-start infinite;
+	animation:yeuxminos2 3s step-start infinite;
+}
+
+
+@-webkit-keyframes egee2{
+	0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	20%	{
+		background-position:0%;
+	}
+	
+}
+
+@-moz-keyframes egee2{
+0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	20%	{
+		background-position:0%;
+	}
+	
+	
+}
+
+@keyframes egee2 {
+0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	20%	{
+		background-position:0%;
+	}
+}
+
+.page8 #prince {
+	
+		   background-repeat: no-repeat;
+    background-size: 200% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter2/img/d/prince2.jpg");
+	left: 41%;
+	top: 17%;
+	height:2.1% ;
+	width: 2.1%;
+-webkit-animation:prince2 2.8s step-start infinite;
+	-moz-animation:prince2 2.8s  step-start infinite;
+	animation:prince2 2.8s  step-start infinite;
+}
+
+
+@-webkit-keyframes prince2{
+	0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:0%;
+	}
+	
+}
+
+@-moz-keyframes prince2{
+0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:0%;
+	}
+	
+	
+}
+
+@keyframes prince2 {
+0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:0%;
+	}
+}
+
+.page8 #reine {
+	
+		   background-repeat: no-repeat;
+    background-size: 200% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter2/img/d/reine2.jpg");
+	left: 66%;
+	top: 23%;
+	height:1% ;
+	width: 2%;
+-webkit-animation:reine2 3.1s step-start infinite;
+	-moz-animation:reine2 3.1s  step-start infinite;
+	animation:reine2 3.1s  step-start infinite;
+}
+
+
+@-webkit-keyframes reine2{
+	0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:0%;
+	}
+	
+}
+
+@-moz-keyframes reine2{
+0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:0%;
+	}
+	
+	
+}
+
+@keyframes reine2 {
+0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:0%;
+	}
+}
+
+.page8 #fille {
+	
+		   background-repeat: no-repeat;
+    background-size: 200% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter2/img/d/fille2.jpg");
+	left: 89.1%;
+	top: 43%;
+	height:1% ;
+	width: 2%;
+	
+-webkit-animation:fille2 2.5s step-start infinite;
+	-moz-animation:fille2 2.5s  step-start infinite;
+	animation:fille2 2.5s  step-start infinite;
+}
+
+
+@-webkit-keyframes fille2{
+	0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:0%;
+	}
+	
+}
+
+@-moz-keyframes fille2{
+0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:0%;
+	}
+	
+	
+}
+
+@keyframes fille2 {
+0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:0%;
+	}
+}
+
+.page8 .bulle41{
+	
+ background-image: url("../img/bulledroite.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 35%;
+	left: 77%;
+    width: 9%;
+	 height: 3%;
+
+ -webkit-animation:bulle141 15s ease-in  ;
+	-moz-animation:bulle141 15s ease-in  ;
+	animation:bulle141 15s ease-in  ;
+}
+@-webkit-keyframes bulle141 {
+0%		{
+		opacity:0;
+	}
+	
+	5%	{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:1;
+	}
+	40%		{
+		opacity:1;
+	}
+	50%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulle141 {
+0%		{
+		opacity:0;
+	}
+	
+	5%	{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:1;
+	}
+	40%		{
+		opacity:1;
+	}
+	50%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulle141 {
+0%		{
+		opacity:0;
+	}
+	
+	5%	{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:1;
+	}
+	40%		{
+		opacity:1;
+	}
+	50%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+}
+
+
+
+.page8 .bulle42{
+	
+  background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 37%;
+	left: 10%;
+    width: 9%;
+	 height: 4%;
+webkit-animation:bulle142 15s ease-in  ;
+	-moz-animation:bulle142 15s ease-in  ;
+	animation:bulle142 15s ease-in  ;
+}
+@-webkit-keyframes bulle142 {
+0%		{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:1;
+	}
+	50%		{
+		opacity:1;
+	}
+	60%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulle142 {
+0%		{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:1;
+	}
+	50%		{
+		opacity:1;
+	}
+	60%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulle142 {
+0%		{
+		opacity:0;
+	}
+	
+	15%	{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:1;
+	}
+	50%		{
+		opacity:1;
+	}
+	60%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+}
+
+
+
+.page8 .bulle43{
+	
+  background-image: url("../img/bulledroite.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 42%;
+	left: 63%;
+    width: 9%;
+	 height: 4%;
+webkit-animation:bulle143 15s ease-in  ;
+	-moz-animation:bulle143 15s ease-in  ;
+	animation:bulle143 15s ease-in  ;
+}
+@-webkit-keyframes bulle143 {
+0%		{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:1;
+	}
+	60%		{
+		opacity:1;
+	}
+	70%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulle143 {
+0%		{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:1;
+	}
+	60%		{
+		opacity:1;
+	}
+	70%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulle143 {
+0%		{
+		opacity:0;
+	}
+	
+	25%	{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:1;
+	}
+	60%		{
+		opacity:1;
+	}
+	70%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+}
+
+
+
+.page8 .bulle44{
+	
+  background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-style:italic;
+   font-size: 0.55em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 3%;
+    top: 9%;
+	left: 42%;
+    width: 13%;
+	 height: 5%;
+	
+webkit-animation:bulle144 15s ease-in  ;
+	-moz-animation:bulle144 15s ease-in  ;
+	animation:bulle144 15s ease-in  ;
+}
+@-webkit-keyframes bulle144 {
+0%		{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:1;
+	}
+	70%		{
+		opacity:1;
+	}
+	80%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+
+@-moz-keyframes bulle144 {
+0%		{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:1;
+	}
+	70%		{
+		opacity:1;
+	}
+	80%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+	
+}
+@keyframes bulle144 {
+0%		{
+		opacity:0;
+	}
+	
+	35%	{
+		opacity:0;
+	}
+	
+	45%	{
+		opacity:1;
+	}
+	70%		{
+		opacity:1;
+	}
+	80%		{
+		opacity:0;
+	}
+
+	100%		{
+		opacity:0;
+	}
+}
+

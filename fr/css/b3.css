@@ -1,0 +1,174 @@
+
+.page7 #litavant {
+	
+	   background-repeat: no-repeat;
+    background-size: 300% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter2/img/c/bordlit2.jpg");
+	left: 0%;
+	top: 45%;
+	height: 49%;
+	width: 45%;
+
+		-webkit-animation:litavant2 1s step-start infinite;
+	-moz-animation:litavant2 1s step-start infinite;
+	animation:litavant2 1s step-start infinite;
+}
+
+@-webkit-keyframes litavant2 {
+	0%		{
+		background-position:0;
+	}
+	
+	20%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:+200%;
+	}
+	60%	{
+		background-position:+100%;
+	}
+	80%		{
+		background-position:0;
+	}
+	
+}
+
+@-moz-keyframes litavant2 {
+	0%		{
+		background-position:0;
+	}
+	
+	20%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:+200%;
+	}
+	60%	{
+		background-position:+100%;
+	}
+	80%		{
+		background-position:0;
+	}
+	
+	
+}
+
+@keyframes litavant2 {
+	0%		{
+		background-position:0;
+	}
+	
+	20%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:+200%;
+	}
+	60%	{
+		background-position:+100%;
+	}
+	80%		{
+		background-position:0;
+	}
+}
+.page7 #rat {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter2/img/c/ratgris.png");
+	left: 35%;
+	top: 93%;
+	height:7.6% ;
+	width: 10.1%;
+	
+}
+.page7 #lumiere {
+	
+	   background-repeat: no-repeat;
+    background-size: 300% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter2/img/c/lumiere2.jpg");
+	right: 0%;
+	bottom: 0%;
+	height: 52.40%;
+	width: 12.61%;
+		-webkit-animation:lumiere2 2s step-start infinite;
+	-moz-animation:lumiere2 2s step-start infinite;
+	animation:lumiere2 2s step-start infinite;
+}
+
+@-webkit-keyframes lumiere2 {
+	0%		{
+		background-position:0;
+	}
+	
+	20%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:+200%;
+	}
+	60%	{
+		background-position:+100%;
+	}
+	80%		{
+		background-position:0;
+	}
+	
+}
+
+@-moz-keyframes lumiere2 {
+	0%		{
+		background-position:0;
+	}
+	
+	20%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:+200%;
+	}
+	60%	{
+		background-position:+100%;
+	}
+	80%		{
+		background-position:0;
+	}
+	
+	
+}
+
+@keyframes lumiere2 {
+	0%		{
+		background-position:0;
+	}
+	
+	20%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:+200%;
+	}
+	60%	{
+		background-position:+100%;
+	}
+	80%		{
+		background-position:0;
+	}
+}

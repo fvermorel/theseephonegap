@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.page22 #chouette.envol {
+  
+	left: 27%;
+    top: 39%;
+}
+
+.page22 #chouette.envol:hover {
+	cursor:pointer;
+}
+
+
+.page22 #btnPlus {
+    left: 32.97%;
+    top: 34.95%;
+
+}
+
+.page22 #btnPlus:hover {
+	cursor:pointer;
+}
+
+.page22 #bulle1BIG {
+	
+    height: 22%;
+    left: 4%;
+
+    top: 5%;
+    width: 22%;
+
+}
+.page22 #dedale{
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter5/img/d/dedale.jpg");
+	left: 2.5%;
+	top: 36.3%;
+	height:11.65%;
+	width: 5.46%;
+	
+}

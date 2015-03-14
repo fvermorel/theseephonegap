@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.page15 #chouette.envol {
+  
+	left: 27%;
+    top: 69%;
+}
+
+.page15 #chouette.envol:hover {
+	cursor:pointer;
+}
+
+
+.page15 #btnPlus {
+    left: 32.97%;
+
+    top: 64.95%;
+
+}
+
+.page15 #btnPlus:hover {
+	cursor:pointer;
+}
+
+.page15 #bulle1BIG {
+
+    height: 22%;
+    left: 4%;
+ 
+    top: 35%;
+    width: 22%;
+ 
+}
+.page15 #lumierea{
+	
+		   background-repeat: no-repeat;
+    background-size: 300% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter4/img/c/lumiere2.jpg");
+	left: 44.1%;
+	top: 0%;
+	height:18.1% ;
+	width: 18.1%;
+	
+-webkit-animation:lumiere2 1s step-start infinite;
+	-moz-animation:lumiere2 1s step-start infinite;
+	animation:lumiere2 1s step-start infinite;
+}
+
+
+@-webkit-keyframes lumiere2 {
+	0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	60%	{
+		background-position:+200%;
+	}
+	90%		{
+		background-position:0;
+	}
+}
+
+@-moz-keyframes lumiere2{
+0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	60%	{
+		background-position:+200%;
+	}
+	90%		{
+		background-position:0;
+	}
+	
+}
+
+@keyframes lumiere2 {
+0%		{
+		background-position:0;
+	}
+	
+	30%	{
+		background-position:+100%;
+	}
+	
+	60%	{
+		background-position:+200%;
+	}
+	90%		{
+		background-position:0;
+	}
+}
+.page15 #minotaure{
+	
+		   background-repeat: no-repeat;
+    background-size: 200% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter4/img/c/minotaure2.jpg");
+	left: 31%;
+	top: 19%;
+	height:6% ;
+	width: 10%;
+	
+-webkit-animation:minotaure2 2s step-start infinite;
+	-moz-animation:minotaure2 2s step-start infinite;
+	animation:minotaure2 2s step-start infinite;
+}
+
+
+@-webkit-keyframes minotaure2 {
+	0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	30%	{
+		background-position:0;
+	}
+	
+}
+
+@-moz-keyframes minotaure2{
+	0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	30%	{
+		background-position:0;
+	}
+	
+}
+
+@keyframes minotaure2 {
+	0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	30%	{
+		background-position:0;
+	}
+}

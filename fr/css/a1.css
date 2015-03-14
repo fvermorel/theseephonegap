@@ -1,0 +1,968 @@
+#btnPlus1 {
+	left: 61.5%;
+	top: 30.95%;
+}
+#btnPlus1:hover {
+	cursor: pointer;
+}
+#bulle1BIG {
+	left: 59.13%;
+	top: 0.8%;
+}
+
+#palais {
+    background-image: url("../resources/chapter1/img/a/palais.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 11%;
+    left: 85.2%;
+    position: absolute;
+    width: 15%;
+    z-index: 10;
+	}
+.page1 #yeuxminos {
+	background-image: url("../resources/chapter1/img/a/yeuxminos.jpg");
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	height: 2%;
+	width: 4%;
+	left: 87.1%;
+	top: 31%;
+	position: absolute;
+	z-index: 6;
+	-webkit-animation: yeuxminos2 3s step-start infinite;
+	-moz-animation: yeuxminos2 3s step-start infinite;
+	animation: yeuxminos2 3s step-start infinite;
+}
+ @-webkit-keyframes yeuxminos2 {
+ 0% {
+background-position:0;
+}
+ 10% {
+background-position:+100%;
+}
+ 20% {
+background-position:0%;
+}
+}
+ @-moz-keyframes yeuxminos2 {
+ 0% {
+background-position:0;
+}
+ 10% {
+background-position:+100%;
+}
+ 20% {
+background-position:0%;
+}
+}
+ @keyframes yeuxminos2 {
+ 0% {
+background-position:0;
+}
+ 10% {
+background-position:+100%;
+}
+ 20% {
+background-position:0%;
+}
+}
+.page1 #yeuxpasiphae {
+	background-image: url("../resources/chapter1/img/a/yeuxpasiphae2.jpg");
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	height: 2%;
+	width: 4%;
+	left: 73.1%;
+	top: 36%;
+	position: absolute;
+	z-index: 6;
+	-webkit-animation: yeuxpasiphae2 3s step-start infinite;
+	-moz-animation: yeuxpasiphae2 3s step-start infinite;
+	animation: yeuxpasiphae2 3s step-start infinite;
+}
+ @-webkit-keyframes yeuxpasiphae2 {
+ 0% {
+background-position:0;
+}
+ 10% {
+background-position:+100%;
+}
+ 20% {
+background-position:0%;
+}
+}
+ @-moz-keyframes yeuxpasiphae2 {
+ 0% {
+background-position:0;
+}
+ 10% {
+background-position:+100%;
+}
+ 20% {
+background-position:0%;
+}
+}
+ @keyframes yeuxpasiphae2 {
+ 0% {
+background-position:0;
+}
+ 10% {
+background-position:+100%;
+}
+ 20% {
+background-position:0%;
+}
+}
+.page1 .bulle1 {
+	background-image: url("../img/bulle.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	padding: 3%;
+	top: 54%;
+	left: 66%;
+	width: 9%;
+	height: 4%;
+	-webkit-animation: bulle11 20s ease-in;
+	-moz-animation: bulle11 20s ease-in;
+	animation: bulle11 20s ease-in;
+}
+@-webkit-keyframes bulle11 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 50% {
+ opacity:1;
+}
+ 70% {
+ opacity:1;
+}
+ 80% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle11 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 50% {
+ opacity:1;
+}
+ 70% {
+ opacity:1;
+}
+ 80% {
+ opacity:0;
+}
+}
+ @keyframes bulle11 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 50% {
+ opacity:1;
+}
+ 70% {
+ opacity:1;
+}
+ 80% {
+ opacity:0;
+}
+}
+.page1 .bulle2 {
+	background-image: url("../img/bulle.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	padding: 3%;
+	top: 20%;
+	left: 75%;
+	width: 9%;
+	height: 4%;
+	-webkit-animation: bulle12 20s ease-in;
+	-moz-animation: bulle12 20s ease-in;
+	animation: bulle12 20s ease-in;
+}
+@-webkit-keyframes bulle12 {
+0% {
+opacity:0;
+}
+60% {
+opacity:0;
+}
+ 70% {
+ opacity:1;
+}
+ 90% {
+ opacity:1;
+}
+ 100% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle12 {
+0% {
+opacity:0;
+}
+60% {
+opacity:0;
+}
+ 70% {
+ opacity:1;
+}
+ 90% {
+ opacity:1;
+}
+ 100% {
+ opacity:0;
+}
+}
+ @keyframes bulle12 {
+0% {
+opacity:0;
+}
+60% {
+opacity:0;
+}
+ 70% {
+ opacity:1;
+}
+ 90% {
+ opacity:1;
+}
+ 100% {
+ opacity:0;
+}
+}
+/*page 2*/
+
+#btnPlus2 {
+	height: 5%;
+	left: 19.4%;
+	top: 30.95%;
+}
+#bulle2BIG {
+	height: 22%;
+	left: 17%;
+	top: 1%;
+	width: 22%;
+}
+.page2 #trident {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter1/img/b/trident.png");
+	left: 18%;
+	top: 8%;
+	height: 30%;
+	width: 14%;
+	-webkit-animation: trident2 3s infinite alternate;
+	-moz-animation: trident2 3s infinite alternate;
+	animation: trident2 3s infinite alternate;
+	opacity: 0;
+}
+ @-webkit-keyframes trident2 {
+ 0% {
+opacity:0;
+}
+ 20% {
+opacity:1;
+}
+ 40% {
+opacity:0;
+}
+ 60% {
+opacity:1;
+}
+ 80% {
+opacity:0;
+}
+ 100% {
+opacity:1;
+}
+}
+ @-moz-keyframes trident2 {
+ 0% {
+opacity:0;
+}
+ 20% {
+opacity:1;
+}
+ 40% {
+opacity:0;
+}
+ 60% {
+opacity:1;
+}
+ 80% {
+opacity:0;
+}
+ 100% {
+opacity:1;
+}
+}
+ @keyframes trident2 {
+ 0% {
+opacity:0;
+}
+ 20% {
+opacity:1;
+}
+ 40% {
+opacity:0;
+}
+ 60% {
+opacity:1;
+}
+ 80% {
+opacity:0;
+}
+ 100% {
+opacity:1;
+}
+}
+
+/*page3*/
+
+#btnPlus3 {
+	left: 32.97%;
+	top: 64.95%;
+}
+#btnPlus3:hover {
+	cursor: pointer;
+}
+#bulle3BIG {
+	height: 22%;
+    left: 6%;
+    top: 39%;	
+	width: 22%;
+}
+#pasiphae {
+	background-image: url("../resources/chapter1/img/c/pasiphae.jpg");
+	background-repeat: no-repeat;
+	background-size: 300% 100%;
+	position: absolute;
+	left: 20%;
+	top: 18%;
+	height: 17%;
+	width: 10%;
+	z-index: 7;
+	-webkit-animation: pasiphae2 3s step-start infinite;
+	-moz-animation: pasiphae2 3s step-start infinite;
+	animation: pasiphae2 3s step-start infinite;
+}
+ @-webkit-keyframes pasiphae2 {
+ 0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+ @-moz-keyframes pasiphae2 {
+0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+ @keyframes pasiphae2 {
+0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+#bbminotaure {
+	background-image: url("../resources/chapter1/img/c/bbminotaure.gif");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 33%;
+	top: 43%;
+	height: 48.3%;
+	width: 29.8%;
+	z-index: 7;
+}
+.etat1 {
+	background-image: url(../resources/chapter1/img/c/pasi1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 7;
+}
+.etat2 {
+	background-image: url(../resources/chapter1/img/c/pasi2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 7;
+}
+.etat3 {
+	background-image: url(../resources/chapter1/img/c/pasi3.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 7;
+}
+#boutonpasiphae {
+	height: 10%;
+	width: 7%;
+	top: 60%;
+	left: 60%;
+	background-color: #0FF;
+	position: absolute;
+}
+
+/*page4*/
+
+#btnPlus4 {
+	left: 32.97%;
+	top: 64.95%;
+}
+#btnPlus4:hover {
+	cursor: pointer;
+}
+#bulle4BIG {
+	background-image: url("../img/bulle1BIG-invers.png");
+	background-repeat: no-repeat;
+	color: #913237;
+	display: none;
+	font-family: 'Lucida Grande', Geneva, sans-serif;
+	font-size: 0.82em;
+	height: 22%;
+	left: 4%;
+	line-height: 1.5em;
+	padding: 9% 10% 10% 8%;
+	position: fixed;
+	top: 35%;
+	width: 22%;
+	z-index: 6;
+}
+
+.page4 #murarriere {
+	background-image: url("../resources/chapter1/img/d/murarriere.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    height: 100%;
+    left: 36%;
+    position: absolute;
+    top: 0;
+    width: 64%;
+    z-index: 8;
+}
+
+#minotaure {
+	background-image: url("../resources/chapter1/img/d/minotaure.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    height: 90%;
+    left: 38%;
+    position: absolute;
+    top: 8%;
+    width: 50%;
+    z-index: 8;
+		-webkit-transform:translateZ(0);
+	-webkit-transform::translate3d(0,0,0);
+	perspective:1000;
+	backface-visibility:hidden;
+    -webkit-animation-name: minotaure;
+    -webkit-animation-duration: 90s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 10s;
+    -webkit-animation-iteration-count: infinite;
+ 
+    -webkit-animation-play-state: running;
+}
+ @-webkit-keyframes minotaure {
+0% {left:38%;}
+15% {left:20%;}     
+100% {left:38%;}
+}
+ @-moz-keyframes minotaure {
+0% {left:38%;}
+15% {left:20%;}     
+100% {left:38%;}
+}
+ @keyframes minotaure {
+0% {left:38%;}
+15% {left:20%;}     
+100% {left:38%;}
+}
+
+.page4 #muravant {
+	background-image: url("../resources/chapter1/img/d/muravant.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    height: 100%;
+    left: 36%;
+    position: absolute;
+    top: 0;
+    width: 64%;
+    z-index: 8;
+}
+
+.page4 #liere {
+	background-image: url("../resources/chapter1/img/d/liere.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    height: 25%;
+    left: 36%;
+    position: absolute;
+    top: 0%;
+    width: 64%;
+    z-index: 8;
+		-webkit-transform:translateZ(0);
+	-webkit-transform::translate3d(0,0,0);
+	perspective:1000;
+	backface-visibility:hidden;
+    -webkit-animation-name: liere;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+ @-webkit-keyframes liere {
+0% {left:36%;}    
+50% {height:27%;}     
+100% {left:37%;}
+}
+ @-moz-keyframes liere {
+0% {left:36%;}    
+50% {height:27%;}     
+100% {left:37%;}
+}
+ @keyframes liere {
+0% {left:36%;}    
+50% {height:27%;}     
+100% {left:37%;}
+}
+
+.bulle41 {
+	background-image: url("../img/bulle.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	padding: 3%;
+	top: 51%;
+	left: 28%;
+	width: 9%;
+	height: 4%;
+	-webkit-animation-name: bulle41;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 5s;
+    -webkit-animation-iteration-count: infinite;
+
+    -webkit-animation-play-state: running;
+	visibility:hidden;
+}
+@-webkit-keyframes bulle41 {
+0% {opacity:0;}
+5%{
+	visibility:visible;
+}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+ @-moz-keyframes bulle41 {
+0% {opacity:0;}
+5%{
+	visibility:visible;
+}
+10% {opacity:1;}    
+20% {opacity:0;}
+100% {opacity:0;}
+}
+ @keyframes bulle41 {
+0% {opacity:0;}
+5%{
+	visibility:visible;
+}
+10% {opacity:1;}    
+20% {opacity:0;}
+100% {opacity:0;}
+}
+
+.bulle42 {
+	background-image: url("../img/bulle.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	padding: 3%;
+	top: 41%;
+	left: 13%;
+	width: 9%;
+	height: 4%;
+	-webkit-animation-name: bulle41;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 10s;
+    -webkit-animation-iteration-count: infinite;
+  
+    -webkit-animation-play-state: running;
+	visibility:hidden;
+}
+ @-webkit-keyframes bulle42 {
+0% {opacity:0;}
+
+5%{
+	visibility:visible;
+}
+10% {opacity:1;
+
+}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+ @-moz-keyframes bulle42 {
+0% {opacity:0;}
+5%{
+	visibility:visible;
+}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+ @keyframes bulle42 {
+0% {opacity:0;}
+5%{
+	visibility:visible;
+}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+
+/*chouettes*/
+
+#chouette1 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+	cursor: pointer;
+}
+#chouette1.envol1 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette1.envol1 {
+	left: 72%;
+	top: 3%;
+}
+#chouette2 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+#chouette2.envol2 {
+	left: 30%;
+	top: 4%;
+}
+#chouette2.envol2 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette3 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+#chouette3.envol3 {
+    left: 19%;
+    top: 41%;
+	}
+#chouette3.envol3 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette4 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+#chouette4.envol4 {
+	left: 27%;
+	top: 69%;
+}
+#chouette4.envol4 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette5 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+#chouette5.envol5 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette6 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+#chouette6.envol6 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+ @-webkit-keyframes chouette-volante {
+ 0% {
+ background-position:0% 0%;
+}
+ 5% {
+ background-position:10% 0%;
+}
+ 10% {
+ background-position:20% 0%;
+}
+ 18% {
+ background-position:32% 0%;
+}
+ 26% {
+ background-position:44% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:32% 0%;
+}
+ 90% {
+ background-position:56% 0%;
+}
+ 93% {
+ background-position:10% 0%;
+}
+ 96% {
+ background-position:66% 0%;
+}
+ 100% {
+ background-position:77% 0%;
+}
+}
+ @-moz-keyframes chouette-volante {
+ 0% {
+ background-position:0% 0%;
+}
+ 5% {
+ background-position:10% 0%;
+}
+ 10% {
+ background-position:20% 0%;
+}
+ 18% {
+ background-position:32% 0%;
+}
+ 26% {
+ background-position:44% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:32% 0%;
+}
+ 90% {
+ background-position:56% 0%;
+}
+ 93% {
+ background-position:10% 0%;
+}
+ 96% {
+ background-position:66% 0%;
+}
+ 100% {
+ background-position:77% 0%;
+}
+}
+ @keyframes chouette-volante {
+ 0% {
+ background-position:0% 0%;
+}
+ 5% {
+ background-position:10% 0%;
+}
+ 10% {
+ background-position:20% 0%;
+}
+ 18% {
+ background-position:32% 0%;
+}
+ 26% {
+ background-position:44% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:32% 0%;
+}
+ 90% {
+ background-position:56% 0%;
+}
+ 93% {
+ background-position:10% 0%;
+}
+ 96% {
+ background-position:66% 0%;
+}
+ 100% {
+ background-position:77% 0%;
+}
+}

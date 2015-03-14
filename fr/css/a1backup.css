@@ -1,0 +1,934 @@
+#sourcils {
+background-image: url("../img/sourcils1.gif");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    height: 1%;
+    left: 87.56%;
+    position: absolute;
+    top: 31.3489%;
+    width: 4%;
+    z-index: 5;
+}
+
+#ane {
+background-image: url("../resources/chapter1/img/a/ane.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 5%;
+    left: 2.5%;
+    position: absolute;
+    top: 64%;
+    width: 5%;
+    z-index: 6; 
+}
+
+#ane2 {
+background-image: url("../img/ane3.gif");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    height: 5%;
+    left: 4%;
+    position: absolute;
+    top: 69%;
+    width: 5.7%;
+    z-index: 6;
+}
+
+#hirondelle {
+	
+    background-image: url("../img/hirondelle3.png");
+	background-position:left;
+    background-size: 400% 100%;
+	background-repeat:no-repeat;
+	height: 100%;
+
+    position: absolute;
+
+    width: 100%;
+    z-index: 6;
+	/*-webkit-transition: top 2s ease-in-out, left 2s ease-in-out, infinite linear;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out, infinite linear;
+	transition: top 2s ease-in-out, left 2s ease-in-out, infinite linear;*/
+
+	-webkit-animation:hirondelle-volante 1s step-start infinite;
+	-moz-animation:hirondelle-volante 1s step-start infinite;
+	animation:hirondelle-volante 1s step-start infinite;
+}
+
+
+#BOITE-hirondelle {
+    height: 7%;
+    left: 8%;
+    overflow: hidden;
+    position: absolute;
+    top: 3%;
+    width: 4%;
+}
+
+
+@-webkit-keyframes hirondelle-volante {
+	0%		{
+		background-position:0;
+	}
+	25%		{
+		background-position:+33%;
+	}
+	50%	{
+		background-position:+66%;
+	}
+	75%		{
+		background-position:+100%;
+	}
+	100%	{
+		background-position:0%;
+	}
+	
+}
+
+@-moz-keyframes hirondelle-volante {
+		0%		{
+		background-position:0;
+	}	
+		25%		{
+		background-position:+33%;
+	}
+	50%	{
+		background-position:+66%;
+	}
+	75%		{
+		background-position:+100%;
+	}
+	
+	
+}
+
+@keyframes hirondelle-volante {
+	0%		{
+		background-position:0;
+	}
+		25%		{
+		background-position:+33%;
+	}
+	50%	{
+		background-position:+66%;
+	}
+	75%		{
+		background-position:+100%;
+	}
+	100%	{
+		background-position:0%;
+	}
+}
+
+
+
+#chouette {
+	position:absolute;
+	background:url("../img/mini-chouette.png") no-repeat;
+
+	height:8%;
+	width:6%;
+	left:90%;
+	top:86%;
+	z-index:20;
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+}
+
+
+
+
+
+#chouette.envol {
+    -webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+    -moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+    transition: top 2s ease-in-out, left 2s ease-in-out;
+    -webkit-animation:chouette-volante 2s step-start forwards;
+    -moz-animation:chouette-volante 2s step-start forwards;
+    animation:chouette-volante 2s step-start forwards;
+	left:66%;
+	top:34%;
+}
+
+#chouette.envol:hover {
+	cursor:pointer;
+}
+
+#chouette.atterrissage {
+	-webkit-animation:chouette-terre 2s step-start forwards;
+	-moz-animation:chouette-terre 2s step-start forwards;
+	animation:chouette-terre 2s step-start forwards;
+}
+
+@-webkit-keyframes chouette-volante {
+	0%		{
+		background-position:0% 0%;
+	}
+	5%	{
+		background-position:10% 0%;
+	}
+	10%		{
+		background-position:20% 0%;
+	}
+	18%	{
+		background-position:32% 0%;
+	}
+	26%		{
+		background-position:44% 0%;
+	}
+	34%	{
+		background-position:32% 0%;
+	}
+	42%		{
+		background-position:44% 0%;
+	}
+	50%	{
+		background-position:32% 0%;
+	}
+	58%		{
+		background-position:44% 0%;
+	}
+	66%	{
+		background-position:32% 0%;
+	}
+	74%		{
+		background-position:44% 0%;
+	}
+	82%	{
+		background-position:32% 0%;
+	}
+	90%	{
+		background-position:56% 0%;
+	}
+	93%		{
+		background-position:10% 0%;
+	}
+	96%	{
+		background-position:66% 0%;
+	}
+	100%	{
+		background-position:77% 0%;
+	}
+}
+
+@-moz-keyframes chouette-volante {
+		0%		{
+		background-position:0% 0%;
+	}
+	5%	{
+		background-position:10% 0%;
+	}
+	10%		{
+		background-position:20% 0%;
+	}
+	18%	{
+		background-position:32% 0%;
+	}
+	26%		{
+		background-position:44% 0%;
+	}
+	34%	{
+		background-position:32% 0%;
+	}
+	42%		{
+		background-position:44% 0%;
+	}
+	50%	{
+		background-position:32% 0%;
+	}
+	58%		{
+		background-position:44% 0%;
+	}
+	66%	{
+		background-position:32% 0%;
+	}
+	74%		{
+		background-position:44% 0%;
+	}
+	82%	{
+		background-position:32% 0%;
+	}
+	90%	{
+		background-position:56% 0%;
+	}
+	93%		{
+		background-position:10% 0%;
+	}
+	96%	{
+		background-position:66% 0%;
+	}
+	100%	{
+		background-position:77% 0%;
+	}
+}
+
+@keyframes chouette-volante {
+	0%		{
+		background-position:0% 0%;
+	}
+	5%	{
+		background-position:10% 0%;
+	}
+	10%		{
+		background-position:20% 0%;
+	}
+	18%	{
+		background-position:32% 0%;
+	}
+	26%		{
+		background-position:44% 0%;
+	}
+	34%	{
+		background-position:32% 0%;
+	}
+	42%		{
+		background-position:44% 0%;
+	}
+	50%	{
+		background-position:32% 0%;
+	}
+	58%		{
+		background-position:44% 0%;
+	}
+	66%	{
+		background-position:32% 0%;
+	}
+	74%		{
+		background-position:44% 0%;
+	}
+	82%	{
+		background-position:32% 0%;
+	}
+	90%	{
+		background-position:56% 0%;
+	}
+	93%		{
+		background-position:10% 0%;
+	}
+	96%	{
+		background-position:66% 0%;
+	}
+	100%	{
+		background-position:77% 0%;
+	}
+}
+
+@-webkit-keyframes chouette-terre {
+	0%		{
+		background-position:77% 0%;
+	}
+	5%	{
+		background-position:66% 0%;
+	}
+	10%		{
+		background-position:10% 0%;
+	}
+	18%	{
+		background-position:56% 0%;
+	}
+	26%		{
+		background-position:32% 0%;
+	}
+	34%	{
+		background-position:32% 0%;
+	}
+	42%		{
+		background-position:44% 0%;
+	}
+	50%	{
+		background-position:32% 0%;
+	}
+	58%		{
+		background-position:44% 0%;
+	}
+	66%	{
+		background-position:32% 0%;
+	}
+	74%		{
+		background-position:44% 0%;
+	}
+	82%	{
+		background-position:44% 0%;
+	}
+	90%	{
+		background-position:32% 0%;
+	}
+	93%		{
+		background-position:20% 0%;
+	}
+	96%	{
+		background-position:10% 0%;
+	}
+	100%	{
+		background-position:0% 0%;
+	}
+}
+
+@-moz-keyframes chouette-terre {
+	0%		{
+		background-position:77% 0%;
+	}
+	5%	{
+		background-position:66% 0%;
+	}
+	10%		{
+		background-position:10% 0%;
+	}
+	18%	{
+		background-position:56% 0%;
+	}
+	26%		{
+		background-position:32% 0%;
+	}
+	34%	{
+		background-position:32% 0%;
+	}
+	42%		{
+		background-position:44% 0%;
+	}
+	50%	{
+		background-position:32% 0%;
+	}
+	58%		{
+		background-position:44% 0%;
+	}
+	66%	{
+		background-position:32% 0%;
+	}
+	74%		{
+		background-position:44% 0%;
+	}
+	82%	{
+		background-position:44% 0%;
+	}
+	90%	{
+		background-position:32% 0%;
+	}
+	93%		{
+		background-position:20% 0%;
+	}
+	96%	{
+		background-position:10% 0%;
+	}
+	100%	{
+
+		background-position:0% 0%;
+	}
+}
+
+@keyframes chouette-terre {
+	0%		{
+		background-position:77% 0%;
+	}
+	5%	{
+		background-position:66% 0%;
+	}
+	10%		{
+		background-position:10% 0%;
+	}
+	18%	{
+		background-position:56% 0%;
+	}
+	26%		{
+		background-position:32% 0%;
+	}
+	34%	{
+		background-position:32% 0%;
+	}
+	42%		{
+		background-position:44% 0%;
+	}
+	50%	{
+		background-position:32% 0%;
+	}
+	58%		{
+		background-position:44% 0%;
+	}
+	66%	{
+		background-position:32% 0%;
+	}
+	74%		{
+		background-position:44% 0%;
+	}
+	82%	{
+		background-position:44% 0%;
+	}
+	90%	{
+		background-position:32% 0%;
+	}
+	93%		{
+		background-position:20% 0%;
+	}
+	96%	{
+		background-position:10% 0%;
+	}
+	100%	{
+		background-position:0% 0%;
+	}
+}
+#btnPlus {
+	background-image: url("../img/bulle1.png");
+    background-repeat: no-repeat;
+    background-size: 84% auto;
+    cursor: pointer;
+    height: 5%;
+    left: 61.5%;
+    position: absolute;
+    top: 30.95%;
+    width: 5%;
+    z-index: 6;
+}
+
+#btnPlus:hover {
+	cursor:pointer;
+}
+
+#bulle1BIG {
+	background-image: url("../img/bulle1BIG.png");
+    background-repeat: no-repeat;
+    color: #913237;
+    display: none;
+    font-family: 'Lucida Grande',Geneva,sans-serif;
+    font-size: 0.82em;
+    height: 22%;
+    left: 59.13%;
+    line-height: 1.5em;
+    padding: 9% 10% 10% 8%;
+    position: fixed;
+    top: 0.8%;
+    width: 22%;
+    z-index: 6;
+}
+
+
+
+#ane-png {
+	
+    background-image: url("../img/ane.png");
+	background-position:left;
+    background-size: 400% 100%;
+	background-repeat:no-repeat;
+	height: 100%;
+
+    position: absolute;
+
+    width: 100%;
+    z-index: 6;
+	/*-webkit-transition: top 2s ease-in-out, left 2s ease-in-out, infinite linear;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out, infinite linear;
+	transition: top 2s ease-in-out, left 2s ease-in-out, infinite linear;*/
+
+	-webkit-animation:ane-bouge 3s step-start infinite;
+	-moz-animation:ane-bouge 3s step-start infinite;
+	animation:ane-bouge 3s step-start infinite;
+}
+
+
+#BOITE-ane {
+    height: 5%;
+    left: 2%;
+    overflow: hidden;
+    position: absolute;
+    top: 63%;
+    width: 4.1%;
+}
+
+
+@-webkit-keyframes ane-bouge {
+	0%		{
+		background-position:0;
+	}
+	25%		{
+		background-position:+33%;
+	}
+	50%	{
+		background-position:+66%;
+	}
+	75%		{
+		background-position:+100%;
+	}
+	100%	{
+		background-position:0%;
+	}
+	
+}
+
+@-moz-keyframes ane-bouge {
+		0%		{
+		background-position:0;
+	}	
+		25%		{
+		background-position:+33%;
+	}
+	50%	{
+		background-position:+66%;
+	}
+	75%		{
+		background-position:+100%;
+	}
+	
+	
+}
+
+@keyframes ane-bouge {
+	0%		{
+		background-position:0;
+	}
+		25%		{
+		background-position:+33%;
+	}
+	50%	{
+		background-position:+66%;
+	}
+	75%		{
+		background-position:+100%;
+	}
+	100%	{
+		background-position:0%;
+	}
+}
+
+
+#papillon {
+	
+    background-image: url("../img/papillon.png");
+	background-position:left;
+    background-size: 400% 100%;
+	background-repeat:no-repeat;
+	height: 100%;
+
+    position: absolute;
+
+    width: 100%;
+    z-index: 6;
+	/*-webkit-transition: top 2s ease-in-out, left 2s ease-in-out, infinite linear;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out, infinite linear;
+	transition: top 2s ease-in-out, left 2s ease-in-out, infinite linear;*/
+
+	-webkit-animation:papillon-vole 1s step-start infinite;
+	-moz-animation:papillon-vole 1s step-start infinite;
+	animation:papillon-vole 1s step-start infinite;
+}
+
+
+#BOITE-papillon {
+   height: 3.6%;
+    left: 52%;
+    overflow: hidden;
+    position: absolute;
+    top: 56%;
+    width: 3.3%;
+}
+
+
+@-webkit-keyframes papillon-vole {
+	0%		{
+		background-position:0;
+	}
+	25%		{
+		background-position:+33%;
+	}
+	50%	{
+		background-position:+66%;
+	}
+	75%		{
+		background-position:+100%;
+	}
+	100%	{
+		background-position:0%;
+	}
+	
+}
+
+@-moz-keyframes papillon-vole {
+		0%		{
+		background-position:0;
+	}	
+		25%		{
+		background-position:+33%;
+	}
+	50%	{
+		background-position:+66%;
+	}
+	75%		{
+		background-position:+100%;
+	}
+	
+	
+}
+
+@keyframes papillon-vole {
+	0%		{
+		background-position:0;
+	}
+		25%		{
+		background-position:+33%;
+	}
+	50%	{
+		background-position:+66%;
+	}
+	75%		{
+		background-position:+100%;
+	}
+	100%	{
+		background-position:0%;
+	}
+}
+#palais {
+	background-image: url("../resources/chapter1/img/a/palais.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	z-index:8;
+	width:14.74%;
+	height:10.87%;
+	position:absolute;
+	top:0;
+	right:0;
+}
+#barque {
+background-image: url("../resources/chapter1/img/a/barque.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 10.7%;
+    left: 8.5%;
+    position: absolute;
+    top: 71.7%;
+    width: 13.7%;
+    z-index: 6; 
+}
+
+#bateau {
+background-image: url("../resources/chapter1/img/a/bateau.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    left: 29.8%;
+	top: 36.7%;
+	height: 8.9%;
+	width: 12%;
+    position: absolute;
+    z-index: 6; 
+}
+#nuage1 {
+	
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	height: 7.1%;
+	width: 16%;
+	  position: absolute;
+    z-index: 6; 
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	left: 8%;
+}
+#nuage2 {
+		
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	height: 7.1%;
+	width: 16%;
+	  position: absolute;
+    z-index: 6; 
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage2.png");
+	left: 12%;
+}
+#nuage3 {
+		
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	height: 7.1%;
+	width: 16%;
+	  position: absolute;
+    z-index: 6; 
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage3.png");
+	left: 18%;
+}
+#nuage4 {
+		
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	height: 7.1%;
+	width: 16%;
+	  position: absolute;
+    z-index: 6; 
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage4.png");
+	left: 64%;
+}
+#nuage5 {
+		
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	height: 7.1%;
+	width: 16%;
+	  position: absolute;
+    z-index: 6; 
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage5.png");
+	left: 74%;
+}
+
+
+#yeuxminos{
+background-image: url("../resources/chapter1/img/a/yeuxminos2.jpg");
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    height: 2%;
+	    width: 4%;
+    left: 87.1%;
+	    top: 31%;
+    position: absolute;
+    z-index: 6; 
+		-webkit-animation:yeuxminos2 3s step-start infinite;
+	-moz-animation:yeuxminos2 3s step-start infinite;
+	animation:yeuxminos2 3s step-start infinite;
+}
+
+
+@-webkit-keyframes yeuxminos2 {
+	0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	20%	{
+		background-position:0%;
+	}
+	
+}
+
+@-moz-keyframes yeuxminos2 {
+0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	20%	{
+		background-position:0%;
+	}
+	
+	
+}
+
+@keyframes yeuxminos2 {
+0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	20%	{
+		background-position:0%;
+	}
+}
+
+#yeuxpasiphae{
+background-image: url("../resources/chapter1/img/a/yeuxpasiphae2.jpg");
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    height: 2%;
+	    width: 4%;
+    left: 73.1%;
+	    top: 36%;
+    position: absolute;
+    z-index: 6; 
+		-webkit-animation:yeuxpasiphae2 3s step-start infinite;
+	-moz-animation:yeuxpasiphae2 3s step-start infinite;
+	animation:yeuxpasiphae2 3s step-start infinite;
+}
+
+@-webkit-keyframes yeuxpasiphae2 {
+	0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	20%	{
+		background-position:0%;
+	}
+	
+}
+
+@-moz-keyframes yeuxpasiphae2 {
+0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	20%	{
+		background-position:0%;
+	}
+	
+	
+}
+
+@keyframes yeuxpasiphae2 {
+0%		{
+		background-position:0;
+	}
+	
+	10%	{
+		background-position:+100%;
+	}
+	
+	20%	{
+		background-position:0%;
+	}
+}
+
+
+.bulle1{
+	
+ background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.5em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 1%;
+    top: 54%;
+	left: 66%;
+    width: 9%;
+	 height: 4%;
+
+
+}
+
+
+.bulle2{
+	
+  background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.5em;
+      z-index: 8;
+   
+    position: absolute;
+opacity:0;
+ padding: 1%;
+    top: 30%;
+	left: 78%;
+    width: 9%;
+	 height: 4%;
+}
+
+
+

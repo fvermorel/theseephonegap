@@ -1,0 +1,105 @@
+
+
+
+
+.page24 #chouette.envol {
+  
+	left:24%;
+	top:34%;
+}
+
+.page24 #chouette.envol:hover {
+	cursor:pointer;
+}
+
+
+.page24 #btnPlus {
+    left: 19.4%;
+
+    top: 30.95%;
+
+}
+
+.page24 #btnPlus:hover {
+	cursor:pointer;
+}
+
+.page24 #bulle1BIG {
+
+    height: 22%;
+    left: 17%;
+   
+    width: 22%;
+	z-index:6;
+}
+.page24 #hautdessin{
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 8; 
+	background-image: url("../resources/chapter6/img/b/hautdessin.png");
+	right: 0%;
+	top: 0%;
+	height:20%;
+	width: 80%;
+	
+}
+
+.page24 #hirondelle{
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter6/img/b/hirondelle.png");
+	left: 31.4%;
+	top: 22.4%;
+	height:8.72%;
+	width: 6.1%;
+	
+}
+.page24 #nuage1 {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter3/img/b/nuage1.png");
+	left: 15%;
+	top: 10%;
+	height:9.37% ;
+	width: 17.82%;
+	
+}
+.page24 #nuage2 {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter3/img/b/nuage2.png");
+	left: 25%;
+	top: 10%;
+	height:9.37% ;
+	width: 17.82%;
+	
+}
+.page24 #nuage3 {
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter3/img/b/nuage3.png");
+	left: 35%;
+	top: 10%;
+	height:9.37% ;
+	width: 17.82%;
+	
+}

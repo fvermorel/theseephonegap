@@ -1,0 +1,1141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.page19 #chouette.envol {
+	left: 27%;
+	top: 69%;
+}
+.page19 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page19 #btnPlus {
+	left: 32.97%;
+	top: 64.95%;
+}
+.page19 #btnPlus:hover {
+	cursor: pointer;
+}
+#bulle2BIG {
+    height: 20%;
+    left: 8%;
+    top: 42%;
+    width: 16%;
+	}
+	
+.page19 #lumiere1 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 7;
+	background-image: url("../resources/chapter5/img/a/lumiere1.png");
+	left: 38.5%;
+	top: 37%;
+	height: 10%;
+	width: 8%;
+	-webkit-animation: lumiere1 2s infinite alternate;
+	-moz-animation: lumiere1 2s infinite alternate;
+	animation: lumiere1 2s infinite alternate;
+	opacity:1;
+}
+ @-webkit-keyframes lumiere1 {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+}
+ @-moz-keyframes lumiere1 {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+}
+ @keyframes lumiere1 {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+ }
+ 
+.page19 #lumiere2 {
+    animation: 2s ease 2s alternate none infinite lumiere1;
+    background-image: url("../resources/chapter5/img/a/lumiere2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 11%;
+    left: 35%;
+    opacity: 1;
+    position: absolute;
+    top: 58%;
+    width: 8%;
+    z-index: 7;
+	}
+ @-webkit-keyframes lumiere1 {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+}
+ @-moz-keyframes lumiere1 {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+}
+ @keyframes lumiere1 {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+ }
+
+.page19 #lumiere3 {
+    animation: 2s ease 4s alternate none infinite lumiere1;
+    background-image: url("../resources/chapter5/img/a/lumiere3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 12%;
+    left: 81%;
+    opacity: 1;
+    position: absolute;
+    top: 63%;
+    width: 8%;
+    z-index: 7;
+	}
+ @-webkit-keyframes lumiere1 {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+}
+ @-moz-keyframes lumiere1 {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+}
+ @keyframes lumiere1 {
+ 0% {opacity:0;}
+ 100% {opacity:1;}
+ }
+ 
+.bulle1 {
+	background-image: url("../img/bulledroite.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	visibility:hidden;
+	padding: 3%;
+	top: 47%;
+	left: 26%;
+	width: 11%;
+	height: 4%;
+	
+	-webkit-animation: bullea11 30s ease-in;
+	-moz-animation: bullea11 30s ease-in;
+	animation: bullea11 30s ease-in;
+}
+@-webkit-keyframes bullea11 {
+0% {
+ opacity:0;
+}
+ 35% {
+ opacity:0;
+ visibility:visible;
+}
+ 40% {
+ opacity:1;
+}
+ 65% {
+ opacity:1;
+}
+ 70% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bullea11 {
+0% {
+ opacity:0;
+}
+ 35% {
+ opacity:0;
+ visibility:visible;
+}
+ 40% {
+ opacity:1;
+}
+ 65% {
+ opacity:1;
+}
+ 70% {
+ opacity:0;
+}
+}
+@keyframes bullea11 {
+0% {
+ opacity:0;
+}
+ 35% {
+ opacity:0;
+ visibility:visible;
+}
+ 40% {
+ opacity:1;
+}
+ 65% {
+ opacity:1;
+}
+ 70% {
+ opacity:0;
+}
+}
+.bulle2 {
+	background-image: url("../img/bulle.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	visibility:hidden;
+	padding: 3%;
+	top: 60%;
+	left: 20%;
+	width: 6%;
+	height: 3%;
+	
+	-webkit-animation: bulleb11 30s ease-in;
+	-moz-animation: bulleb11 30s ease-in;
+	animation: bulleb11 30s ease-in;
+}
+@-webkit-keyframes bulleb11 {
+0% {
+ opacity:0;
+}
+ 55% {
+ opacity:0;
+  visibility:visible;
+}
+ 60% {
+ opacity:1;
+}
+ 85% {
+ opacity:1;
+}
+ 90% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulleb11 {
+0% {
+ opacity:0;
+}
+ 55% {
+ opacity:0;
+  visibility:visible;
+}
+ 60% {
+ opacity:1;
+}
+ 85% {
+ opacity:1;
+}
+ 90% {
+ opacity:0;
+}
+}
+@keyframes bulleb11 {
+0% {
+ opacity:0;
+}
+ 55% {
+ opacity:0;
+  visibility:visible;
+}
+ 60% {
+ opacity:1;
+}
+ 85% {
+ opacity:1;
+}
+ 90% {
+ opacity:0;
+}
+}
+/*page 2*/
+
+.page20 #chouette.envol {
+	left: 27%;
+	top: 69%;
+}
+.page20 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page20 #btnPlus {
+	left: 32.97%;
+	top: 64.95%;
+}
+.page20 #btnPlus:hover {
+	cursor: pointer;
+}
+.page20 #bulle1BIG {
+	height: 22%;
+	left: 4%;
+	top: 35%;
+	width: 22%;
+}
+.page20 #plume1 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 7;
+	background-image: url("../resources/chapter5/img/b/plume1.png");
+	height: 20.05%;
+	width: 9.17%;
+	-webkit-animation: plume1 5s 1s infinite;
+	-moz-animation: plume1 5s 1s infinite;
+	animation: plume1 5s 1s infinite;
+	opacity:0;
+}
+ @-webkit-keyframes plume1 {
+ 0% {left:25%; top:60%; opacity:0.5; -webkit-transform: rotate(0deg);}
+ 50% {left:40%; top:80%; opacity:1; -webkit-transform: rotate(90deg);}
+ 100% {left:20%; top:110%; opacity:1; -webkit-transform: rotate(180deg);}
+}
+ @-moz-keyframes plume1 {
+ 0% {left:25%; top:60%; opacity:0.5; -webkit-transform: rotate(0deg);}
+ 50% {left:40%; top:80%; opacity:1; -webkit-transform: rotate(90deg);}
+ 100% {left:20%; top:110%; opacity:1; -webkit-transform: rotate(180deg);}
+}
+ @keyframes plume1 {
+ 0% {left:25%; top:60%; opacity:0.5; -webkit-transform: rotate(0deg);}
+ 50% {left:40%; top:80%; opacity:1; -webkit-transform: rotate(90deg);}
+ 100% {left:20%; top:110%; opacity:1; -webkit-transform: rotate(180deg);}
+}
+
+.page20 #plume2 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 7;
+	background-image: url("../resources/chapter5/img/b/plume2.png");
+	height: 18.29%;
+	width: 7.37%;
+	-webkit-animation: plume2 5s 2s infinite;
+	-moz-animation: plume2 5s 2s infinite;
+	animation: plume2 5s 2s infinite;
+	opacity:0;
+}
+ @-webkit-keyframes plume2 {
+ 0% {left:40%; top:60%; opacity:0.5; -webkit-transform: rotate(90deg);}
+ 50% {left:25%; top:80%; opacity:1; -webkit-transform: rotate(180deg);}
+ 100% {left:40%; top:110%; opacity:1; -webkit-transform: rotate(0deg);}
+}
+ @-moz-keyframes plume2 {
+ 0% {left:40%; top:60%; opacity:0.5; -webkit-transform: rotate(90deg);}
+ 50% {left:25%; top:80%; opacity:1; -webkit-transform: rotate(180deg);}
+ 100% {left:40%; top:110%; opacity:1; -webkit-transform: rotate(0deg);}
+}
+ @keyframes plume2 {
+ 0% {left:40%; top:60%; opacity:0.5; -webkit-transform: rotate(90deg);}
+ 50% {left:25%; top:80%; opacity:1; -webkit-transform: rotate(180deg);}
+ 100% {left:40%; top:110%; opacity:1; -webkit-transform: rotate(0deg);}
+}
+.page20 #plume3 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 7;
+	background-image: url("../resources/chapter5/img/b/plume3.png");
+	height: 20.24%;
+	width: 9.52%;
+	-webkit-animation: plume3 5s 3s infinite;
+	-moz-animation: plume3 5s 3s infinite;
+	animation: plume3 5s 3s infinite;
+	opacity:0;
+}
+ @-webkit-keyframes plume3 {
+ 0% {left:35%; top:60%; opacity:0; -webkit-transform: rotate(90deg);}
+ 50% {left:30%; top:80%; opacity:1; -webkit-transform: rotate(230deg);}
+ 100% {left:25%; top:110%; opacity:1; -webkit-transform: rotate(160deg);}
+}
+ @-moz-keyframes plume3 {
+ 0% {left:35%; top:60%; opacity:0; -webkit-transform: rotate(90deg);}
+ 50% {left:30%; top:80%; opacity:1; -webkit-transform: rotate(230deg);}
+ 100% {left:25%; top:110%; opacity:1; -webkit-transform: rotate(160deg);}
+}
+ @keyframes plume3 {
+ 0% {left:35%; top:60%; opacity:0; -webkit-transform: rotate(90deg);}
+ 50% {left:30%; top:80%; opacity:1; -webkit-transform: rotate(230deg);}
+ 100% {left:25%; top:110%; opacity:1; -webkit-transform: rotate(160deg);}
+}
+.page20 #plume4 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 7;
+	background-image: url("../resources/chapter5/img/b/plume4.png");
+	height: 17.05%;
+	width: 7.37%;
+	-webkit-animation: plume4 10s 4s 4;
+	-moz-animation: plume4 10s 4s 4;
+	animation: plume4 10s 4s 4;
+	opacity:0;
+}
+ @-webkit-keyframes plume4 {
+ 0% {left:30%; top:60%; opacity:0; -webkit-transform: rotate(0deg);}
+ 50% {left:50%; top:80%; opacity:1; -webkit-transform: rotate(90deg);}
+ 100% {left:25%; top:110%; opacity:1; -webkit-transform: rotate(150deg);}
+}
+ @-moz-keyframes plume4 {
+ 0% {left:30%; top:60%; opacity:0; -webkit-transform: rotate(0deg);}
+ 50% {left:50%; top:80%; opacity:1; -webkit-transform: rotate(90deg);}
+ 100% {left:25%; top:110%; opacity:1; -webkit-transform: rotate(150deg);}
+}
+ @keyframes plume4 {
+ 0% {left:30%; top:60%; opacity:0; -webkit-transform: rotate(0deg);}
+ 50% {left:50%; top:80%; opacity:1; -webkit-transform: rotate(90deg);}
+ 100% {left:25%; top:110%; opacity:1; -webkit-transform: rotate(150deg);}
+}
+.page20 #plume5 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 7;
+	background-image: url("../resources/chapter5/img/b/plume5.png");
+	height: 15.23%;
+	width: 6.39%;
+	-webkit-animation: plume1 5s 5s infinite;
+	-moz-animation: plume5 5s 5s infinite;
+	animation: plume5 5s 5s infinite;
+	opacity:0;
+}
+ @-webkit-keyframes plume5 {
+ 0% {left:25%; top:60%; opacity:0; -webkit-transform: rotate(50deg);}
+ 50% {left:30%; top:80%; opacity:1; -webkit-transform: rotate(0deg);}
+ 100% {left:35%; top:110%; opacity:1; -webkit-transform: rotate(180deg);}
+}
+ @-moz-keyframes plume5 {
+ 0% {left:25%; top:60%; opacity:0; -webkit-transform: rotate(50deg);}
+ 50% {left:30%; top:80%; opacity:1; -webkit-transform: rotate(0deg);}
+ 100% {left:35%; top:110%; opacity:1; -webkit-transform: rotate(180deg);}
+}
+ @keyframes plume5 {
+ 0% {left:25%; top:60%; opacity:0; -webkit-transform: rotate(50deg);}
+ 50% {left:30%; top:80%; opacity:1; -webkit-transform: rotate(0deg);}
+ 100% {left:35%; top:110%; opacity:1; -webkit-transform: rotate(180deg);}
+}
+.page20 #yeuxicare {
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	position: absolute;
+	z-index: 7;
+	background-image: url("../resources/chapter5/img/b/yeuxicare.jpg");
+	left: 5.3%;
+	top: 12.2%;
+	height: 3.05%;
+	width: 8.54%;
+	-webkit-animation: yeuxicare 2s step-start infinite;
+	-moz-animation: yeuxicare 2s step-start infinite;
+	animation: yeuxicare 2s step-start infinite;
+}
+ @-webkit-keyframes yeuxicare {
+ 0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 30% {
+ background-position:0;
+}
+}
+ @-moz-keyframes yeuxicare {
+ 0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 30% {
+ background-position:0;
+}
+}
+ @keyframes yeuxicare {
+ 0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 30% {
+ background-position:0;
+}
+}
+.page20 #yeuxdedale {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 7;
+	background-image: url("../resources/chapter5/img/b/yeuxdedale.jpg");
+	left: 72.6%;
+	top: 32.6%;
+	height: 4.29%;
+	width: 3.22%;
+	opacity: 0;
+	-webkit-animation: yeuxdedale 2.8s step-start infinite;
+	-moz-animation: yeuxdedale 2.8s step-start infinite;
+	animation: yeuxdedale 2.8s step-start infinite;
+}
+ @-webkit-keyframes yeuxdedale {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+}
+ 20% {
+ opacity:0;
+}
+}
+ @-moz-keyframes yeuxdedale {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+}
+ 20% {
+ opacity:0;
+}
+}
+ @keyframes yeuxdedale {
+0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+}
+ 20% {
+ opacity:0;
+}
+}
+.page20 #lumierea {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 7;
+	background-image: url("../resources/chapter5/img/b/lumiere.png");
+	left: 60%;
+	top: 49%;
+	height: 24.1%;
+	width: 16.1%;
+	-webkit-animation: lumiere 3s infinite alternate;
+	-moz-animation: lumiere 3s infinite alternate;
+	animation: lumiere 3s infinite alternate;
+	opacity:0;
+}
+ @-webkit-keyframes lumiere {
+ 0% {opacity:0;}
+ 100% {opacity:0.8;}
+}
+ @-moz-keyframes lumiere {
+ 0% {opacity:0;}
+ 100% {opacity:0.8;}
+}
+ @keyframes lumiere {
+ 0% {opacity:0;}
+ 100% {opacity:0.8;}
+}
+/*page 3*/
+
+
+.page21 #chouette.envol {
+	left: 87%;
+	top: 39%;
+}
+.page21 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page21 #btnPlus {
+	left: 92.97%;
+	top: 34.95%;
+}
+.page21 #btnPlus:hover {
+	cursor: pointer;
+}
+#bulle3BIG {
+    height: 19%;
+    left: 55%;
+    top: 32%;
+    width: 15%;
+	}
+	
+.page21 #soleil {
+	-webkit-animation: soleil 3s infinite alternate;
+	-moz-animation: soleil 3s infinite alternate;
+	animation: soleil 3s infinite alternate;
+    background-image: url("../resources/chapter5/img/c/soleil.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 62%;
+    opacity: 0;
+    position: absolute;
+    right: -3%;
+    top: -36px;
+    width: 49%;
+    z-index: 6;
+	}
+ @-webkit-keyframes soleil {
+ 0% {opacity:0;}
+ 100% {opacity:0.8;}
+}
+ @-moz-keyframes soleil {
+ 0% {opacity:0;}
+ 100% {opacity:0.8;}
+}
+ @keyframes soleil {
+ 0% {opacity:0;}
+ 100% {opacity:0.8;}
+}
+/*page 4*/
+.page22 #chouette.envol {
+	left: 27%;
+	top: 39%;
+}
+.page22 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page22 #btnPlus {
+	left: 32.97%;
+	top: 34.95%;
+}
+.page22 #btnPlus:hover {
+	cursor: pointer;
+}
+#bulle4BIG {
+    height: 17%;
+    left: 14%;
+    top: 1%;
+    width: 14%;
+	}
+	
+.page22 #dedale {
+    background-image: url("../resources/chapter5/img/d/dedaleanim.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 13.5%;
+    left: 2.2%;
+    position: absolute;
+    top: 36.3%;
+    width: 5.46%;
+    z-index: 6;
+}
+
+.page22 #plan1 {
+    background-image: url("../resources/chapter5/img/d/plan1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+	height:100%;
+    z-index: 8;
+}
+
+.page22 #brume1 {
+    background-image: url("../resources/chapter5/img/d/brume1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%; 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+    opacity:0;
+	visibility:hidden;
+    -webkit-animation-name: brume1;
+    -webkit-animation-duration: 90s;
+    -webkit-animation-timing-function:alternate;
+    -webkit-animation-delay: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	}
+ @-webkit-keyframes brume1 {
+ 0% {opacity:0; }
+ 1% {opacity:0; visibility:visible;}
+ 5% {opacity:0.4;}
+ 15% {opacity:1;}  
+ 93% {opacity:1;}
+  98% {opacity:0;}
+
+}
+ @-moz-keyframes brume1 {
+ 0% {opacity:0; }
+ 1% {opacity:0;  visibility:visible;}
+ 5% {opacity:0.4;}
+ 15% {opacity:1;}  
+ 93% {opacity:1;}
+  98% {opacity:0;}
+   
+}
+ @keyframes brume1 {
+ 0% {opacity:0; }
+ 1% {opacity:0;  visibility:visible;}
+ 5% {opacity:0.4;}
+ 15% {opacity:1;}  
+ 93% {opacity:1;}
+  98% {opacity:0;}
+  
+}
+
+.page22 #brume2 {
+    background-image: url("../resources/chapter5/img/d/brume2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%; 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+    opacity:0;
+	visibility:hidden;
+    -webkit-animation-name: brume2;
+    -webkit-animation-duration: 90s;
+    -webkit-animation-timing-function:alternate;
+    -webkit-animation-delay: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	}
+ @-webkit-keyframes brume2 {
+  0% {opacity:0; }
+ 1% {opacity:0; visibility:visible;}
+ 5% {opacity:0.4;}
+ 15% {opacity:1;}  
+ 93% {opacity:1;}
+  98% {opacity:0;}
+   
+}
+ @-moz-keyframes brume2 {
+  0% {opacity:0; }
+ 1% {opacity:0; visibility:visible;}
+ 5% {opacity:0.4;}
+ 15% {opacity:1;}  
+ 93% {opacity:1;}
+  98% {opacity:0;}
+   
+}
+ @keyframes brume2 {
+  0% {opacity:0; }
+ 1% {opacity:0; visibility:visible;}
+ 5% {opacity:0.4;}
+ 15% {opacity:1;}  
+ 93% {opacity:1;}
+  98% {opacity:0;}
+
+}
+
+.page22 #brume3 {
+    background-image: url("../resources/chapter5/img/d/brume3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%; 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    opacity:0;
+	visibility:hidden;
+    -webkit-animation-name: brume3;
+    -webkit-animation-duration: 90s;
+    -webkit-animation-timing-function:alternate;
+    -webkit-animation-delay: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	}
+ @-webkit-keyframes brume3 {
+ 0% {opacity:0; }
+ 1% {opacity:0; visibility:visible;}
+ 5% {opacity:0.4;}
+ 15% {opacity:1;}  
+ 93% {opacity:1;}
+  98% {opacity:0;}
+   
+}
+ @-moz-keyframes brume3 {
+ 0% {opacity:0; }
+ 1% {opacity:0; visibility:visible;}
+ 5% {opacity:0.4;}
+ 15% {opacity:1;}  
+ 93% {opacity:1;}
+  98% {opacity:0;}
+   
+}
+ @keyframes brume3 {
+  0% {opacity:0; }
+ 1% {opacity:0; visibility:visible;}
+ 5% {opacity:0.4;}
+ 15% {opacity:1;}  
+ 93% {opacity:1;}
+  98% {opacity:0;}
+   
+}
+
+.page22 #brume4 {
+    background-image: url("../resources/chapter5/img/d/brume4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%; 
+    position: absolute;
+    top: 0;
+	left:0;
+    width: 100%;
+    z-index: 7;
+    opacity:0;
+	visibility:hidden;
+    -webkit-animation-name: brume4;
+    -webkit-animation-duration: 90s;
+    -webkit-animation-timing-function:alternate;
+    -webkit-animation-delay: 16s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+	}
+ @-webkit-keyframes brume4 {
+ 0% {opacity:0; }
+ 1% {opacity:0; visibility:visible; }
+ 5% {opacity:0.6;}
+ 15% {opacity:1;}  
+ 100% {opacity:1;}
+}
+ @-moz-keyframes brume4 {
+ 0% {opacity:0; }
+ 1% {opacity:0; visibility:visible;}
+ 5% {opacity:0.6;}
+ 15% {opacity:1;}  
+ 100% {opacity:1;}
+}
+ @keyframes brume4 {
+ 0% {opacity:0; }
+ 1% {opacity:0; visibility:visible;}
+ 5% {opacity:0.6;}
+ 15% {opacity:1;}  
+ 100% {opacity:1;}
+}
+
+/*chouettes*/
+
+
+
+#chouette1 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+#chouette1.envol1 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette1.envol1 {
+    left: 58%;
+    top: 5%;	
+	}
+#chouette2 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette2.envol2 {
+    left: 22%;
+    top: 45%;	
+	}
+	
+#chouette2.envol2 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette3 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+#chouette3.envol3 {
+    left: 68%;
+    top: 35%;
+	}
+	
+#chouette3.envol3 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette4 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette4.envol4 {
+    left: 27%;
+    top: 4%;	
+	}
+#chouette4.envol4 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette5 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette5.envol5 {
+    left: 72%;
+    top: 5%;	
+	}
+
+#chouette5.envol5 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette6 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette6.envol6 {
+    left: 72%;
+    top: 5%;	
+	}
+
+#chouette6.envol6 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+
+ @-webkit-keyframes chouette-volante {
+ 0% {
+ background-position:0% 0%;
+}
+ 5% {
+ background-position:10% 0%;
+}
+ 10% {
+ background-position:20% 0%;
+}
+ 18% {
+ background-position:32% 0%;
+}
+ 26% {
+ background-position:44% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:32% 0%;
+}
+ 90% {
+ background-position:56% 0%;
+}
+ 93% {
+ background-position:10% 0%;
+}
+ 96% {
+ background-position:66% 0%;
+}
+ 100% {
+ background-position:77% 0%;
+}
+}
+ @-moz-keyframes chouette-volante {
+ 0% {
+ background-position:0% 0%;
+}
+ 5% {
+ background-position:10% 0%;
+}
+ 10% {
+ background-position:20% 0%;
+}
+ 18% {
+ background-position:32% 0%;
+}
+ 26% {
+ background-position:44% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:32% 0%;
+}
+ 90% {
+ background-position:56% 0%;
+}
+ 93% {
+ background-position:10% 0%;
+}
+ 96% {
+ background-position:66% 0%;
+}
+ 100% {
+ background-position:77% 0%;
+}
+}
+ @keyframes chouette-volante {
+ 0% {
+ background-position:0% 0%;
+}
+ 5% {
+ background-position:10% 0%;
+}
+ 10% {
+ background-position:20% 0%;
+}
+ 18% {
+ background-position:32% 0%;
+}
+ 26% {
+ background-position:44% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:32% 0%;
+}
+ 90% {
+ background-position:56% 0%;
+}
+ 93% {
+ background-position:10% 0%;
+}
+ 96% {
+ background-position:66% 0%;
+}
+ 100% {
+ background-position:77% 0%;
+}
+}
+
+#btnPlus1 {
+    left: 59%;
+    top: 41%;	
+	}
+
+#btnPlus2 {
+    left: 36%;
+    top: 64%;	
+	}
+
+#btnPlus3 {
+    left: 59%;
+    top: 41%;	
+	}
+
+#btnPlus4 {
+    left: 41%;
+    top: 20%;	
+	}
+
+#btnPlus5 {
+    left: 61%;
+    top: 30%;	
+	}
+	
+#btnPlus6 {
+    left: 61%;
+    top: 30%;	
+	}

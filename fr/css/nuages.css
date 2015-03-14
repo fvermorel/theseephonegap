@@ -1,0 +1,1646 @@
+/*27 secondes : 150%*/
+
+#nuage1 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	-webkit-transition: left 27s linear;
+	-moz-transition: left 27s linear;
+	transition: left 27s linear;
+	-webkit-animation: nuage12 27s linear infinite;
+	-moz-animation: nuage12 27s linear infinite;
+	animation: nuage12 27s linear infinite;
+}
+@-webkit-keyframes nuage12 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage12 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage12 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#nuage2 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage2.png");
+	-webkit-transition: left 36s linear;
+	-moz-transition: left 36s linear;
+	transition: left 36s linear;
+	-webkit-animation: nuage22 36s linear infinite;
+	-moz-animation: nuage22 36s linear infinite;
+	animation: nuage22 36s linear infinite;
+}
+ @-webkit-keyframes nuage22 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage22 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage22 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#nuage3 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage3.png");
+	-webkit-transition: left 29.7s linear;
+	-moz-transition: left 29.7s linear;
+	transition: left 29.7s linear;
+	-webkit-animation: nuage32 29.7s linear infinite;
+	-moz-animation: nuage32 29.7s linear infinite;
+	animation: nuage32 29.7s linear infinite;
+}
+@-webkit-keyframes nuage32 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 10% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage32 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 10% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage32 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 10% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+/*15 secondes : 150%*/
+#nuage4 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage4.png");
+	-webkit-transition: left 15s linear;
+	-moz-transition: left 15s linear;
+	transition: left 15s linear;
+	-webkit-animation: nuage42 15s linear infinite;
+	-moz-animation: nuage42 15s linear infinite;
+	animation: nuage42 15s linear infinite;
+}
+@-webkit-keyframes nuage42 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage42 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage42 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#nuage5 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage5.png");
+	-webkit-transition: left 18s linear;
+	-moz-transition: left 18s linear;
+	transition: left 18s linear;
+	-webkit-animation: nuage52 18s linear infinite;
+	-moz-animation: nuage52 18s linear infinite;
+	animation: nuage52 18s linear infinite;
+}
+@-webkit-keyframes nuage52 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 20% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage52 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 20% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage52 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 20% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#nuage6 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	-webkit-transition: left 21s linear;
+	-moz-transition: left 21s linear;
+	transition: left 21s linear;
+	-webkit-animation: nuage62 21s linear infinite;
+	-moz-animation: nuage62 21s linear infinite;
+	animation: nuage62 21s linear infinite;
+}
+@-webkit-keyframes nuage62 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 40% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage62 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 40% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage62 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 40% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#nuage7 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	-webkit-transition: left 24s linear;
+	-moz-transition: left 24s linear;
+	transition: left 24s linear;
+	-webkit-animation: nuage72 24s linear infinite;
+	-moz-animation: nuage72 24s linear infinite;
+	animation: nuage72 24s linear infinite;
+}
+@-webkit-keyframes nuage72 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 60% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage72 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 60% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage72 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 60% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+/*20 secondes : 150%*/
+#nuage8 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage3.png");
+	-webkit-transition: left 20s linear;
+	-moz-transition: left 20s linear;
+	transition: left 20s linear;
+	-webkit-animation: nuage82 20s linear infinite;
+	-moz-animation: nuage82 20s linear infinite;
+	animation: nuage82 20s linear infinite;
+}
+@-webkit-keyframes nuage82 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage82 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage82 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#nuage9 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage4.png");
+	-webkit-transition: left 25s linear;
+	-moz-transition: left 25s linear;
+	transition: left 25s linear;
+	-webkit-animation: nuage92 25s linear infinite;
+	-moz-animation: nuage92 25s linear infinite;
+	animation: nuage92 25s linear infinite;
+}
+@-webkit-keyframes nuage92 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage92 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage92 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#nuage10 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage4.png");
+	-webkit-transition: left 30s linear;
+	-moz-transition: left 30s linear;
+	transition: left 30s linear;
+	-webkit-animation: nuage102 30s linear infinite;
+	-moz-animation: nuage102 30s linear infinite;
+	animation: nuage102 30s linear infinite;
+}
+@-webkit-keyframes nuage102 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 50% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage102 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 50% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage102 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 50% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+/*css deuxième slide*/
+
+
+#bnuage1 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	-webkit-transition: left 27s linear;
+	-moz-transition: left 27s linear;
+	transition: left 27s linear;
+	-webkit-animation: nuage12 27s linear infinite;
+	-moz-animation: nuage12 27s linear infinite;
+	animation: nuage12 27s linear infinite;
+}
+@-webkit-keyframes nuage12 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage12 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage12 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#bnuage2 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage2.png");
+	-webkit-transition: left 36s linear;
+	-moz-transition: left 36s linear;
+	transition: left 36s linear;
+	-webkit-animation: nuage22 36s linear infinite;
+	-moz-animation: nuage22 36s linear infinite;
+	animation: nuage22 36s linear infinite;
+}
+ @-webkit-keyframes nuage22 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage22 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage22 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#bnuage3 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage3.png");
+	-webkit-transition: left 29.7s linear;
+	-moz-transition: left 29.7s linear;
+	transition: left 29.7s linear;
+	-webkit-animation: nuage32 29.7s linear infinite;
+	-moz-animation: nuage32 29.7s linear infinite;
+	animation: nuage32 29.7s linear infinite;
+}
+@-webkit-keyframes nuage32 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 10% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage32 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 10% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage32 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 10% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+/*15 secondes : 150%*/
+#bnuage4 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage4.png");
+	-webkit-transition: left 15s linear;
+	-moz-transition: left 15s linear;
+	transition: left 15s linear;
+	-webkit-animation: nuage42 15s linear infinite;
+	-moz-animation: nuage42 15s linear infinite;
+	animation: nuage42 15s linear infinite;
+}
+@-webkit-keyframes nuage42 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage42 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage42 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#bnuage5 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage5.png");
+	-webkit-transition: left 18s linear;
+	-moz-transition: left 18s linear;
+	transition: left 18s linear;
+	-webkit-animation: nuage52 18s linear infinite;
+	-moz-animation: nuage52 18s linear infinite;
+	animation: nuage52 18s linear infinite;
+}
+@-webkit-keyframes nuage52 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 20% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage52 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 20% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage52 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 20% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#bnuage6 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	-webkit-transition: left 21s linear;
+	-moz-transition: left 21s linear;
+	transition: left 21s linear;
+	-webkit-animation: nuage62 21s linear infinite;
+	-moz-animation: nuage62 21s linear infinite;
+	animation: nuage62 21s linear infinite;
+}
+@-webkit-keyframes nuage62 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 40% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage62 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 40% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage62 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 40% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#bnuage7 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	-webkit-transition: left 24s linear;
+	-moz-transition: left 24s linear;
+	transition: left 24s linear;
+	-webkit-animation: nuage72 24s linear infinite;
+	-moz-animation: nuage72 24s linear infinite;
+	animation: nuage72 24s linear infinite;
+}
+@-webkit-keyframes nuage72 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 60% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage72 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 60% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage72 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 60% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+/*20 secondes : 150%*/
+#bnuage8 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage3.png");
+	-webkit-transition: left 20s linear;
+	-moz-transition: left 20s linear;
+	transition: left 20s linear;
+	-webkit-animation: nuage82 20s linear infinite;
+	-moz-animation: nuage82 20s linear infinite;
+	animation: nuage82 20s linear infinite;
+}
+@-webkit-keyframes nuage82 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage82 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage82 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#bnuage9 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage4.png");
+	-webkit-transition: left 25s linear;
+	-moz-transition: left 25s linear;
+	transition: left 25s linear;
+	-webkit-animation: nuage92 25s linear infinite;
+	-moz-animation: nuage92 25s linear infinite;
+	animation: nuage92 25s linear infinite;
+}
+@-webkit-keyframes nuage92 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage92 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage92 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#bnuage10 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage4.png");
+	-webkit-transition: left 30s linear;
+	-moz-transition: left 30s linear;
+	transition: left 30s linear;
+	-webkit-animation: nuage102 30s linear infinite;
+	-moz-animation: nuage102 30s linear infinite;
+	animation: nuage102 30s linear infinite;
+}
+@-webkit-keyframes nuage102 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 50% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage102 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 50% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage102 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 50% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+/*css troisieme slide*/
+
+
+#cnuage1 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	-webkit-transition: left 27s linear;
+	-moz-transition: left 27s linear;
+	transition: left 27s linear;
+	-webkit-animation: nuage12 27s linear infinite;
+	-moz-animation: nuage12 27s linear infinite;
+	animation: nuage12 27s linear infinite;
+}
+@-webkit-keyframes nuage12 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage12 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage12 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#cnuage2 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage2.png");
+	-webkit-transition: left 36s linear;
+	-moz-transition: left 36s linear;
+	transition: left 36s linear;
+	-webkit-animation: nuage22 36s linear infinite;
+	-moz-animation: nuage22 36s linear infinite;
+	animation: nuage22 36s linear infinite;
+}
+ @-webkit-keyframes nuage22 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage22 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage22 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#cnuage3 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage3.png");
+	-webkit-transition: left 29.7s linear;
+	-moz-transition: left 29.7s linear;
+	transition: left 29.7s linear;
+	-webkit-animation: nuage32 29.7s linear infinite;
+	-moz-animation: nuage32 29.7s linear infinite;
+	animation: nuage32 29.7s linear infinite;
+}
+@-webkit-keyframes nuage32 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 10% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage32 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 10% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage32 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 10% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+/*15 secondes : 150%*/
+#cnuage4 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage4.png");
+	-webkit-transition: left 15s linear;
+	-moz-transition: left 15s linear;
+	transition: left 15s linear;
+	-webkit-animation: nuage42 15s linear infinite;
+	-moz-animation: nuage42 15s linear infinite;
+	animation: nuage42 15s linear infinite;
+}
+@-webkit-keyframes nuage42 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage42 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage42 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#cnuage5 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage5.png");
+	-webkit-transition: left 18s linear;
+	-moz-transition: left 18s linear;
+	transition: left 18s linear;
+	-webkit-animation: nuage52 18s linear infinite;
+	-moz-animation: nuage52 18s linear infinite;
+	animation: nuage52 18s linear infinite;
+}
+@-webkit-keyframes nuage52 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 20% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage52 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 20% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage52 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 20% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#cnuage6 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	-webkit-transition: left 21s linear;
+	-moz-transition: left 21s linear;
+	transition: left 21s linear;
+	-webkit-animation: nuage62 21s linear infinite;
+	-moz-animation: nuage62 21s linear infinite;
+	animation: nuage62 21s linear infinite;
+}
+@-webkit-keyframes nuage62 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 40% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage62 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 40% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage62 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 40% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#cnuage7 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage1.png");
+	-webkit-transition: left 24s linear;
+	-moz-transition: left 24s linear;
+	transition: left 24s linear;
+	-webkit-animation: nuage72 24s linear infinite;
+	-moz-animation: nuage72 24s linear infinite;
+	animation: nuage72 24s linear infinite;
+}
+@-webkit-keyframes nuage72 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 60% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage72 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 60% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage72 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 60% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+/*20 secondes : 150%*/
+#cnuage8 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage3.png");
+	-webkit-transition: left 20s linear;
+	-moz-transition: left 20s linear;
+	transition: left 20s linear;
+	-webkit-animation: nuage82 20s linear infinite;
+	-moz-animation: nuage82 20s linear infinite;
+	animation: nuage82 20s linear infinite;
+}
+@-webkit-keyframes nuage82 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage82 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage82 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#cnuage9 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage4.png");
+	-webkit-transition: left 25s linear;
+	-moz-transition: left 25s linear;
+	transition: left 25s linear;
+	-webkit-animation: nuage92 25s linear infinite;
+	-moz-animation: nuage92 25s linear infinite;
+	animation: nuage92 25s linear infinite;
+}
+@-webkit-keyframes nuage92 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage92 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage92 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 25% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+#cnuage10 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 7.1%;
+	width: 16%;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	background-image: url("../resources/chapter1/img/a/nuage4.png");
+	-webkit-transition: left 30s linear;
+	-moz-transition: left 30s linear;
+	transition: left 30s linear;
+	-webkit-animation: nuage102 30s linear infinite;
+	-moz-animation: nuage102 30s linear infinite;
+	animation: nuage102 30s linear infinite;
+}
+@-webkit-keyframes nuage102 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 50% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @-moz-keyframes nuage102 {
+ 0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 50% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}
+ @keyframes nuage102 {
+0% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 50% {
+ left:-25%;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 100% {
+ left:125%;
+ -webkit-animation-timing-function: step-start;
+}
+}

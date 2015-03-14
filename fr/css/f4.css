@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.page26 #chouette.envol {
+  
+	left: 27%;
+    top: 69%;
+}
+
+.page26 #chouette.envol:hover {
+	cursor:pointer;
+}
+
+
+.page26 #btnPlus {
+    left: 32.97%;
+
+    top: 64.95%;
+
+}
+
+.page26 #btnPlus:hover {
+	cursor:pointer;
+}
+
+.page26 #bulle1BIG {
+	
+    height: 22%;
+    left: 4%;
+
+    top: 35%;
+    width: 22%;
+
+}
+.page26 #balance{
+	
+		   background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter6/img/d/balance.png");
+	left: 57.2%;
+	top: 8.9%;
+	height:16.10%;
+	width: 13.20%;
+	
+}

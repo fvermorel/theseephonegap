@@ -1,0 +1,1106 @@
+.page9 #chouette.envol {
+	left: 47%;
+	top: 69%;
+}
+.page9 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page9 #btnPlus {
+	left: 52.97%;
+	top: 64.95%;
+}
+.page9 #btnPlus:hover {
+	cursor: pointer;
+}
+.page9 #bulle1BIG {
+	height: 22%;
+	left: 24%;
+	top: 35%;
+	width: 22%;
+}
+.page9 #yeux {
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/a/yeux2.jpg");
+	left: 24.1%;
+	top: 32%;
+	height: 10%;
+	width: 25.05%;
+	-webkit-animation: yeux2 2s step-start infinite;
+	-moz-animation: yeux2 2s step-start infinite;
+	animation: yeux2 2s step-start infinite;
+}
+ @-webkit-keyframes yeux2 {
+ 0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+ @-moz-keyframes yeux2 {
+0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+ @keyframes yeux2 {
+0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+
+page 2  .page10 #chouette.envol {
+ left: 47%;
+ top: 69%;
+}
+.page10 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page10 #btnPlus {
+	left: 52.97%;
+	top: 64.95%;
+}
+.page10 #btnPlus:hover {
+	cursor: pointer;
+}
+.page10 #bulle1BIG {
+	height: 22%;
+	left: 24%;
+	top: 35%;
+	width: 22%;
+}
+
+#voile {
+    background-image: url("../resources/chapter3/img/b/voilehaut.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 8.3%;
+    left: 56.8%;
+    position: absolute;
+    width: 43%;
+    z-index: 10;	
+	}
+
+.bullea1 {
+	background-image: url("../img/bulle.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	padding: 3%;
+	top: 19%;
+	left: 8%;
+	width: 9%;
+	height: 4%;
+    -webkit-animation-name: bullea1;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+@-webkit-keyframes bullea1 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+ @-moz-keyframes bullea1 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+@keyframes bullea1 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+.bullea2 {
+	background-image: url("../img/bulledroite.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.55em;
+	font-style: italic;
+	height: 4%;
+	left: 6%;
+	opacity: 0;
+	padding: 3%;
+	position: absolute;
+	top: 19%;
+	width: 9%;
+	z-index: 8;
+    -webkit-animation-name: bullea2;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+@-webkit-keyframes bullea2 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+ @-moz-keyframes bullea2 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+@keyframes bullea2 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+.bullea3 {
+	background-image: url("../img/bulle2.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	padding: 3%;
+	top: 44%;
+	left: 74%;
+	width: 9%;
+	height: 4%;
+    -webkit-animation-name: bullea3;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+@-webkit-keyframes bullea3 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+ @-moz-keyframes bullea3 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+@keyframes bullea3 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+.bullea4 {
+	background-image: url("../img/bulle2.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	padding: 3%;
+	top: 45%;
+	left: 80%;
+	width: 10%;
+	height: 5%;
+    -webkit-animation-name: bullea4;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+@-webkit-keyframes bullea4 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+ @-moz-keyframes bullea4 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+@keyframes bullea4 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+.bullea5 {
+    background-image: url("../img/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 0.55em;
+	line-height: 1em;
+    font-style: italic;
+    height: 4%;
+    left: 49%;
+    opacity: 0;
+    padding: 3%;
+    position: absolute;
+    top: 20%;
+    width: 9%;
+    z-index: 8;
+    -webkit-animation-name: bullea5;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+@-webkit-keyframes bullea5 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+ @-moz-keyframes bullea5 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+@keyframes bullea5 {
+0% {opacity:0;}
+10% {opacity:1;}    
+20% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+
+/*page3*/
+.page11 #chouette.envol {
+	left: 66%;
+	top: 34%;
+}
+.page11 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page11 #btnPlus {
+	left: 61.5%;
+	top: 30.95%;
+}
+.page11 #btnPlus:hover {
+	cursor: pointer;
+}
+.page11 #bulle1BIG {
+	height: 22%;
+	left: 59.13%;
+	top: 0.8%;
+	width: 22%;
+}
+.page11 #ariane {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/c/ariane.png");
+	left: 80.1%;
+	top: 33%;
+	height: 5%;
+	width: 4%;
+	opacity:0.4;
+	  -webkit-animation-name: ariane;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+	-moz-animation: ariane 5s 1 alternate;
+	animation: ariane 5s 1 alternate;
+}
+ @-webkit-keyframes ariane {
+ 0% {opacity:0;}
+ 50% {opacity:0.6;}
+ 100% {opacity:0.4;}
+}
+ @-moz-keyframes ariane {
+  0% {opacity:0;}
+ 50% {opacity:0.6;}
+ 100% {opacity:0.4;}
+}
+ @keyframes ariane {
+  0% {opacity:0;}
+ 50% {opacity:0.6;}
+ 100% {opacity:0.4;}
+}
+.page11 #dedale {
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/c/yeuxdedale2.jpg");
+	left: 68%;
+	top: 38%;
+	height: 1.5%;
+	width: 3%;
+	-webkit-animation: yeuxdedale2 3s step-start infinite;
+	-moz-animation: yeuxdedale2 3s step-start infinite;
+	animation: yeuxdedale2 3s step-start infinite;
+}
+ @-webkit-keyframes yeuxdedale2 {
+ 0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+ @-moz-keyframes yeuxdedale2 {
+0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+ @keyframes yeuxdedale2 {
+0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+.page11 #fille {
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/c/fille2.jpg");
+	left: 23%;
+	top: 43%;
+	height: 1%;
+	width: 2%;
+	-webkit-animation: fille2 2.5s step-start infinite;
+	-moz-animation: fille2 2.5s step-start infinite;
+	animation: fille2 2.5s step-start infinite;
+}
+ @-webkit-keyframes fille2 {
+ 0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+ @-moz-keyframes fille2 {
+0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+ @keyframes fille2 {
+0% {
+ background-position:0;
+}
+ 10% {
+ background-position:+100%;
+}
+ 20% {
+ background-position:0%;
+}
+}
+.bulleb1 {
+	background-image: url("../img/bulle-pensee-gauche.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	visibility:hidden;
+	opacity: 0;
+	padding: 3% 2% 3% 7%;
+	top: 25%;
+	left: 49%;
+	width: 9%;
+	height: 4%;
+	  -webkit-animation-name: bulleb11;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+   
+	-moz-animation: bulleb11 60s ease-in ;
+	animation: bulleb11 60s ease-in ;
+}
+@-webkit-keyframes bulleb11 {
+0% {
+ opacity:0;
+}
+ 5% {
+ opacity:0;
+ visibility:visible;
+}
+ 10% {
+ opacity:1;
+}
+ 35% {
+ opacity:1;
+}
+ 37% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulleb11 {
+0% {
+ opacity:0;
+}
+ 5% {
+ opacity:0;
+ visibility:visible;
+}
+ 10% {
+ opacity:1;
+}
+ 35% {
+ opacity:1;
+}
+ 37% {
+ opacity:0;
+}
+}
+@keyframes bulleb11 {
+0% {
+ opacity:0;
+}
+ 5% {
+ opacity:0;
+ visibility:visible;
+}
+ 10% {
+ opacity:1;
+}
+ 35% {
+ opacity:1;
+}
+ 37% {
+ opacity:0;
+}
+}
+.bulleb2 {
+	background-image: url("../img/bulle-pensee-droite.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	visibility:hidden;
+	padding: 3% 3% 3% 7%;
+	top: 33%;
+	left: 42%;
+	width: 9%;
+	height: 4%;
+	  -webkit-animation-name: bulleb21;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+	-moz-animation: bulleb21 60s ease-in ;
+	animation: bulleb21 60s ease-in ;
+}
+@-webkit-keyframes bulleb21 {
+0% {
+ opacity:0;
+}
+ 25% {
+ opacity:0;
+ visibility:visible;
+}
+ 30% {
+ opacity:1;
+}
+ 65% {
+ opacity:1;
+}
+ 67% {
+ opacity:0;
+}
+}
+0% {
+ opacity:0;
+}
+ 25% {
+ opacity:0;
+ visibility:visible;
+}
+ 30% {
+ opacity:1;
+}
+ 65% {
+ opacity:1;
+}
+ 67% {
+ opacity:0;
+}
+}
+@keyframes bulleb21 {
+0% {
+ opacity:0;
+}
+ 25% {
+ opacity:0;
+ visibility:visible;
+}
+ 30% {
+ opacity:1;
+}
+ 65% {
+ opacity:1;
+}
+ 67% {
+ opacity:0;
+}
+}
+.bulleb3 {
+	background-image: url("../img/bulle-pensee-gauche.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	visibility:hidden;
+	padding: 3% 6% 3% 3%;
+	top: 31%;
+	left: 3%;
+	width: 9%;
+	height: 6%;
+	  -webkit-animation-name: bulleb31;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+	-moz-animation: bulleb31 60s ease-in ;
+	animation: bulleb31 60s ease-in ;
+}
+@-webkit-keyframes bulleb31 {
+0% {
+ opacity:0;
+}
+ 45% {
+ opacity:0;
+ visibility:visible;
+}
+ 50% {
+ opacity:1;
+}
+ 75% {
+ opacity:1;
+}
+ 77% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulleb31 {
+0% {
+ opacity:0;
+}
+ 45% {
+ opacity:0;
+ visibility:visible;
+}
+ 50% {
+ opacity:1;
+}
+ 75% {
+ opacity:1;
+}
+ 77% {
+ opacity:0;
+}
+}
+@keyframes bulleb31 {
+0% {
+ opacity:0;
+}
+ 45% {
+ opacity:0;
+ visibility:visible;
+}
+ 50% {
+ opacity:1;
+}
+ 75% {
+ opacity:1;
+}
+ 77% {
+ opacity:0;
+}
+}
+/*page 4*/
+
+
+
+
+.page12 #chouette.envol {
+	left: 66%;
+	top: 34%;
+}
+.page12 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page12 #btnPlus {
+	left: 61.5%;
+	top: 30.95%;
+}
+.page12 #btnPlus:hover {
+	cursor: pointer;
+}
+.page12 #bulle1BIG {
+	height: 22%;
+	left: 59.13%;
+	top: 0.8%;
+	width: 22%;
+}
+.page12 #ariane {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/d/ariane.jpg");
+	left: 66.7%;
+	top: 30.6%;
+	height: 17.64%;
+	width: 18.86%;
+	opacity: 0;
+	-webkit-animation: ariane2 2.5s step-start infinite;
+	-moz-animation: ariane2 2.5s step-start infinite;
+	animation: ariane2 2.5s step-start infinite;
+}
+ @-webkit-keyframes ariane2 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+}
+ 20% {
+ opacity:0;
+}
+}
+ @-moz-keyframes ariane2 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+}
+ 20% {
+ opacity:0;
+}
+}
+ @keyframes ariane2 {
+0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+}
+ 20% {
+ opacity:0;
+}
+}
+.page12 #thesee {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/d/thesee.jpg");
+	left: 21.7%;
+	top: 21.9%;
+	height: 10.22%;
+	width: 18.81%;
+	opacity: 0;
+	-webkit-animation: thesee2 2.8s step-start infinite;
+	-moz-animation: thesee2 2.8s step-start infinite;
+	animation: thesee2 2.8s step-start infinite;
+}
+ @-webkit-keyframes thesee2 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+}
+ 20% {
+ opacity:0;
+}
+}
+ @-moz-keyframes thesee2 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+}
+ 20% {
+ opacity:0;
+}
+}
+ @keyframes thesee2 {
+0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+}
+ 20% {
+ opacity:0;
+}
+}
+.page12 #coeur1 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/d/coeur1.png");
+	left: 45%;
+	top: 20%;
+	height: 14.84%;
+	width: 9.86%;
+	opacity: 0;
+	-webkit-animation: coeur12 3.5s step-start 5s infinite;
+	-moz-animation: coeur12 3.5s step-start 5s infinite;
+	animation: coeur12 3.5s step-start 5s infinite;
+}
+ @-webkit-keyframes coeur12 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 70% {
+ opacity:0;
+ -webkit-animation-timing-function: ease-in-out;
+}
+}
+ @-moz-keyframes coeur12 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ -moz-transition:ease-in;
+ -moz-animation-timing-function: ease-in-out;
+}
+ 70% {
+ opacity:0;
+ -moz-transition:ease-in;
+ -moz-animation-timing-function: ease-in-out;
+}
+}
+ @keyframes coeur12 {
+0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ animation-timing-function: ease-in-out;
+}
+ 70% {
+ opacity:0;
+ animation-timing-function: ease-in-out;
+}
+}
+.page12 #coeur2 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/d/coeur2.png");
+	left: 55%;
+	top: 30%;
+	height: 11.97%;
+	width: 8%;
+	opacity: 0;
+	-webkit-animation: coeur22 4s step-start 6s infinite;
+	-moz-animation: coeur22 4s step-start 6s infinite;
+	animation: coeur22 4s step-start 6s infinite;
+}
+ @-webkit-keyframes coeur22 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 80% {
+ opacity:0;
+ -webkit-animation-timing-function: ease-in-out;
+}
+}
+ @-moz-keyframes coeur22 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ -moz-transition:ease-in;
+ -moz-animation-timing-function: ease-in-out;
+}
+ 80% {
+ opacity:0;
+ -moz-transition:ease-in;
+ -moz-animation-timing-function: ease-in-out;
+}
+}
+ @keyframes coeur22 {
+0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ animation-timing-function: ease-in-out;
+}
+ 80% {
+ opacity:0;
+ animation-timing-function: ease-in-out;
+}
+}
+.page12 #coeur3 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/d/coeur3.png");
+	left: 50%;
+	top: 50%;
+	height: 8.85%;
+	width: 6.54%;
+	opacity: 0;
+	-webkit-animation: coeur32 3s step-start 7s infinite;
+	-moz-animation: coeur32 3s step-start 7s infinite;
+	animation: coeur32 3s step-start 7s infinite;
+}
+ @-webkit-keyframes coeur32 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 70% {
+ opacity:0;
+ -webkit-animation-timing-function: ease-in-out;
+}
+}
+ @-moz-keyframes coeur32 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ -moz-transition:ease-in;
+ -moz-animation-timing-function: ease-in-out;
+}
+ 70% {
+ opacity:0;
+ -moz-transition:ease-in;
+ -moz-animation-timing-function: ease-in-out;
+}
+}
+ @keyframes coeur32 {
+0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ animation-timing-function: ease-in-out;
+}
+ 70% {
+ opacity:0;
+ animation-timing-function: ease-in-out;
+}
+}
+.page12 #coeur5 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/d/coeur2.png");
+	left: 40%;
+	top: 5%;
+	height: 11.97%;
+	width: 8%;
+	opacity: 0;
+	-webkit-animation: coeur52 4.2s step-start 8s infinite;
+	-moz-animation: coeur52 4.2s step-start 8s infinite;
+	animation: coeur52 4.2s step-start 8s infinite;
+}
+ @-webkit-keyframes coeur52 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 75% {
+ opacity:0;
+ -webkit-animation-timing-function: ease-in-out;
+}
+}
+ @-moz-keyframes coeur52 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ -moz-transition:ease-in;
+ -moz-animation-timing-function: ease-in-out;
+}
+ 75% {
+ opacity:0;
+ -moz-transition:ease-in;
+ -moz-animation-timing-function: ease-in-out;
+}
+}
+ @keyframes coeur52 {
+0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ animation-timing-function: ease-in-out;
+}
+ 75% {
+ opacity:0;
+ animation-timing-function: ease-in-out;
+}
+}
+.page12 #coeur6 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/d/coeur3.png");
+	left: 80%;
+	top: 10%;
+	height: 8.85%;
+	width: 6.54%;
+	opacity: 0;
+	-webkit-animation: coeur62 4s step-start 9s infinite;
+	-moz-animation: coeur62 4s step-start 9s infinite;
+	animation: coeur62 4s step-start 9s infinite;
+}
+ @-webkit-keyframes coeur62 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ -webkit-animation-timing-function: ease-in-out;
+}
+ 60% {
+ opacity:0;
+ -webkit-animation-timing-function: ease-in-out;
+}
+}
+ @-moz-keyframes coeur62 {
+ 0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ -moz-transition:ease-in;
+ -moz-animation-timing-function: ease-in-out;
+}
+ 60% {
+ opacity:0;
+ -moz-transition:ease-in;
+ -moz-animation-timing-function: ease-in-out;
+}
+}
+ @keyframes coeur62 {
+0% {
+ opacity:0;
+}
+ 10% {
+ opacity:1;
+ animation-timing-function: ease-in-out;
+}
+ 60% {
+ opacity:0;
+ animation-timing-function: ease-in-out;
+}
+}

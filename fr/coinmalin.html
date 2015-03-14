@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+  <link rel="stylesheet" href="css/idangerous.swiper.css">
+  <style>
+/* Demo Styles */
+
+@font-face {
+	font-family: "Lucida Grande";
+	src: url(../img/LucidaGrande.ttc);
+}
+@font-face {
+	font-family: "EccentricStd";
+	src: url(../img/EccentricStd.otf);
+}
+
+@font-face{
+	font-family: "Offside-Regular";
+	src: url(../img/Offside-Regular.ttf);
+}
+
+body {
+	margin: 0;
+	font-family: "Offside-Regular";
+	font-size: 13px;
+}
+.swiper-container {
+    color: #FFFFFF;
+    height: 668px;
+    left: 5%;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 90%;
+	}
+.white-slide {
+	background: #fff;
+}
+.swiper-slide {
+	margin-bottom: 0;
+	width: 100%;
+}
+.pagination {
+	position: absolute;
+	z-index: 100;
+	left: 10px;
+	bottom: 10px;
+}
+.swiper-pagination-switch {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	background: #222;
+	margin-right: 5px;
+	opacity: 0.8;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.swiper-visible-switch {
+	background: #aaa;
+}
+.swiper-active-switch {
+	background: #fff;
+}
+.tabs {
+    left: 10%;
+    position: absolute;
+    top: 5%;
+    width: 900px;}
+.tabs a {
+    background-color: #FFFFFF;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    float: left;
+    font-family: offside-regular;
+    font-size: 16px;
+    line-height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.8;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+	}
+.tabs a.active {
+}
+#background img.coinmalin {
+	z-index: -1;
+}
+.colonnetexte {
+	width: 25%;
+	position: absolute;
+	color: #000;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: left;
+	overflow-y: auto;
+	height: 100%;
+	z-index: 2;
+}
+.colonnetextefull {
+	width: 94%;
+	position: absolute;
+	color: #000;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: left;
+	overflow-y: auto;
+	height: 100%;
+	z-index: 2;
+}
+.colonnetexte2 {
+	width: 25%;
+	position: absolute;
+	color: #000;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: left;
+	overflow-y: auto;
+	height: 100%;
+}
+.colonneslide {
+	width: 65%;
+	position: absolute;
+	left: 35%;
+}
+.bonus {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.bonus .swiper-wrapper {
+	width: 65%!important;
+}
+.bonus .swiper-wrapper .swiper-slide {
+	min-height: 100px!important;
+}
+.bonus .swiper-wrapper .swiper-slide img {
+	width: 100%;
+}
+h1 {
+	font-size: 18px;
+	text-align: center;
+}
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+      
+h6 {
+    font-size: 10px;
+    font-weight:300;
+    font-style: italic;
+}      
+.violet {
+    color: #800080;
+    font-family: "EccentricStd";
+    font-size: 26px;
+    font-weight: lighter;
+	letter-spacing: 0.05em;}
+	
+	
+.violet.active{
+	background-color:#800080;
+    color:#fff;
+	opacity:1;
+}
+
+.rose {
+    color:#F3C;
+    font-family: "EccentricStd";
+    font-size: 26px;
+    font-weight: lighter;
+	letter-spacing: 0.05em;}
+
+
+.rose.active{
+	background-color:#F3C;
+    color:#fff;
+	opacity:1;
+}
+
+.vert {
+    color:#3C9;
+    font-family: "EccentricStd";
+    font-size: 26px;
+    font-weight: lighter;
+	letter-spacing: 0.05em;}
+.vert.active{
+	background-color:#3C9;
+    color:#fff;
+	opacity:1;
+}
+
+.orange {
+    color:#F90;
+    font-family: "EccentricStd";
+    font-size: 26px;
+    font-weight: lighter;
+	letter-spacing: 0.05em;}
+.orange.active{
+	background-color:#F90;
+    color:#fff;
+	opacity:1;
+}
+
+.texteslide {
+	width: 30%;
+	padding-right: 3%;
+	float: left;
+}
+.imageslide {
+	width: 66%;
+	float: left;
+}
+.imageslide img {
+    border: 1px solid #000;
+    width: 100%;
+	margin-bottom:25px;
+	}
+.clear {
+	clear: both;
+}
+</style>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+<div id="retourAccueil"><a href="index.html"><img src="img/home.png"/></a></div>
+
+<div id="background" ><!-- ici seront chargés les background des pages --> 
+    <img id="page" src="resources/chapter7/img/1.jpg" class="coinmalin" /> </div>
+<div class="tabs"> <a href="#" class="violet">Géographie</a> <a href="#" class="rose" >Histoire de l'art</a> <a href="#" class="vert">Sciences</a> <a href="#" class="orange">Education Civique</a> </div>
+<!--------------------------------------------------------------------------->
+<div class="swiper-container swiper-parent" style="clear:both;">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide white-slide">
+        <div class="bonus">
+        <div class="colonnetextefull">
+            <h1 class="violet">Les lieux de l'histoire</h1>
+            <p> Mais où se passe l'histoire de Thésée et de Minos ? En Terre du Milieu ? Dans une lointaine galaxie ? Non, pas du tout. Ca se passe en Grèce, dans un pays qui n'est pas si loin que ça de chez toi. Et si tu le demandes gentiment à tes parents, ils t'y emmèneront peut-être un jour en vacances. </p>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">la Grèce en Méditerrannée</h2>
+                <p>La mer méditerrannée est une mer intérieure qui borde trois continents : l’Afrique, l’Europe et l’Asie. C’est pour cela qu’elle a été un des grands lieux de rencontres entre les civilisations, et cela depuis le tout début de l’histoire.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/cartes/carte-01.png" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">La mer Egée</h2>
+                <p>Ce pauvre Egée, en mourant, a donné son nom à la mer qui sépare la Grèce continentale de la côte turque : la mer Egée. Cette mer est parsemée de centaines d’îles. Certaines sont toutes petites, à peine des cailloux qui surnagent des flots, d’autres sont plus grandes et sont habitées. De nos jours, certaines îles appartiennent à la Grèce, d’autre à la Turquie.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/cartes/carte-02.png" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">La Crète</h2>
+                <p>La Crète est la plus grande des îles de la mer Egée. A l’époque du roi Minos, elle est bien plus puissante que les petites cités du continent, qui se font toujours la guerre entre elles. De nos jours, elle est habitée par environ 600.000 personnes qui vivent en partie de l’agriculture et en partie du tourisme : ses plages sont parmi les plus belles de la Méditerrannée.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/cartes/carte-03.png" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">Cnossos</h2>
+                <p>C’est à Cnossos que régnait le roi Minos. Aujourd’hui, il ne reste de son palais que des ruines impressionnantes qui sont visitées chaque année par des dizaines de milliers de touristes. Si vous y allez, dites vous que c’est ici que Thésée et Ariane se sont rencontrés... il y a plus de trois mille ans.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/cartes/carte-04.png" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="violet">Athènes</h2>
+                <p>Athènes a longtemps été une cité grecque de petite taille avant de monter en puissance et de devenir la première cité à adopter un fonctionnement démocratique. Au 5ème siècle avant Jésus Christ, elle sera habitée par les plus illustres des Philosophoes : Socrate, Platon, Aristote... Aujourd’hui, Athènes est la capitale de la Grèce et compte un peu plus de trois millions d’habitants.</p>
+                <h6>D.R.</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/cartes/carte-05.png" > </div>
+          </div>-
+          </div>
+      </div>
+      </div>
+    <!--début du slide-->
+    <div class="swiper-slide white-slide">
+        <div class="bonus">
+        <div class="colonnetextefull">
+            <h1 class="rose">Au travers des âges</h1>
+            <p> L'histoire de Thésée, de Minos, de Dédale, d'Icare, d'Ariane et du Minotaure a inspiré les artistes depuis des milliers d'années. Pour la raconter, ils ont écrit des livres, bien sûr, mais ils ont aussi peint des tableau, sculpté des statues, fait des poteries, tourné des films ou créé des jeux vidéo. Les derniers à avoir interprêté l'histoire, c'est nous, avec le livre numérique que tu tiens entre les mains.</p>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">Thésée contre <br>le Minotaure</h2>
+                <p> Ce vase date de 460 avant Jésus Christ. A cette époque, l'art de la poterie était très développé chez les grecs. Ils s'en servaient pour conserver de l'huile, du vin et toutes sortes d'aliments.</p>
+                <h6>Vase datant de 460 avant JC : le combat de Thésée et du minotaure</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h1.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">Le minotaure et Pasiphaé</h2>
+                <p> Cette représentation date de 340 avant Jésus Christ. Les grecs représentaient l'histoire avec humour : observez la mine mécontente de Pasiphaé alors qu'elle s'apprête à donner le sein à son bébé !</p>
+                <h6>Detail, 340 avant JC : Le minotaure avec sa mère, Pasiphaé</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h2.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">"Bacchus et Ariane" <br>de Titien</h2>
+                <p> Bachus est l'autre nom de Dyonisos. Après une pause pendant le moyen âge, les artistes du 16ème siècle redécouvrent les histoires grecques. En 1520, Titien peint cette toile représentant la rencontre de Dyonisos et d'Ariane. Vous pouvez la voir à la National Gallery, à Londres</p>
+                <h6>Titien, Bacchus et Ariane, 1520-1523, National Gallery, Londres</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h3.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">"Bacchus et Ariane" <br>de Sebastiano Ricci</h2>
+                <p> Tout au long des siècles, les peintres multiplient les représentations de l'histoire mais en apportant à chaque fois leur touche personnelle. Dans cette toile peinte en 1710, Dyonisos découvre Ariane alors qu'elle est endormie et on a presque l'impression d'être plongé dans le rêve de la princesse crêtoise.</p>
+                <h6>Sebastiano Ricci, Bacchus et Ariane, 1700-1710</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h4.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">"Thésée retrouve l’épée <br>de son père" <br>de Nicolas Poussin</h2>
+                <p> Quand Nicolas Poussin peint ce tableau en 1638, il s'intéresse autant à la scène et aux personnages qu'aux décors et à la représentation des monuments. Vpus pourrez voir cette toile au chateau de Chantilly, près de Paris.</p>
+                <h6>Nicolas Poussin, Thésée retrouve l’épée de son père, huile sur toile, vers 1638, 98x134, musée Condé, Chantilly</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h5.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">"Thésée combattant le minotaure" <br>de Étienne-Jules Ramey</h2>
+                <p> Il n'y a pas que les peintres qui s'intéressent à l'histoire de Thésée. Vous pourrez admirer cette statue en marbre, réalisée en 1826, dans le jardin des Tuileries, à côté du Louvres, à Paris.</p>
+                <h6>Étienne-Jules Ramey (1796–1852), Thésée combattant le minotaure. Marbre, 1826 ; Jardins des Tuileries, Paris</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h6.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">"La Chute d'Icare" <br>de Rubens</h2>
+                <p> L'histoire de ce pauvre Icare a également inspiré bien des artistes. Rubens, en 1636, montre le malheureux jeune homme en train de tomber, sous le regard désespéré et impuissant de son père.</p>
+                <h6>Rubens, La chute d'Icare, 1636</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h7.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">"Icare" <br>de Henri Matisse</h2>
+                <p> Au 20ème siècle, les artistes prennent davantage de libertés avec l'histoire. Matisse, en 1952, présente un Icare qui semble nager au milieu des étoiles, comme s'il ne devait jamais tomber.</p>
+                <h6>Henri Matisse, Planche au pochoir d'après les gouaches et sur les découpages, 1952</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h8.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">"Le minotaure <br>portant un cheval" <br>de Pablo Picasso</h2>
+                <p> Quand il représente le minotaure en 1937, Pablo Picasso s'intéresse surtout à la représentation de la violence et de la guerre. </p>
+                <h6>Pablo Picasso, Le minotaure portant un cheval, 1937</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h9.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">"Thésée et le Minotaure " <br>de Silvio Amadio </h2>
+                <p> Dès le début du cinéma, les artistes ont voulu représenter les anciennes histoires grecques ou latines. C'est un genre de films qu'on appelle le "Peplum". "Thésée et le minotaure" a été tourné en Italie en 1960.</p>
+                <h6>Thésée et le Minotaure (Teseo contro il minotauro), peplum italien de Silvio Amadio, 1960</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h10.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="rose">"World of Warcraft" <br>Blizzard </h2>
+                <p> Les jeux vidéo ont eux aussi puisé dans les anciennes histoires grecques, parfois de façon très libre. En 2005, les Taurens, qui semblent être les descendants du minotaure, font partie des personnages jouables dans le jeu vidéo "World of Warcraft".</p>
+                <h6>Un tauren, minotaure dans le jeu vidéo World of Warcraft de Blizzard, 2005</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/h11.jpg" > </div>
+          </div>
+          </div>
+      </div>
+      </div>
+    
+    <!--fin du slide--> 
+    <!--début du slide-->
+    <div class="swiper-slide white-slide">
+        <div class="bonus">
+        <div class="colonnetextefull">
+            <h1 class="vert">Les machines volantes</h1>
+            <p> Nous avons tous rêvé de voler, comme un oiseau ou comme Icare en battant des ailes. Pendant des siècles, les hommes ont cru que c'était un rêve, à tout jamais impossible. Mais une longue série d'inventeurs et de savants, dans la lignée de Dédale, ont fini par le rendre possible.</p>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">Les carnets <br>de Léonard de Vinci</h2>
+                <p> Au 16ème siècle, Léonard de Vinci dessine des plans de machines volantes. Celles-ci ne fonctionneront jamais car elles n’ont pas de moteur. Mais leurs plans ressemblent énormément aux avions que nous connaissons.</p>
+                <h6>©Wikipedia</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/s1.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">Les Mongolfières</h2>
+                <p> La première machine volante a été construite par des français : les frères Montgolfier, Joseph et Etienne, au 18ème siècle. Ces brillants ingénieurs ont eu l’idée de remplir un ballon avec de l’air chaud, ce qui permet à une nacelle et à ses passagers de s’élever dans les airs. </p>
+                <h6>http://www.passion-histoire.net/n/www/viewtopic.php?f=72&p=346483 / http://www.ane-pie.fr/activitees_a_la_maison_d_hotes.php</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/s2.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">L'aéroplane <br>de Clément Ader</h2>
+                <p> Le premier homme à faire décoller un véhicule plus lourd que l’air est Clément Ader, un ingénieur français. En 1890, il fait décoller le premier avion du monde, l’Eole, du nom du dieu du vent. Son appareil, à l’apparence de chauve souris, n’est pas maniable et sera par la suite abandonné.</p>
+                <h6>http://lesarchivesbleues.wordpress.com/2012/05/13/le-premier-avion-eole-de-clement-ader/</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/s3.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">L'aéroplane <br>des frères Wright</h2>
+                <p> Orville et Wilbur Wright, deux américains, mettent au point le premier aéroplane : contrairement à l’avion d’Ader, il est possible de tourner et de manoeuvrer l’appareil. En 1904, ils effectuent un premier vol en circuit fermé. En 1908, ils volent avec un passager. En 1909, le pilote Louis Blériot est le premier homme à traverser la Manche par les airs.</p>
+                <h6>©Wikipedia</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/s4.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">L’aviation militaire</h2>
+                <p> Les avions se perfectionnent lors de la première guerre mondiale (1914-1918). Ils sont d’abord utilisés pour espionner les ennemis, puis ils s’arment. C’est l’époque des “as”. Contrairement à la guerre des tranchées, les combats aériens sont vus comme chevaleresques. Durant la deuxième guerre mondiale (1939 - 1945), l’aviation jouera un rôle prépondérant et s'améliorera encore.</p>
+                <h6>©Wikipedia</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/s5.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">Les avions à réaction</h2>
+                <p> Après la deuxième guerre mondiale, les avions civils se développent : pour transporter des marchandises, d’abord, puis, de plus en plus, des passagers. En 1952, le premier avion à réaction est mis en marche : sa vitesse atteint alors 800 km/h. Le Concorde, à la fin des années 60, sera le premier avion à dépasser le mur du son.</p>
+                <h6>http://www.answers.com/topic/concorde-large-image</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/s6.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="vert">Les fusées <br>et les satellites</h2>
+                <p> Mais l’homme ne s’arrête pas là : comme Icare il cherche toujours à aller plus haut. En 1957, les russes lancent le premier satellite habité par un être vivant : le Sputnik. En 1969, l’américain Neil Amstrong est le premier homme à marcher sur la Lune. Depuis, des sondes et des robots ont été envoyés vers toutes les planètes du système solaire... en attendant d’aller encore plus loin ?</p>
+                <h6>©Wikipedia</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/s7.jpg" > </div>
+          </div>
+          </div>
+      </div>
+      </div>
+    
+    <!--fin du slide--> 
+    <!--début du slide-->
+    <div class="swiper-slide white-slide">
+        <div class="bonus">
+        <div class="colonnetextefull">
+            <h1  class="orange">La démocratie</h1>
+           
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">La démocratie Athénienne</h2>
+                <p> La démocratie athénienne est considérée comme une des plus anciennes du monde. Les citoyens organisent des assemblées et votent à la main levée. Ils sont tirés au sort. Mais cette démocratie est très imparfaite : ni les femmes, ni bien sûr les esclaves n’ont le droit de vote. La planche suivante, tirée de la bande dessinée "L'enfant grec" de Jacques Martin, représente les débats publics à Athènes.</p>
+                <h6>Scan d’une case d’Alix “L’enfant grec”</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/ec1.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">La république romaine</h2>
+                <p> La république romaine n’est pas vraiment plus juste : tout le pouvoir est entre les mains du Sénat et il est très difficile pour les hommes du peuple de devenir sénateurs. En -31, l’empire remplace la république. Ici, une représentation du Sénat dans le film "La chute de l'empire romain"</p>
+                <h6>Stanley Kubrick, Spartacus</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/ec2.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">La démocratie <br>parlementaire anglaise</h2>
+                <p> Au 17ème siècle, en Angleterre, le parlement prend le pouvoir. C’est une révolution sans violence. Il y a toujours un roi ou une reine sur le trône mais il ou elle ne peut pas déclarer la guerre sans l’accord du parlement. C’est le parlement également qui décide des lois et qui garantit que les libertés sont respectées. Ici, le palais de Westminster, à Londres, où siège le parlement britannique (Source Wikipédia)</p>
+                <h6>Le palais de Westminster où siège le parlement du Royaume Uni. ©Wikipédia</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/ec3.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">La révolution américaine</h2>
+                <p> Au 18ème siècle, l’Amérique était une colonie dominée par l’Angleterre. Après la guerre d’indépendante, les Etats Unis d’Amérique sont fondés : c’est aujourd’hui la république la plus ancienne du Monde avec un président élu par le peuple. Le premier s’appelle Georges Washington.</p>
+                <h6>Portrait de George Washington par Gilbert Stuart Williamstown, 1846. ©Wikipedia</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/ec4.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">La révolution française</h2>
+                <p> En 1789, la révolution française est d’abord dirigée contre la noblesse plus que contre le roi. Mais celui-ci trahit le peuple et est finalement exécuté. La république est proclamée en 1792. Sa devise : “Liberté, égalité, fraternité”. Ici, le "Serment du jeu de paume", David, 1790 </p>
+                <h6>Serment du jeu de paume, David, 1790</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/ec5.jpg" > </div>
+          </div>
+            <div class="clear">
+            <div class="texteslide">
+                <h2 class="orange">Le vote des femmes <br>(différents pays)</h2>
+                <p>Bien longtemps, les femmes n’ont pas eu les mêmes droits que les hommes. Le code Napoléon les traite en éternelle mineure qui passent de la tutelle du père à celle du mari. Le premier pays à leur donner le droit de vote est la Nouvelle Zélande en 1893. Les autres pays suivent : Le Royaume Uni, la Russie, le Canada en 1918, les Etats-Unis en 1920... pour la France il faudra attendre 1945 ! Ici, une manifestation des sufragettes américaines en 1916.</p>
+                <h6>Manifestation pour le droit de vote des femmes, Washington, 1916. ©Wikipedia</h6>
+              </div>
+            <div class="imageslide"> <img src="bonus/ec6.jpg" > </div>
+          </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+<script src="js/jquery-1.10.1.min.js"></script> 
+<script src="js/idangerous.swiper-2.1.min.js"></script> 
+<script>
+  var tabsSwiper = new Swiper('.swiper-container',{
+   
+    speed:500,
+  })
+  $(".tabs a").on('touchstart mousedown',function(e){
+    e.preventDefault()
+    $(".tabs .active").removeClass('active')
+    $(this).addClass('active')
+    tabsSwiper.swipeTo( $(this).index() )
+  })
+  $(".tabs a").click(function(e){
+    e.preventDefault()
+  })
+  
+  var swiperParent = new Swiper('.swiper-parent',{
+  
+    paginationClickable: true,
+    slidesPerView: 1,
+  })
+   var swiperNested1 = new Swiper('.swiper-nested-0',{
+    mode: 'vertical',
+ 
+    paginationClickable: true,
+  slidesPerView: 'auto',
+  })
+  var swiperNested1 = new Swiper('.swiper-nested-1',{
+    mode: 'vertical',
+  
+    paginationClickable: true,
+  slidesPerView: 'auto',
+  })
+  var swiperNested2 = new Swiper('.swiper-nested-2',{
+    mode: 'vertical',
+
+    paginationClickable: true,
+    slidesPerView: 'auto',
+  })
+   var swiperNested2 = new Swiper('.swiper-nested-3',{
+    mode: 'vertical',
+
+    paginationClickable: true,
+    slidesPerView: 'auto',
+  })
+  </script>
+</body>
+</html>

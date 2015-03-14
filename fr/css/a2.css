@@ -1,0 +1,112 @@
+
+
+
+
+#chouette2.envol2 {
+ 
+	left:24%;
+	top:34%;
+}
+
+
+
+#btnPlus2 {
+
+    height: 5%;
+    left: 19.4%;
+
+    top: 30.95%;
+
+}
+
+
+#bulle2BIG {
+
+    height: 22%;
+    left: 17%;
+
+    top: 1%;
+    width: 22%;
+	
+}
+.page2 #trident {
+		
+    background-repeat: no-repeat;
+    background-size: 200% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	
+	background-image: url("../resources/chapter1/img/b/trident2.jpg");
+	left: 18%;
+	top: 8%;
+	height: 30%;
+	width: 14%;
+	
+		-webkit-animation:trident2 1s step-start infinite;
+	-moz-animation:trident2 1s step-start infinite;
+	animation:trident2 1s step-start infinite;
+}
+
+@-webkit-keyframes trident2 {
+	0%		{
+		background-position:0;
+	}
+	
+	25%	{
+		background-position:+100%;
+	}
+	
+	50%	{
+		background-position:0%;
+	}
+	75%	{
+		background-position:+100%;
+	}
+	100%		{
+		background-position:0;
+	}
+	
+}
+
+@-moz-keyframes trident2 {
+0%		{
+		background-position:0;
+	}
+	
+	25%	{
+		background-position:+100%;
+	}
+	
+	50%	{
+		background-position:0%;
+	}
+	75%	{
+		background-position:+100%;
+	}
+	100%		{
+		background-position:0;
+	}
+	
+	
+}
+
+@keyframes trident2 {
+0%		{
+		background-position:0;
+	}
+	
+	25%	{
+		background-position:+100%;
+	}
+	
+	50%	{
+		background-position:0%;
+	}
+	75%	{
+		background-position:+100%;
+	}
+	100%		{
+		background-position:0;
+	}
+}

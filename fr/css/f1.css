@@ -1,0 +1,742 @@
+.page23 #chouette.envol {
+	left: 24%;
+	top: 34%;
+}
+.page23 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page23 #btnPlus {
+	left: 19.4%;
+	top: 30.95%;
+}
+.page23 #btnPlus:hover {
+	cursor: pointer;
+}
+.page23 #bulle1BIG {
+	height: 22%;
+	left: 17%;
+	top: 1%;
+	width: 22%;
+}
+.page23 #parchemin {
+    background-image: url("../resources/chapter6/img/a/parchemin.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 16.73%;
+    left: 23%;
+    position: absolute;
+    top: 45.1%;
+    width: 8.26%;
+    z-index: 6;	
+  /*  opacity:0;*/
+   /* -webkit-animation-name: parchemin;
+    -webkit-animation-duration: 90s;
+    -webkit-animation-timing-function:alternate;
+    -webkit-animation-delay: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;*/
+}
+@-webkit-keyframes parchemin {
+0% {
+ opacity:0;
+}
+ 1% {
+ opacity:1;
+}
+ 100% {
+ opacity:1;
+}
+}
+ @-moz-keyframes parchemin {
+0% {
+ opacity:0;
+}
+ 1% {
+ opacity:1;
+}
+ 100% {
+ opacity:1;
+}
+}
+@keyframes parchemin {
+0% {
+ opacity:0;
+}
+ 1% {
+ opacity:1;
+}
+ 100% {
+ opacity:1;
+}
+}
+
+.page23 #yeuxhomme {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter6/img/a/yeux1.jpg");
+	left: 12%;
+	top: 45%;
+	height: 3%;
+	width: 5%;
+}
+.page23 #yeuxgarcon {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter6/img/a/yeux2.jpg");
+	left: 54%;
+	top: 36%;
+	height: 7%;
+	width: 6%;
+}
+.bulle1 {
+	background-image: url("../img/bulledroite.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	padding: 3%;
+	top: 29%;
+	left: 40%;
+	width: 10%;
+	height: 4%;
+    -webkit-animation-name: bullea1;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+@-webkit-keyframes bullea1 {
+0% {opacity:0;}
+2% {opacity:1;}    
+5% {opacity:1;}
+7% {opacity:0;}
+100% {opacity:0;}
+}
+ @-moz-keyframes bullea1 {
+0% {opacity:0;}
+2% {opacity:1;}    
+5% {opacity:1;}
+7% {opacity:0;}
+100% {opacity:0;}
+}
+@keyframes bullea1 {
+0% {opacity:0;}
+2% {opacity:1;}    
+5% {opacity:1;}
+7% {opacity:0;}
+100% {opacity:0;}
+}
+.bulle2 {
+	background-image: url("../img/bulle.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	padding: 3%;
+	top: 37%;
+	left: 17%;
+	width: 9%;
+	height: 4%;
+    -webkit-animation-name: bullea2;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 14s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+@-webkit-keyframes bullea2 {
+0% {opacity:0;}
+2% {opacity:1;}    
+5% {opacity:1;}
+7% {opacity:0;}
+100% {opacity:0;}
+}
+ @-moz-keyframes bullea2 {
+0% {opacity:0;}
+2% {opacity:1;}    
+5% {opacity:1;}
+7% {opacity:0;}
+100% {opacity:0;}
+}
+@keyframes bullea2 {
+0% {opacity:0;}
+2% {opacity:1;}    
+5% {opacity:1;}
+7% {opacity:0;}
+100% {opacity:0;}
+}
+
+.bulle3 {
+	background-image: url("../img/bulledroite.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 0.55em;
+	z-index: 8;
+	position: absolute;
+	opacity: 0;
+	padding: 3%;
+	top: 32%;
+	left: 24%;
+	width: 6%;
+	height: 3%;
+    -webkit-animation-name: bullea3;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay: 16s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+@-webkit-keyframes bullea3 {
+0% {opacity:0;}
+2% {opacity:1;}    
+5% {opacity:1;}
+7% {opacity:0;}
+100% {opacity:0;}
+}
+ @-moz-keyframes bullea3 {
+0% {opacity:0;}
+2% {opacity:1;}    
+5% {opacity:1;}
+7% {opacity:0;}
+100% {opacity:0;}
+}
+@keyframes bullea3 {
+0% {opacity:0;}
+2% {opacity:1;}    
+5% {opacity:1;}
+7% {opacity:0;}
+100% {opacity:0;}
+}
+/*page 2*/
+.page24 #chouette.envol {
+	left: 24%;
+	top: 34%;
+}
+.page24 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page24 #btnPlus2 {
+	left: 19.4%;
+	top: 30.95%;
+}
+.page24 #btnPlus:hover {
+	cursor: pointer;
+}
+#bulle2BIG {
+    height: 20%;
+    left: 15%;
+    top: 1%;
+    width: 17%;
+    z-index: 9;
+	}
+	
+.page24 #plan1 {
+    background-image: url("../resources/chapter6/img/b/plan1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 7;
+	}
+	
+.page24 #nuage1 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/b/nuage1.png");
+	left: 15%;
+	top: 10%;
+	height: 9.37%;
+	width: 17.82%;
+}
+.page24 #nuage2 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/b/nuage2.png");
+	left: 25%;
+	top: 10%;
+	height: 9.37%;
+	width: 17.82%;
+}
+.page24 #nuage3 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter3/img/b/nuage3.png");
+	left: 35%;
+	top: 10%;
+	height: 9.37%;
+	width: 17.82%;
+}
+/*page 3*/
+.page25 #chouette.envol {
+	left: 47%;
+	top: 39%;
+}
+.page25 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page25 #btnPlus {
+	left: 52.97%;
+	top: 34.95%;
+}
+.page25 #btnPlus:hover {
+	cursor: pointer;
+}
+#bulle3BIG {
+    height: 15%;
+    left: 34%;
+    top: 19%;
+    width: 12%;
+	}
+
+.page25 #brumearriere {
+    background-image: url("../resources/chapter6/img/c/brumearriere.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+	-webkit-animation: brumearriere 3s infinite alternate;
+	-moz-animation: brumearriere 3s infinite alternate;
+	animation: brumearriere 3s infinite alternate;
+	opacity:0.8;
+	}
+ @-webkit-keyframes brumearriere {
+ 0% {opacity:0.2;}
+ 100% {opacity:1;}
+}
+ @-moz-keyframes brumearriere {
+ 0% {opacity:0.2;}
+ 100% {opacity:1;}
+}
+ @keyframes brumearriere {
+ 0% {opacity:0.2;}
+ 100% {opacity:1;}
+	}
+	
+.page25 #dionysos {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 6;
+	background-image: url("../resources/chapter6/img/c/dionysos.png");
+	left: 0%;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+}
+
+.page25 #brumeavant {
+    background-image: url("../resources/chapter6/img/c/brumeavant.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+	-webkit-animation: brumeavant 8s infinite alternate;
+	-moz-animation: brumeavant 8s infinite alternate;
+	animation: brumeavant 8s infinite alternate;
+	opacity:0;
+	}
+ @-webkit-keyframes brumeavant {
+ 0% {opacity:0.2;}
+ 100% {opacity:1;}
+}
+ @-moz-keyframes brumeavant {
+ 0% {opacity:0.2;}
+ 100% {opacity:1;}
+}
+ @keyframes brumeavant {
+ 0% {opacity:0.2;}
+ 100% {opacity:1;}
+	}
+	
+.page25 #premierplan {
+    background-image: url("../resources/chapter6/img/c/premierplan.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 65%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 6;
+}
+
+/*page 4*/
+
+.page26 #chouette.envol {
+	left: 27%;
+	top: 69%;
+}
+.page26 #chouette.envol:hover {
+	cursor: pointer;
+}
+.page26 #btnPlus {
+	left: 32.97%;
+	top: 64.95%;
+}
+.page26 #btnPlus:hover {
+	cursor: pointer;
+}
+#bulle4BIG {
+    height: 18%;
+    left: 39%;
+    top: 1%;
+    width: 15%;
+	}
+
+
+/*chouettes*/
+
+
+
+#chouette1 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+#chouette1.envol1 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette1.envol1 {
+    left: 58%;
+    top: 5%;	
+	}
+#chouette2 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette2.envol2 {
+    left: 28%;
+    top: 4%;	
+	}
+	
+#chouette2.envol2 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette3 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+#chouette3.envol3 {
+    left: 46%;
+    top: 22%;	
+	}
+	
+#chouette3.envol3 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette4 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette4.envol4 {
+    left: 52%;
+    top: 4%;	
+	}
+	
+#chouette4.envol4 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette5 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette5.envol5 {
+    left: 72%;
+    top: 5%;	
+	}
+
+#chouette5.envol5 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette6 {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette6.envol6 {
+    left: 72%;
+    top: 5%;	
+	}
+
+#chouette6.envol6 {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+
+ @-webkit-keyframes chouette-volante {
+ 0% {
+ background-position:0% 0%;
+}
+ 5% {
+ background-position:10% 0%;
+}
+ 10% {
+ background-position:20% 0%;
+}
+ 18% {
+ background-position:32% 0%;
+}
+ 26% {
+ background-position:44% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:32% 0%;
+}
+ 90% {
+ background-position:56% 0%;
+}
+ 93% {
+ background-position:10% 0%;
+}
+ 96% {
+ background-position:66% 0%;
+}
+ 100% {
+ background-position:77% 0%;
+}
+}
+ @-moz-keyframes chouette-volante {
+ 0% {
+ background-position:0% 0%;
+}
+ 5% {
+ background-position:10% 0%;
+}
+ 10% {
+ background-position:20% 0%;
+}
+ 18% {
+ background-position:32% 0%;
+}
+ 26% {
+ background-position:44% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:32% 0%;
+}
+ 90% {
+ background-position:56% 0%;
+}
+ 93% {
+ background-position:10% 0%;
+}
+ 96% {
+ background-position:66% 0%;
+}
+ 100% {
+ background-position:77% 0%;
+}
+}
+ @keyframes chouette-volante {
+ 0% {
+ background-position:0% 0%;
+}
+ 5% {
+ background-position:10% 0%;
+}
+ 10% {
+ background-position:20% 0%;
+}
+ 18% {
+ background-position:32% 0%;
+}
+ 26% {
+ background-position:44% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:32% 0%;
+}
+ 90% {
+ background-position:56% 0%;
+}
+ 93% {
+ background-position:10% 0%;
+}
+ 96% {
+ background-position:66% 0%;
+}
+ 100% {
+ background-position:77% 0%;
+}
+}
+
+#btnPlus1 {
+    left: 59%;
+    top: 41%;	
+	}
+
+#btnPlus2 {
+    left: 36%;
+    top: 64%;	
+	}
+
+#btnPlus3 {
+    left: 59%;
+    top: 41%;	
+	}
+
+#btnPlus4 {
+    left: 41%;
+    top: 20%;	
+	}
+
+#btnPlus5 {
+    left: 61%;
+    top: 30%;	
+	}
+	
+#btnPlus6 {
+    left: 61%;
+    top: 30%;	
+	}

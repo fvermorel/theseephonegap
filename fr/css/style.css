@@ -1,0 +1,984 @@
+@font-face {
+	font-family: "Lucida Grande";
+	src: url(../../fr/img/LucidaGrande.ttc);
+}
+@font-face {
+	font-family: "EccentricStd";
+	src: url(../../fr/img/EccentricStd.otf);
+}
+
+@font-face{
+	font-family: "Offside-Regular";
+	src: url(../../fr/img/Offside-Regular.ttf);
+}
+
+body {
+	font-size: 100%;
+	height: 100%;
+}
+.hidden {
+	visibility: hidden;
+}
+
+#textechargement{
+    position: relative;
+    margin:0 auto;
+    z-index: 16;
+    top:35%;
+    font-family: "Offside-Regular";    
+    font-size:1em;
+    color:#424242;
+    background-color: #fff;
+    border:solid 1px;
+    border-color: #FE2EC8;
+    width: 300px;
+    height:300px;
+    border-radius: 150px;
+}
+
+/*
+#chargement{
+    background-image: url("../img/chargement01.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    z-index: 16;
+	top:25%;
+	left:48%;
+}*/
+
+#chargement{
+    background-image: url("../img/chargement07.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 65%;
+    width: 40%;
+    z-index: 16;
+	top:21%;
+	left:30%;
+    -webkit-animation: chargement 3s linear infinite;
+	-moz-animation: chargement 3s linear infinite;
+	animation: chargement 3s linear infinite;
+}
+@-webkit-keyframes chargement {
+0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); transform-origin: 50% 50%;}
+100% {-webkit-transform:rotate(360deg); transform:rotate(360deg);transform-origin: 50% 50%;}
+}
+ @-moz-keyframes chargement {
+0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); transform-origin: 50% 50%;}
+100% {-webkit-transform:rotate(360deg); transform:rotate(360deg);transform-origin: 50% 50%;}
+}
+ @keyframes chargement {
+0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); transform-origin: 50% 50%;}
+100% {-webkit-transform:rotate(360deg); transform:rotate(360deg);transform-origin: 50% 50%;}
+}
+}
+
+#wrapper {
+	/*position:relative;*/
+	/*height: 1536px;
+	width:2048px;*/
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#background img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#background img.active {
+	display: block;
+}
+#text {
+	z-index: 11;
+	width: 100%;
+	height: 100%;
+	font-family: "Offside-Regular";
+	font-size: 1em;
+	text-align: left;
+}
+.titre {
+	font-size: 2em;
+	font-family: "EccentricStd";
+	line-height:1em;
+}
+#nav {
+    bottom: 5%;
+    height: 10%;
+    left: 47%;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 16;
+}
+#nav img {
+/*cursor: pointer;*/
+}
+.prev {
+	bottom: 5%;
+	height: 10%;
+	position: absolute;
+	left: 5%;
+	z-index: 10;
+}
+.next {
+    left: 90%;
+    position: absolute;
+    right: 24%;
+    top: 85%;
+    width: 100%;
+    z-index: 10;
+}
+
+#chapters {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    bottom: 10.5%;
+    font-family: "EccentricStd";
+    font-size: 1.2em;
+    height: 0;
+    left: 42%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    text-align: center;
+    width: 15%;
+    z-index: 16;
+	}
+#chapters img {
+	width: 90%;
+	margin: 5%;
+}
+canvas {
+}
+#menu {
+	bottom: 0%;
+	left: 50%;
+	right: 50%;
+}
+#menuImg {
+	margin-left: 1%;
+}
+
+#histoire a{
+	color:#fff;
+    top: 42%;
+    left: 10%;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 16;
+	text-decoration:none;
+}
+
+#coinmalin a{
+	color:#fff;
+    top: 48%;
+    left: 10%;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 16;
+	text-decoration:none;
+}
+
+#bateauhome {
+    animation: 20s infinite ease normal none bateauhome;
+	-webkit-animation: 20s infinite ease normal none bateauhome;
+	-moz-animation: 20s infinite ease normal none bateauhome;
+    background-image: url("../img/bateau.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 12%;
+    position: absolute;
+    width: 11%;
+    z-index: 16;
+	top:30%;
+	left:23%;	
+	}
+	
+@-webkit-keyframes bateauhome {
+ 0% {left:21%;}
+ 10% {left:21.5%;}
+ 20% {left:21%;}
+ 30% {left:21.5%;}
+ 40% {left:21%;}
+ 50% {left:21.5%;}
+ 100% {left:21%;}
+}
+ @-moz-keyframes bateauhome {
+ 0% {left:21%;}
+ 10% {left:21.5%;}
+ 20% {left:21%;}
+ 30% {left:21.5%;}
+ 40% {left:21%;}
+ 50% {left:21.5%;}
+ 100% {left:21%;}
+}
+ @keyframes bateauhome {
+ 0% {left:21%;}
+ 10% {left:21.5%;}
+ 20% {left:21%;}
+ 30% {left:21.5%;}
+ 40% {left:21%;}
+ 50% {left:21.5%;}
+ 100% {left:21%;}
+}
+
+
+.texte {
+	background-color: #FFF;
+	height: 90%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	opacity: 0.8;
+	padding: 1.2em;
+	color: #3A2719;
+	border-radius: 10px;
+}
+.textepageA1 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 15%;
+	top: 5%;
+
+}
+.textepageA2 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 5%;
+	top: 47%;
+}
+.textepageA3 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 60%;
+	top: 20%;
+}
+.textepageA4 {
+	height: 30%;
+	left: 8%;
+	position: absolute;
+	top: 5%;
+	width: 35%;
+	z-index: 15;
+}
+.textepageB1 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 64%;
+	top: 5%;
+}
+.textepageB2 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 60%;
+	top: 5%;
+}
+.textepageB3 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 60%;
+	top: 48%;
+}
+.textepageB4 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 2%;
+	top: 4%;
+}
+.textepageC1 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 60%;
+	top: 30%;
+}
+.textepageC2 {
+	position: absolute;
+	width: 32%;
+	height: 27%;
+	z-index: 15;
+	left: 65%;
+	top: 4%;
+}
+.textepageC3 {
+    height: 25%;
+    left: 11%;
+    position: absolute;
+    top: 1%;
+    width: 35%;
+    z-index: 15;
+}
+.textepageC4 {
+	position: absolute;
+	width: 35%;
+	height: 27%;
+	z-index: 15;
+	left: 10%;
+	top: 53%;
+}
+.textepageD1 {
+    height: 30%;
+    left: 2%;
+    position: absolute;
+    top: 42%;
+    width: 35%;
+    z-index: 15;
+	}
+.textepageD2 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 60%;
+	top: 40%;
+}
+.textepageD3 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 60%;
+	top: 3%;
+}
+.textepageD4 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 60%;
+	top: 6%;
+}
+.textepageD5 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 5%;
+	top: 10%;
+}
+.textepageD6 {
+    height: 30%;
+    left: 60%;
+    position: absolute;
+    top: 44%;
+    width: 35%;
+    z-index: 15;
+	}
+.textepageE1 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 60%;
+	top: 10%;
+}
+.textepageE2 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 30%;
+	top: 3%;
+}
+.textepageE3 {
+    height: 30%;
+    left: 11%;
+    position: absolute;
+    top: 1%;
+    width: 35%;
+    z-index: 15;
+	}
+.textepageE4 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 50%;
+	top: 20%;
+}
+.textepageF1 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 60%;
+	top: 5%;
+}
+.textepageF2 {
+	position: absolute;
+	width: 35%;
+	height: 30%;
+	z-index: 15;
+	left: 60%;
+	top: 5%;
+}
+.textepageF3 {
+	position: absolute;
+	width: 35%;
+	height: 27%;
+	z-index: 15;
+	left: 60%;
+	top: 50%;
+}
+.textepageF4 {
+    height: 30%;
+    left: 60%;
+    position: absolute;
+    top: 44%;
+    width: 35%;
+    z-index: 15;
+	}
+.textepageG1 {
+	position: absolute;
+	width: 96%;
+	height: 75%;
+	z-index: 15;
+	left: 2%;
+	top: 10%;
+}
+.bouton {
+	background-color: #006;
+	height: 3%;
+	left: 68%;
+	position: absolute;
+	top: 68%;
+	width: 3%;
+	z-index: 6;
+}
+.encart {
+	opacity: 0;
+}
+#lecture {
+	width: 80%;
+	height: 20%;
+	z-index: 6;
+}
+.ecrit {
+    background-image: url("../img/btn-fermer.png");
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    float: left;
+    height: 17%;
+    left: 2%;
+    margin-right: 5%;
+    position: absolute;
+    top: 2%;
+    width: 11%;
+    z-index: 10;	}
+.ecrithover {
+    background-image: url("../img/btn-ouvrir.png");
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    float: left;
+    height: 17%;
+    left: 2%;
+    margin-right: 5%;
+    position: absolute;
+    top: 2%;
+    width: 11%;
+    z-index: 10;	}
+.son {
+    background-image: url("../img/btn-son-on.png");
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    float: left;
+    height: 17%;
+    left: 85%;
+    margin-right: 5%;
+    position: absolute;
+    top: 2%;
+    width: 11%;
+    z-index: 10;
+	}
+.sonhover {
+    background-image: url("../img/btn-son-off.png");
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    float: left;
+    height: 17%;
+    left: 85%;
+    margin-right: 5%;
+    position: absolute;
+    top: 2%;
+    width: 11%;
+    z-index: 10;
+}
+#retourAccueil {
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 7%;
+	left: 2%;
+	position: absolute;
+	top: 2%;
+	z-index: 6;
+}
+#retourAccueil img {
+	width: 90%;
+}
+#bulle1BIG {
+/*	background-image: url("../img/bulle1BIG.png");*/	
+    background-color: #666666;
+    background-repeat: no-repeat;
+    border-radius: 58%;
+    box-shadow: 1px 1px 12px #555555;
+    color: #FFFFFF;
+    display: none;
+    font-size: 0.82em;
+    height: 20%;
+    line-height: 1.5em;
+    opacity: 0.8;
+    padding: 9% 10% 10% 8%;
+    position: absolute;
+    width: 16%;
+    z-index: 10;
+    font-family: "Offside-Regular";
+    text-align: center;
+}
+
+#bulle2BIG {
+/*	background-image: url("../img/bulle1BIG.png");*/	
+    background-color: #666666;
+    background-repeat: no-repeat;
+    border-radius: 58%;
+    box-shadow: 1px 1px 12px #555555;
+    color: #FFFFFF;
+    display: none;
+    font-size: 0.82em;
+    height: 20%;
+    line-height: 1.5em;
+    opacity: 0.8;
+    padding: 9% 10% 10% 8%;
+    position: absolute;
+    width: 16%;
+    z-index: 9;
+    font-family: "Offside-Regular";
+    text-align: center;
+}
+#bulle3BIG {
+/*	background-image: url("../img/bulle1BIG.png");*/	
+    background-color: #666666;
+    background-repeat: no-repeat;
+    border-radius: 58%;
+    box-shadow: 1px 1px 12px #555555;
+    color: #FFFFFF;
+    display: none;
+    font-family: "Offside-Regular";
+    text-align: center;
+    font-size: 0.82em;
+    height: 20%;
+    line-height: 1.5em;
+    opacity: 0.8;
+    padding: 9% 10% 10% 8%;
+    position: absolute;
+    width: 16%;
+    z-index: 9;
+}
+#bulle4BIG {
+/*	background-image: url("../img/bulle1BIG.png");*/	
+    background-color: #666666;
+    background-repeat: no-repeat;
+    border-radius: 58%;
+    box-shadow: 1px 1px 12px #555555;
+    color: #FFFFFF;
+    display: none;
+    font-size: 0.82em;
+    height: 20%;
+    line-height: 1.5em;
+    opacity: 0.8;
+    padding: 9% 10% 10% 8%;
+    position: absolute;
+    width: 16%;
+    z-index: 9;
+    font-family: "Offside-Regular";
+    text-align: center;
+}
+#bulle5BIG {
+/*	background-image: url("../img/bulle1BIG.png");*/	
+    background-color: #666666;
+    background-repeat: no-repeat;
+    border-radius: 58%;
+    box-shadow: 1px 1px 12px #555555;
+    color: #FFFFFF;
+    display: none;
+    font-size: 0.82em;
+    height: 20%;
+    line-height: 1.5em;
+    opacity: 0.8;
+    padding: 9% 10% 10% 8%;
+    position: absolute;
+    width: 16%;
+    z-index: 9;
+    font-family: "Offside-Regular";
+    text-align: center;
+}
+#bulle6BIG {
+/*	background-image: url("../img/bulle1BIG.png");*/	
+    background-color: #666666;
+    background-repeat: no-repeat;
+    border-radius: 58%;
+    box-shadow: 1px 1px 12px #555555;
+    color: #FFFFFF;
+    display: none;
+    font-size: 0.82em;
+    height: 20%;
+    line-height: 1.5em;
+    opacity: 0.8;
+    padding: 9% 10% 10% 8%;
+    position: absolute;
+    width: 16%;
+    z-index: 9;
+    font-family: "Offside-Regular";
+    text-align: center;
+}
+#chouette {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+/*.chouettecote {
+	position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 83%;
+	top: 86%;
+	z-index: 20;
+}
+*/
+
+#chouette.envol {
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+	-webkit-animation: chouette-volante 2s step-start forwards;
+	-moz-animation: chouette-volante 2s step-start forwards;
+	animation: chouette-volante 2s step-start forwards;
+}
+#chouette1.atterrissage1 {
+	background: url("../img/mini-chouette-retour.png") no-repeat;
+	left: 82%;
+	top: 86%;
+	-webkit-animation: chouette-terre 2s step-start forwards;
+	-moz-animation: chouette-terre 2s step-start forwards;
+	animation: chouette-terre 2s step-start forwards;
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+}
+#chouette2.atterrissage1 {
+	background: url("../img/mini-chouette-retour.png") no-repeat;
+	left: 82%;
+	top: 86%;
+	-webkit-animation: chouette-terre 2s step-start forwards;
+	-moz-animation: chouette-terre 2s step-start forwards;
+	animation: chouette-terre 2s step-start forwards;
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+}
+#chouette3.atterrissage1 {
+	background: url("../img/mini-chouette-retour.png") no-repeat;
+	left: 82%;
+	top: 86%;
+	-webkit-animation: chouette-terre 2s step-start forwards;
+	-moz-animation: chouette-terre 2s step-start forwards;
+	animation: chouette-terre 2s step-start forwards;
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+}
+#chouette4.atterrissage1 {
+	background: url("../img/mini-chouette-retour.png") no-repeat;
+	left: 82%;
+	top: 86%;
+	-webkit-animation: chouette-terre 2s step-start forwards;
+	-moz-animation: chouette-terre 2s step-start forwards;
+	animation: chouette-terre 2s step-start forwards;
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+}
+#chouette5.atterrissage1 {
+	background: url("../img/mini-chouette-retour.png") no-repeat;
+	left: 82%;
+	top: 86%;
+	-webkit-animation: chouette-terre 2s step-start forwards;
+	-moz-animation: chouette-terre 2s step-start forwards;
+	animation: chouette-terre 2s step-start forwards;
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+}
+#chouette6.atterrissage1 {
+	background: url("../img/mini-chouette-retour.png") no-repeat;
+	left: 82%;
+	top: 86%;
+	-webkit-animation: chouette-terre 2s step-start forwards;
+	-moz-animation: chouette-terre 2s step-start forwards;
+	animation: chouette-terre 2s step-start forwards;
+	-webkit-transition: top 2s ease-in-out, left 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out, left 2s ease-in-out;
+	transition: top 2s ease-in-out, left 2s ease-in-out;
+}
+ @-webkit-keyframes chouette-terre {
+ 0% {
+ background-position:77% 0%;
+}
+ 5% {
+ background-position:66% 0%;
+}
+ 10% {
+ background-position:10% 0%;
+}
+ 18% {
+ background-position:56% 0%;
+}
+ 26% {
+ background-position:32% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:44% 0%;
+}
+ 90% {
+ background-position:32% 0%;
+}
+ 93% {
+ background-position:20% 0%;
+}
+ 96% {
+ background-position:10% 0%;
+}
+ 100% {
+ background-position:0% 0%;
+}
+}
+ @-moz-keyframes chouette-terre {
+ 0% {
+ background-position:77% 0%;
+}
+ 5% {
+ background-position:66% 0%;
+}
+ 10% {
+ background-position:10% 0%;
+}
+ 18% {
+ background-position:56% 0%;
+}
+ 26% {
+ background-position:32% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:44% 0%;
+}
+ 90% {
+ background-position:32% 0%;
+}
+ 93% {
+ background-position:20% 0%;
+}
+ 96% {
+ background-position:10% 0%;
+}
+ 100% {
+ background-position:0% 0%;
+}
+}
+ @keyframes chouette-terre {
+ 0% {
+ background-position:77% 0%;
+}
+ 5% {
+ background-position:66% 0%;
+}
+ 10% {
+ background-position:10% 0%;
+}
+ 18% {
+ background-position:56% 0%;
+}
+ 26% {
+ background-position:32% 0%;
+}
+ 34% {
+ background-position:32% 0%;
+}
+ 42% {
+ background-position:44% 0%;
+}
+ 50% {
+ background-position:32% 0%;
+}
+ 58% {
+ background-position:44% 0%;
+}
+ 66% {
+ background-position:32% 0%;
+}
+ 74% {
+ background-position:44% 0%;
+}
+ 82% {
+ background-position:44% 0%;
+}
+ 90% {
+ background-position:32% 0%;
+}
+ 93% {
+ background-position:20% 0%;
+}
+ 96% {
+ background-position:10% 0%;
+}
+ 100% {
+ background-position:0% 0%;
+}
+}
+#btnPlus {
+	position: absolute;
+	width: 5%;
+	z-index: 10;
+	background-image: url("../img/bulle1.png");
+	background-repeat: no-repeat;
+	background-size: 75% 100%;
+	cursor: pointer;
+	height: 5%;
+}
+#btnPlus1 {
+	position: absolute;
+	width: 5%;
+	z-index: 10;
+	background-image: url("../img/bulle1.png");
+	background-repeat: no-repeat;
+	background-size: 75% 100%;
+	cursor: pointer;
+	height: 5%;
+}
+#btnPlus2 {
+	position: absolute;
+	width: 5%;
+	z-index: 10;
+	background-image: url("../img/bulle1.png");
+	background-repeat: no-repeat;
+	background-size: 75% 100%;
+	cursor: pointer;
+	height: 5%;
+}
+#btnPlus3 {
+	position: absolute;
+	width: 5%;
+	z-index: 10;
+	background-image: url("../img/bulle1.png");
+	background-repeat: no-repeat;
+	background-size: 75% 100%;
+	cursor: pointer;
+	height: 5%;
+}
+#btnPlus4 {
+	position: absolute;
+	width: 5%;
+	z-index: 10;
+	background-image: url("../img/bulle1.png");
+	background-repeat: no-repeat;
+	background-size: 75% 100%;
+	cursor: pointer;
+	height: 5%;
+}
+#btnPlus5 {
+	position: absolute;
+	width: 5%;
+	z-index: 10;
+	background-image: url("../img/bulle1.png");
+	background-repeat: no-repeat;
+	background-size: 75% 100%;
+	cursor: pointer;
+	height: 5%;
+}
+#btnPlus6 {
+	position: absolute;
+	width: 5%;
+	z-index: 10;
+	background-image: url("../img/bulle1.png");
+	background-repeat: no-repeat;
+	background-size: 75% 100%;
+	cursor: pointer;
+	height: 5%;
+}
+#getFileContents{
+	height:12%;
+	width:9%;
+	position:absolute;
+	top:70%;
+	z-index:10;
+	/*background-image: url("../img/drapeau-anglais.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+	
+}

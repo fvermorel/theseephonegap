@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.page21 #chouette.envol {
+  
+	left: 87%;
+    top: 39%;
+}
+
+.page21 #chouette.envol:hover {
+	cursor:pointer;
+}
+
+
+.page21 #btnPlus {
+    left: 92.97%;
+
+    top: 34.95%;
+  
+}
+
+.page21 #btnPlus:hover {
+	cursor:pointer;
+}
+
+.page21 #bulle1BIG {
+
+    height: 22%;
+    left: 64%;
+ 
+    top: 5%;
+    width: 22%;
+
+}
+
+.page21 #soleil{
+	
+		   background-repeat: no-repeat;
+    background-size: 300% 100%; 
+	
+	  position: absolute;
+    z-index: 6; 
+	background-image: url("../resources/chapter5/img/c/soleil2.jpg");
+	right: 0%;
+	top: 0%;
+	height:41.1% ;
+	width: 33.1%;
+	-webkit-animation:soleil2 2s step-start infinite;
+	-moz-animation:soleil2 2s step-start infinite;
+	animation:soleil2 2s step-start infinite;
+}
+
+@-webkit-keyframes soleil2 {
+	0%		{
+		background-position:0;
+	}
+	
+	20%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:+200%;
+	}
+	60%	{
+		background-position:+100%;
+	}
+	80%		{
+		background-position:0;
+	}
+	
+}
+
+@-moz-keyframes soleil2 {
+	0%		{
+		background-position:0;
+	}
+	
+	20%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:+200%;
+	}
+	60%	{
+		background-position:+100%;
+	}
+	80%		{
+		background-position:0;
+	}
+	
+	
+}
+
+@keyframes soleil2 {
+	0%		{
+		background-position:0;
+	}
+	
+	20%	{
+		background-position:+100%;
+	}
+	
+	40%	{
+		background-position:+200%;
+	}
+	60%	{
+		background-position:+100%;
+	}
+	80%		{
+		background-position:0;
+	}
+}
