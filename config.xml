@@ -16,5 +16,8 @@
     <author href="http://www.oracle-editions.com/" email="fvermorel@gmail.com">
       Oracle Editions
     </author>
+	<preference name="orientation" value="landscape" />
+	<icon src="icon.png" />
+	<gap:splash src="splash.png" />
 
 </widget>
