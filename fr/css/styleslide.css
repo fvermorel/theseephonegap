@@ -11,7 +11,9 @@ body {
   height: 100%;
 }
 .swiper-container {
-  width: 100%;
+  width: 1024px;
+  margin-left:auto!important;
+  margin-right:auto!important;
   height: 100%;
  
   text-align: center;
