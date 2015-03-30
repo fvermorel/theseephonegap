@@ -225,15 +225,25 @@ h6 {
 .clear {
 	clear: both;
 }
+
+#wrapper {
+	  width: 1024px;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  height: 768px;
+	
+}
 </style>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-<div id="retourAccueil"><a href="index.html"><img src="img/home.png"/></a></div>
+  
+<div id="wrapper">
+	<div id="retourAccueil"><a href="index.html"><img src="img/home.png"/></a></div>
 
-<div id="background" ><!-- ici seront chargés les background des pages --> 
+	<div id="background" ><!-- ici seront chargés les background des pages --> 
     <img id="page" src="resources/chapter7/img/1.jpg" class="coinmalin" /> </div>
-<div class="tabs"> <a href="#" class="violet">Géographie</a> <a href="#" class="rose" >Histoire de l'art</a> <a href="#" class="vert">Sciences</a> <a href="#" class="orange">Education Civique</a> </div>
+	<div class="tabs"> <a href="#" class="violet">Géographie</a> <a href="#" class="rose" >Histoire de l'art</a> <a href="#" class="vert">Sciences</a> <a href="#" class="orange">Education Civique</a> </div>
 <!--------------------------------------------------------------------------->
 <div class="swiper-container swiper-parent" style="clear:both;">
     <div class="swiper-wrapper">
@@ -510,6 +520,7 @@ h6 {
       </div>
   </div>
   </div>
+</div>
 <script src="js/jquery-1.10.1.min.js"></script> 
 <script src="js/idangerous.swiper-2.1.min.js"></script> 
 <script>
