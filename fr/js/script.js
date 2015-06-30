@@ -100,7 +100,7 @@ function closeMenu(){
     menuStatus = 1;
 }
 function openMenu(){
-    $("#chapters").animate({ 'height': "60%" }, 500 );
+    $("#chapters").animate({ 'height': "88%" }, 500 );
     menuStatus = 0;
 }
 

@@ -9,12 +9,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage1.png");
-	-webkit-transition: left 27s linear;
-	-moz-transition: left 27s linear;
-	transition: left 27s linear;
-	-webkit-animation: nuage12 27s linear infinite;
-	-moz-animation: nuage12 27s linear infinite;
-	animation: nuage12 27s linear infinite;
+	-webkit-transition: left 50s linear;
+	-moz-transition: left 50s linear;
+	transition: left 50s linear;
+	-webkit-animation: nuage12 50s linear infinite;
+	-moz-animation: nuage12 50s linear infinite;
+	animation: nuage12 50s linear infinite;
 }
 @-webkit-keyframes nuage12 {
  0% {
@@ -55,12 +55,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage2.png");
-	-webkit-transition: left 36s linear;
-	-moz-transition: left 36s linear;
-	transition: left 36s linear;
-	-webkit-animation: nuage22 36s linear infinite;
-	-moz-animation: nuage22 36s linear infinite;
-	animation: nuage22 36s linear infinite;
+	-webkit-transition: left 60s linear;
+	-moz-transition: left 60s linear;
+	transition: left 60s linear;
+	-webkit-animation: nuage22 60s linear infinite;
+	-moz-animation: nuage22 60s linear infinite;
+	animation: nuage22 60s linear infinite;
 }
  @-webkit-keyframes nuage22 {
  0% {
@@ -113,12 +113,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage3.png");
-	-webkit-transition: left 29.7s linear;
-	-moz-transition: left 29.7s linear;
-	transition: left 29.7s linear;
-	-webkit-animation: nuage32 29.7s linear infinite;
-	-moz-animation: nuage32 29.7s linear infinite;
-	animation: nuage32 29.7s linear infinite;
+	-webkit-transition: left 55s linear;
+	-moz-transition: left 55s linear;
+	transition: left 55s linear;
+	-webkit-animation: nuage32 55s linear infinite;
+	-moz-animation: nuage32 55s linear infinite;
+	animation: nuage32 55s linear infinite;
 }
 @-webkit-keyframes nuage32 {
  0% {
@@ -172,12 +172,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage4.png");
-	-webkit-transition: left 15s linear;
-	-moz-transition: left 15s linear;
-	transition: left 15s linear;
-	-webkit-animation: nuage42 15s linear infinite;
-	-moz-animation: nuage42 15s linear infinite;
-	animation: nuage42 15s linear infinite;
+	-webkit-transition: left 30s linear;
+	-moz-transition: left 30s linear;
+	transition: left 30s linear;
+	-webkit-animation: nuage42 30s linear infinite;
+	-moz-animation: nuage42 30s linear infinite;
+	animation: nuage42 30s linear infinite;
 }
 @-webkit-keyframes nuage42 {
  0% {
@@ -218,12 +218,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage5.png");
-	-webkit-transition: left 18s linear;
-	-moz-transition: left 18s linear;
-	transition: left 18s linear;
-	-webkit-animation: nuage52 18s linear infinite;
-	-moz-animation: nuage52 18s linear infinite;
-	animation: nuage52 18s linear infinite;
+	-webkit-transition: left 38s linear;
+	-moz-transition: left 38s linear;
+	transition: left 38s linear;
+	-webkit-animation: nuage52 38s linear infinite;
+	-moz-animation: nuage52 38s linear infinite;
+	animation: nuage52 38s linear infinite;
 }
 @-webkit-keyframes nuage52 {
  0% {
@@ -276,12 +276,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage1.png");
-	-webkit-transition: left 21s linear;
-	-moz-transition: left 21s linear;
-	transition: left 21s linear;
-	-webkit-animation: nuage62 21s linear infinite;
-	-moz-animation: nuage62 21s linear infinite;
-	animation: nuage62 21s linear infinite;
+	-webkit-transition: left 42s linear;
+	-moz-transition: left 42s linear;
+	transition: left 42s linear;
+	-webkit-animation: nuage62 42s linear infinite;
+	-moz-animation: nuage62 42s linear infinite;
+	animation: nuage62 42s linear infinite;
 }
 @-webkit-keyframes nuage62 {
  0% {
@@ -334,12 +334,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage1.png");
-	-webkit-transition: left 24s linear;
-	-moz-transition: left 24s linear;
-	transition: left 24s linear;
-	-webkit-animation: nuage72 24s linear infinite;
-	-moz-animation: nuage72 24s linear infinite;
-	animation: nuage72 24s linear infinite;
+	-webkit-transition: left 48s linear;
+	-moz-transition: left 48s linear;
+	transition: left 48s linear;
+	-webkit-animation: nuage72 48s linear infinite;
+	-moz-animation: nuage72 48s linear infinite;
+	animation: nuage72 48s linear infinite;
 }
 @-webkit-keyframes nuage72 {
  0% {
@@ -393,12 +393,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage3.png");
-	-webkit-transition: left 20s linear;
-	-moz-transition: left 20s linear;
-	transition: left 20s linear;
-	-webkit-animation: nuage82 20s linear infinite;
-	-moz-animation: nuage82 20s linear infinite;
-	animation: nuage82 20s linear infinite;
+	-webkit-transition: left 40s linear;
+	-moz-transition: left 40s linear;
+	transition: left 40s linear;
+	-webkit-animation: nuage82 40s linear infinite;
+	-moz-animation: nuage82 40s linear infinite;
+	animation: nuage82 40s linear infinite;
 }
 @-webkit-keyframes nuage82 {
  0% {
@@ -439,12 +439,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage4.png");
-	-webkit-transition: left 25s linear;
-	-moz-transition: left 25s linear;
-	transition: left 25s linear;
-	-webkit-animation: nuage92 25s linear infinite;
-	-moz-animation: nuage92 25s linear infinite;
-	animation: nuage92 25s linear infinite;
+	-webkit-transition: left 50s linear;
+	-moz-transition: left 50s linear;
+	transition: left 50s linear;
+	-webkit-animation: nuage92 50s linear infinite;
+	-moz-animation: nuage92 50s linear infinite;
+	animation: nuage92 50s linear infinite;
 }
 @-webkit-keyframes nuage92 {
  0% {
@@ -497,12 +497,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage4.png");
-	-webkit-transition: left 30s linear;
-	-moz-transition: left 30s linear;
-	transition: left 30s linear;
-	-webkit-animation: nuage102 30s linear infinite;
-	-moz-animation: nuage102 30s linear infinite;
-	animation: nuage102 30s linear infinite;
+	-webkit-transition: left 62s linear;
+	-moz-transition: left 62s linear;
+	transition: left 62s linear;
+	-webkit-animation: nuage102 62s linear infinite;
+	-moz-animation: nuage102 62s linear infinite;
+	animation: nuage102 62s linear infinite;
 }
 @-webkit-keyframes nuage102 {
  0% {
@@ -558,12 +558,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage1.png");
-	-webkit-transition: left 27s linear;
-	-moz-transition: left 27s linear;
-	transition: left 27s linear;
-	-webkit-animation: nuage12 27s linear infinite;
-	-moz-animation: nuage12 27s linear infinite;
-	animation: nuage12 27s linear infinite;
+	-webkit-transition: left 54s linear;
+	-moz-transition: left 54s linear;
+	transition: left 54s linear;
+	-webkit-animation: nuage12 54s linear infinite;
+	-moz-animation: nuage12 54s linear infinite;
+	animation: nuage12 54s linear infinite;
 }
 @-webkit-keyframes nuage12 {
  0% {
@@ -604,12 +604,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage2.png");
-	-webkit-transition: left 36s linear;
-	-moz-transition: left 36s linear;
-	transition: left 36s linear;
-	-webkit-animation: nuage22 36s linear infinite;
-	-moz-animation: nuage22 36s linear infinite;
-	animation: nuage22 36s linear infinite;
+	-webkit-transition: left 72s linear;
+	-moz-transition: left 72s linear;
+	transition: left 72s linear;
+	-webkit-animation: nuage22 72s linear infinite;
+	-moz-animation: nuage22 72s linear infinite;
+	animation: nuage22 72s linear infinite;
 }
  @-webkit-keyframes nuage22 {
  0% {
@@ -662,12 +662,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage3.png");
-	-webkit-transition: left 29.7s linear;
-	-moz-transition: left 29.7s linear;
-	transition: left 29.7s linear;
-	-webkit-animation: nuage32 29.7s linear infinite;
-	-moz-animation: nuage32 29.7s linear infinite;
-	animation: nuage32 29.7s linear infinite;
+	-webkit-transition: left 65s linear;
+	-moz-transition: left 65s linear;
+	transition: left 65s linear;
+	-webkit-animation: nuage32 65s linear infinite;
+	-moz-animation: nuage32 65s linear infinite;
+	animation: nuage32 65s linear infinite;
 }
 @-webkit-keyframes nuage32 {
  0% {
@@ -721,12 +721,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage4.png");
-	-webkit-transition: left 15s linear;
-	-moz-transition: left 15s linear;
-	transition: left 15s linear;
-	-webkit-animation: nuage42 15s linear infinite;
-	-moz-animation: nuage42 15s linear infinite;
-	animation: nuage42 15s linear infinite;
+	-webkit-transition: left 32s linear;
+	-moz-transition: left 32s linear;
+	transition: left 32s linear;
+	-webkit-animation: nuage42 32s linear infinite;
+	-moz-animation: nuage42 32s linear infinite;
+	animation: nuage42 32s linear infinite;
 }
 @-webkit-keyframes nuage42 {
  0% {
@@ -767,12 +767,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage5.png");
-	-webkit-transition: left 18s linear;
-	-moz-transition: left 18s linear;
-	transition: left 18s linear;
-	-webkit-animation: nuage52 18s linear infinite;
-	-moz-animation: nuage52 18s linear infinite;
-	animation: nuage52 18s linear infinite;
+	-webkit-transition: left 36s linear;
+	-moz-transition: left 36s linear;
+	transition: left 36s linear;
+	-webkit-animation: nuage52 36s linear infinite;
+	-moz-animation: nuage52 36s linear infinite;
+	animation: nuage52 36s linear infinite;
 }
 @-webkit-keyframes nuage52 {
  0% {
@@ -825,12 +825,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage1.png");
-	-webkit-transition: left 21s linear;
-	-moz-transition: left 21s linear;
-	transition: left 21s linear;
-	-webkit-animation: nuage62 21s linear infinite;
-	-moz-animation: nuage62 21s linear infinite;
-	animation: nuage62 21s linear infinite;
+	-webkit-transition: left 42s linear;
+	-moz-transition: left 42s linear;
+	transition: left 42s linear;
+	-webkit-animation: nuage62 42s linear infinite;
+	-moz-animation: nuage62 42s linear infinite;
+	animation: nuage62 42s linear infinite;
 }
 @-webkit-keyframes nuage62 {
  0% {
@@ -883,12 +883,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage1.png");
-	-webkit-transition: left 24s linear;
-	-moz-transition: left 24s linear;
-	transition: left 24s linear;
-	-webkit-animation: nuage72 24s linear infinite;
-	-moz-animation: nuage72 24s linear infinite;
-	animation: nuage72 24s linear infinite;
+	-webkit-transition: left 44s linear;
+	-moz-transition: left 44s linear;
+	transition: left 44s linear;
+	-webkit-animation: nuage72 44s linear infinite;
+	-moz-animation: nuage72 44s linear infinite;
+	animation: nuage72 44s linear infinite;
 }
 @-webkit-keyframes nuage72 {
  0% {
@@ -942,12 +942,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage3.png");
-	-webkit-transition: left 20s linear;
-	-moz-transition: left 20s linear;
-	transition: left 20s linear;
-	-webkit-animation: nuage82 20s linear infinite;
-	-moz-animation: nuage82 20s linear infinite;
-	animation: nuage82 20s linear infinite;
+	-webkit-transition: left 40s linear;
+	-moz-transition: left 40s linear;
+	transition: left 40s linear;
+	-webkit-animation: nuage82 40s linear infinite;
+	-moz-animation: nuage82 40s linear infinite;
+	animation: nuage82 40s linear infinite;
 }
 @-webkit-keyframes nuage82 {
  0% {
@@ -988,12 +988,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage4.png");
-	-webkit-transition: left 25s linear;
-	-moz-transition: left 25s linear;
-	transition: left 25s linear;
-	-webkit-animation: nuage92 25s linear infinite;
-	-moz-animation: nuage92 25s linear infinite;
-	animation: nuage92 25s linear infinite;
+	-webkit-transition: left 50s linear;
+	-moz-transition: left 50s linear;
+	transition: left 50s linear;
+	-webkit-animation: nuage92 50s linear infinite;
+	-moz-animation: nuage92 50s linear infinite;
+	animation: nuage92 50s linear infinite;
 }
 @-webkit-keyframes nuage92 {
  0% {
@@ -1046,12 +1046,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage4.png");
-	-webkit-transition: left 30s linear;
-	-moz-transition: left 30s linear;
-	transition: left 30s linear;
-	-webkit-animation: nuage102 30s linear infinite;
-	-moz-animation: nuage102 30s linear infinite;
-	animation: nuage102 30s linear infinite;
+	-webkit-transition: left 60s linear;
+	-moz-transition: left 60s linear;
+	transition: left 60s linear;
+	-webkit-animation: nuage102 60s linear infinite;
+	-moz-animation: nuage102 60s linear infinite;
+	animation: nuage102 60s linear infinite;
 }
 @-webkit-keyframes nuage102 {
  0% {
@@ -1107,12 +1107,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage1.png");
-	-webkit-transition: left 27s linear;
-	-moz-transition: left 27s linear;
-	transition: left 27s linear;
-	-webkit-animation: nuage12 27s linear infinite;
-	-moz-animation: nuage12 27s linear infinite;
-	animation: nuage12 27s linear infinite;
+	-webkit-transition: left 54s linear;
+	-moz-transition: left 54s linear;
+	transition: left 54s linear;
+	-webkit-animation: nuage12 54s linear infinite;
+	-moz-animation: nuage12 54s linear infinite;
+	animation: nuage12 54s linear infinite;
 }
 @-webkit-keyframes nuage12 {
  0% {
@@ -1153,12 +1153,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage2.png");
-	-webkit-transition: left 36s linear;
-	-moz-transition: left 36s linear;
-	transition: left 36s linear;
-	-webkit-animation: nuage22 36s linear infinite;
-	-moz-animation: nuage22 36s linear infinite;
-	animation: nuage22 36s linear infinite;
+	-webkit-transition: left 72s linear;
+	-moz-transition: left 72s linear;
+	transition: left 72s linear;
+	-webkit-animation: nuage22 72s linear infinite;
+	-moz-animation: nuage22 72s linear infinite;
+	animation: nuage22 72s linear infinite;
 }
  @-webkit-keyframes nuage22 {
  0% {
@@ -1211,12 +1211,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage3.png");
-	-webkit-transition: left 29.7s linear;
-	-moz-transition: left 29.7s linear;
-	transition: left 29.7s linear;
-	-webkit-animation: nuage32 29.7s linear infinite;
-	-moz-animation: nuage32 29.7s linear infinite;
-	animation: nuage32 29.7s linear infinite;
+	-webkit-transition: left 60s linear;
+	-moz-transition: left 60s linear;
+	transition: left 60s linear;
+	-webkit-animation: nuage32 60s linear infinite;
+	-moz-animation: nuage32 60s linear infinite;
+	animation: nuage32 60s linear infinite;
 }
 @-webkit-keyframes nuage32 {
  0% {
@@ -1270,12 +1270,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage4.png");
-	-webkit-transition: left 15s linear;
-	-moz-transition: left 15s linear;
-	transition: left 15s linear;
-	-webkit-animation: nuage42 15s linear infinite;
-	-moz-animation: nuage42 15s linear infinite;
-	animation: nuage42 15s linear infinite;
+	-webkit-transition: left 30s linear;
+	-moz-transition: left 30s linear;
+	transition: left 30s linear;
+	-webkit-animation: nuage42 30s linear infinite;
+	-moz-animation: nuage42 30s linear infinite;
+	animation: nuage42 30s linear infinite;
 }
 @-webkit-keyframes nuage42 {
  0% {
@@ -1316,12 +1316,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage5.png");
-	-webkit-transition: left 18s linear;
-	-moz-transition: left 18s linear;
-	transition: left 18s linear;
-	-webkit-animation: nuage52 18s linear infinite;
-	-moz-animation: nuage52 18s linear infinite;
-	animation: nuage52 18s linear infinite;
+	-webkit-transition: left 36s linear;
+	-moz-transition: left 36s linear;
+	transition: left 36s linear;
+	-webkit-animation: nuage52 36s linear infinite;
+	-moz-animation: nuage52 36s linear infinite;
+	animation: nuage52 36s linear infinite;
 }
 @-webkit-keyframes nuage52 {
  0% {
@@ -1374,12 +1374,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage1.png");
-	-webkit-transition: left 21s linear;
-	-moz-transition: left 21s linear;
-	transition: left 21s linear;
-	-webkit-animation: nuage62 21s linear infinite;
-	-moz-animation: nuage62 21s linear infinite;
-	animation: nuage62 21s linear infinite;
+	-webkit-transition: left 42s linear;
+	-moz-transition: left 42s linear;
+	transition: left 42s linear;
+	-webkit-animation: nuage62 42s linear infinite;
+	-moz-animation: nuage62 42s linear infinite;
+	animation: nuage62 42s linear infinite;
 }
 @-webkit-keyframes nuage62 {
  0% {
@@ -1432,12 +1432,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage1.png");
-	-webkit-transition: left 24s linear;
-	-moz-transition: left 24s linear;
-	transition: left 24s linear;
-	-webkit-animation: nuage72 24s linear infinite;
-	-moz-animation: nuage72 24s linear infinite;
-	animation: nuage72 24s linear infinite;
+	-webkit-transition: left 48s linear;
+	-moz-transition: left 48s linear;
+	transition: left 48s linear;
+	-webkit-animation: nuage72 48s linear infinite;
+	-moz-animation: nuage72 48s linear infinite;
+	animation: nuage72 48s linear infinite;
 }
 @-webkit-keyframes nuage72 {
  0% {
@@ -1491,12 +1491,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage3.png");
-	-webkit-transition: left 20s linear;
-	-moz-transition: left 20s linear;
-	transition: left 20s linear;
-	-webkit-animation: nuage82 20s linear infinite;
-	-moz-animation: nuage82 20s linear infinite;
-	animation: nuage82 20s linear infinite;
+	-webkit-transition: left 40s linear;
+	-moz-transition: left 40s linear;
+	transition: left 40s linear;
+	-webkit-animation: nuage82 40s linear infinite;
+	-moz-animation: nuage82 40s linear infinite;
+	animation: nuage82 40s linear infinite;
 }
 @-webkit-keyframes nuage82 {
  0% {
@@ -1537,12 +1537,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage4.png");
-	-webkit-transition: left 25s linear;
-	-moz-transition: left 25s linear;
-	transition: left 25s linear;
-	-webkit-animation: nuage92 25s linear infinite;
-	-moz-animation: nuage92 25s linear infinite;
-	animation: nuage92 25s linear infinite;
+	-webkit-transition: left 50s linear;
+	-moz-transition: left 50s linear;
+	transition: left 50s linear;
+	-webkit-animation: nuage92 50s linear infinite;
+	-moz-animation: nuage92 50s linear infinite;
+	animation: nuage92 50s linear infinite;
 }
 @-webkit-keyframes nuage92 {
  0% {
@@ -1595,12 +1595,12 @@
 	z-index: 6;
 	top: 0;
 	background-image: url("../resources/chapter1/img/a/nuage4.png");
-	-webkit-transition: left 30s linear;
-	-moz-transition: left 30s linear;
-	transition: left 30s linear;
-	-webkit-animation: nuage102 30s linear infinite;
-	-moz-animation: nuage102 30s linear infinite;
-	animation: nuage102 30s linear infinite;
+	-webkit-transition: left 60s linear;
+	-moz-transition: left 60s linear;
+	transition: left 60s linear;
+	-webkit-animation: nuage102 60s linear infinite;
+	-moz-animation: nuage102 60s linear infinite;
+	animation: nuage102 60s linear infinite;
 }
 @-webkit-keyframes nuage102 {
  0% {

@@ -41,9 +41,16 @@
 
           $(".ecrit").click(function (){
 
-          $(".texte").fadeToggle("slow", "linear");
+          $(".encart").toggleClass("encartbaisse");
 
-          $("#ecrit").toggleClass("ecrit").toggleClass("ecrithover");
+           $(".ecrit").toggleClass("ecrithover");
+
+          });
+		    $(".son").click(function (){
+
+        
+
+          $(".son").toggleClass("sonhover");
 
           });
 	
@@ -130,7 +137,7 @@ function closeMenu(){
     menuStatus = 1;
 }
 function openMenu(){
-    $("#chapters").animate({ 'height': "60%" }, 500 );
+    $("#chapters").animate({ 'height': "88%" }, 500 );
     menuStatus = 0;
 }
 

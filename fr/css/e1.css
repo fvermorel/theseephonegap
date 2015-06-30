@@ -651,7 +651,7 @@
     -webkit-animation-name: brume1;
     -webkit-animation-duration: 90s;
     -webkit-animation-timing-function:alternate;
-    -webkit-animation-delay: 4s;
+    -webkit-animation-delay: 1s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: normal;
     -webkit-animation-play-state: running;
@@ -698,7 +698,7 @@
     -webkit-animation-name: brume2;
     -webkit-animation-duration: 90s;
     -webkit-animation-timing-function:alternate;
-    -webkit-animation-delay: 8s;
+    -webkit-animation-delay: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: normal;
     -webkit-animation-play-state: running;
@@ -745,7 +745,7 @@
     -webkit-animation-name: brume3;
     -webkit-animation-duration: 90s;
     -webkit-animation-timing-function:alternate;
-    -webkit-animation-delay: 12s;
+    -webkit-animation-delay: 5s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: normal;
     -webkit-animation-play-state: running;

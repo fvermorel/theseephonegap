@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
              <meta name="apple-mobile-web-app-capable" content="yes" />
 		<script type="text/javascript" src="fr/js/jquery.js"></script>
-		<script type="text/javascript" src="fr/js/old.js"></script>	
+		
 		 <script type="text/javascript" src="fr/js/book.js"></script> 	
  
       <!-- Plugin jQuery pour animations basées sur courbe de Bézier (ex : sinusoïde) -->
@@ -275,13 +275,32 @@ $('#autreslivres').append(livres.join(''));
     <div id="menu"> <img id="menuImg" src="fr/img/menu.png" alt="menu" /> </div>
   </div>
 			<div id="chapters">
-			</div>
+           <a href="chapitre1.html"> <img src="fr/resources/menu1.jpg"  alt=""/> </a>
+           <a href="chapitre2.html"> <img src="fr/resources/menu2.jpg"  alt=""/> </a>
+           <a href="chapitre3.html"> <img src="fr/resources/menu3.jpg"  alt=""/> </a>
+           <a href="chapitre4.html"> <img src="fr/resources/menu4.jpg"  alt=""/> </a>
+           <a href="chapitre5.html"> <img src="fr/resources/menu5.jpg"  alt=""/> </a>
+           <a href="chapitre6.html"> <img src="fr/resources/menu6.jpg"  alt=""/> </a>
+            
+            </div>
 		</div>
+        <div class="popup tutorial">
+        Tutorial
+        </div>
+       
         
         <script type="text/javascript" src="fr/cordova.js"></script>
         <script type="text/javascript" src="fr/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+			
+			  $("#btnInfo").click(function (){
+
+        
+
+          $(".tutorial").toggleClass("visible");
+
+          });
             </script>
         
     </body>
