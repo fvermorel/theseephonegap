@@ -45,7 +45,7 @@
     </div>
     <div id="chargement"></div>
 </div>
-<!--  -->
+  
 
 
 <div class="swiper-container">
@@ -56,11 +56,15 @@
         <div class="encart ">
           <div id="lecture">
           <div id="ecrit" class="ecrit"></div>
-          <div id="son1" class="son">
+          
+        
+          <div id="son1" class="son" >
           <audio id="voix1"  preload="auto" autostart="false" type="audio/mpeg">
           <source src="voix/chapitre1.mp3" autostart="false" type="audio/mpeg">
           </audio>
           </div>
+       
+         
             <audio id="bruit1" preload="auto" autostart="false" type="audio/mpeg">
               <source src="son/a1.mp3" autostart="false" type="audio/mpeg"  >
             </audio>
@@ -221,9 +225,9 @@
 				$("#yeuxpasiphae").css("animation-play-state", "running");
 				
 				$("#bruit1").playMedia();
-				setTimeout (function(){
-				$("#voix1").playMedia();
-				},3000);
+			//	setTimeout (function(){
+//				$("#voix1").playMedia();
+//				},3000);
 			},
 			pause	: function() {
 				$("#nuage1").css("animation-play-state", "paused");
@@ -339,10 +343,12 @@
 			workflow[s.activeIndex].play();
 		}
 	  })
-	$('#son1').click(function() {
-	
+	  
+		$('#son1').click(function() {
 		$('#voix1').pauseMedia();
 	});
+	
+	
 	$('#son2').click(function() {
 		$('#voix2').pauseMedia();
 	});
