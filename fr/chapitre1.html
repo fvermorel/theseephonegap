@@ -343,9 +343,16 @@
 			workflow[s.activeIndex].play();
 		}
 	  })
-	  
+	  	$play = true;
 		$('#son1').click(function() {
+			if ($play) {
 		$('#voix1').pauseMedia();
+		$play = false;
+			}
+			else {
+				$('#voix1').playMedia();
+				$play = true;
+			}
 	});
 	
 	
