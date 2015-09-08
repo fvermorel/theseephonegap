@@ -95,12 +95,13 @@ function preload(imagesToLoad, start) {
     }
 }
 
-function closeMenu(){
+/*function closeMenu(){
     $("#chapters").animate({ 'height': "0%" }, 500 );
     menuStatus = 1;
 }
 function openMenu(){
     $("#chapters").animate({ 'height': "88%" }, 500 );
     menuStatus = 0;
-}
+}*/
 
+ 

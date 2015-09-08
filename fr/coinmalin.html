@@ -239,7 +239,7 @@ h6 {
   <body>
   
 <div id="wrapper">
-	<div id="retourAccueil"><a href="index.html"><img src="img/home.png"/></a></div>
+	<div id="retourAccueil"><a href="../index.html"><img src="img/home.png"/></a></div>
 
 	<div id="background" ><!-- ici seront chargés les background des pages --> 
     <img id="page" src="resources/chapter7/img/1.jpg" class="coinmalin" /> </div>
@@ -567,6 +567,18 @@ h6 {
     paginationClickable: true,
     slidesPerView: 'auto',
   })
+   $("#menu").click(function (){
+
+          $(".chapitres").toggleClass("visible");
+
+          });
+		  
+		   $(".chapitresfermer").click(function (){
+
+          $(".chapitres").toggleClass("visible");
+
+          });
+  
   </script>
 </body>
 </html>

@@ -151,6 +151,30 @@ background-image: url(img/btn-ouvrir.png);
     top: 92%;
     width: 20%;
     z-index: 6;
+
+}
+
+#boiteBoutons img {
+	height:100%;
+	float:left;
+	margin-left:10%;
+	
+}
+
+#boiteBoutons2{
+	height: 5%;
+    right: 4%;
+    position: absolute;
+    top: 92%;
+    width: 20%;
+    z-index: 6;
+
+}
+
+#boiteBoutons2 img {
+	height:100%;
+	float:left;
+	margin-left:10%;
 	
 }
 
@@ -161,7 +185,16 @@ background-image: url(img/btn-ouvrir.png);
 	background-repeat:no-repeat;
 	background-size: 100% auto;
 }
-
+#btnanglais{
+	background-image: url("fr/resources/couv/img/drapeau-anglais");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+    left: 0%;
+    position: absolute;
+    top: 0;
+    width: 18%;
+}
 #btnInfo{
 	background-image: url("fr/resources/couv/img/btnInfo.png");
     background-repeat: no-repeat;
@@ -192,6 +225,75 @@ background-image: url(img/btn-ouvrir.png);
 	
 }
 
+#histoire {
+	   
+    top: 70%;
+    left: -2%;
+	 color: #f2569d;
+	height:auto;
+    /* overflow: hidden; */
+    position: absolute;
+    /* text-align: center; */
+    z-index: 16;
+    text-decoration: none;
+    text-indent: 5%;
+    background-color: #fff;
+    padding: 0.5%;
+    font-family: verdana;
+	background-image:url("fr/img/icone-panier.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:right;
+	border-radius:2em;
+	padding-right:5%;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	 
+	font-weight:bold;
+	font-size:1.3em;
+	
+	
+}
+
+#histoire a {
+	 color: #f2569d;
+}
+
+#coinmalin {
+	   
+    top: 80%;
+    left: -2%;
+	 color: #f2569d;
+	height:auto;
+    /* overflow: hidden; */
+    position: absolute;
+    /* text-align: center; */
+    z-index: 16;
+   
+    text-indent: 5%;
+    background-color: #fff;
+    padding: 0.5%;
+    font-family: verdana;
+	background-image:url("fr/img/icone-livre.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:right;
+	border-radius:2em;
+	padding-right:5%;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	 
+	font-weight:bold;
+	font-size:1.3em;
+	
+	
+}
+
+#coinmalin a {
+	 color: #f2569d;
+	  text-decoration: none;
+}
+
         </style>
         <script>
 $(document).ready(function() {
@@ -220,29 +322,18 @@ $('#autreslivres').append(livres.join(''));
 	<body>
 		<div id="wrapper">
             
-            <script>
-                $(document).ready(function(){
-                    $('#getFileContents').click(function(){
-                        window.location="en/index.html";
-                        });
-                    });
-                </script>
+           
 
-            
+            <div id="titreCOUV">MINOS <BR>ET THESEE
+            </div>
      
-         		<a href="en/index.html"> <img src="fr/img/drapeau-anglais.png" width="70" height="70" id="getFileContents"></a>
-          <div id="histoire" class="titre"><a href="fr/chapitre1.html">L'histoire</a></div>
-        <div id="coinmalin" class="titre"><a href="fr/coinmalin.html">coin malin</a></div>
+         		
+          <div id="histoire" class="titre"> Dans la même collection</div>
+        <div id="coinmalin" class="titre"><a href="fr/coinmalin.html">Le coin malin</a></div>
         <div id="bateauhome"></div>
         
         
-        
-        <div class="titre">
-            
-            <button id='setFileContents'>SET file contents</button>
-            
-            
-        </div>
+      
         
 <!--getFileContents
         <div id="navigation">
@@ -253,17 +344,25 @@ $('#autreslivres').append(livres.join(''));
         </div>-->
         
         <div id="reduire"><div id="plusMoins" class="plusMoins"></div></div>
-        <div id="boiteBoutons"><div id="btnChouette"></div><div id="btnInfo"></div><div id="btnSon"></div></div> 
-        <div id="autreslivres">
+        <div id="boiteBoutons">
+        	<a href="en/index.html"> <img src="fr/img/drapeau-anglais.png" id="anglais"  ></a>
+          <img src="fr/img/chouette-icon.png" id="oracle"  alt=""/> 
+          <img src="fr/img/icone-info.png" id="information" alt=""/> </div> 
+          
+          
+          <div id="boiteBoutons2">
+       <a href="https://www.facebook.com/pages/Oracle-%C3%89ditions/490954901072101">	  <img src="fr/img/fb.png"  alt=""/></a> 
+        <a href="https://twitter.com/OracleEditions">  <img src="fr/img/twitter.png"  alt=""/></a> </div> 
+        <!--<div id="autreslivres">
         
-       <!-- <div id="titreCollec">Dans la même collection</div>
+        <div id="titreCollec">Dans la même collection</div>
         	<div >
             <img src="resources/couv/img/origine.jpg" class="livre"> </div>
             <div class="livre"> <img src="resources/couv/img/jason.jpg" class="livre">
-            </div>-->
+            </div>
            
         
-        </div>
+        </div>-->
         
         
 			
@@ -274,18 +373,26 @@ $('#autreslivres').append(livres.join(''));
   <div id="nav">
     <div id="menu"> <img id="menuImg" src="fr/img/menu.png" alt="menu" /> </div>
   </div>
-			<div id="chapters">
-           <a href="chapitre1.html"> <img src="fr/resources/menu1.jpg"  alt=""/> </a>
-           <a href="chapitre2.html"> <img src="fr/resources/menu2.jpg"  alt=""/> </a>
-           <a href="chapitre3.html"> <img src="fr/resources/menu3.jpg"  alt=""/> </a>
-           <a href="chapitre4.html"> <img src="fr/resources/menu4.jpg"  alt=""/> </a>
-           <a href="chapitre5.html"> <img src="fr/resources/menu5.jpg"  alt=""/> </a>
-           <a href="chapitre6.html"> <img src="fr/resources/menu6.jpg"  alt=""/> </a>
-            
-            </div>
-		</div>
-        <div class="popup tutorial">
-        Tutorial
+		
+	</div>
+         <div class="popup chapitres">
+        <div class="croixfermeture chapitresfermer"><img src="fr/img/croix.png"  alt=""/></div>
+        <h2>Table des matières</h2>
+        <div class="imageschapitres"> <a href="fr/chapitre1.html"> <img src="fr/resources/menu1.jpg" class=""  alt=""/> </a></div>
+          <div class="imageschapitres"> <a href="fr/chapitre2.html"> <img src="fr/resources/menu2.jpg"  alt=""/> </a></div>
+           <div class="imageschapitres"><a href="fr/chapitre3.html"> <img src="fr/resources/menu3.jpg"  alt=""/> </a></div>
+         <div class="imageschapitres">  <a href="fr/chapitre4.html"> <img src="fr/resources/menu4.jpg"  alt=""/> </a></div>
+          <div class="imageschapitres"> <a href="fr/chapitre5.html"> <img src="fr/resources/menu5.jpg"  alt=""/> </a></div>
+           <div class="imageschapitres"><a href="fr/chapitre6.html"> <img src="fr/resources/menu6.jpg"  alt=""/> </a></div>
+            <div class="imageschapitres"> <a href="fr/coinmalin.html"> <img src="fr/resources/menu7.jpg"  alt=""/> </a></div>
+        
+        </div>
+        
+        <div class="popup collection">
+        <div class="croixfermeture collectionfermer"><img src="fr/img/croix.png"  alt=""/></div>
+        <h2>Dans la même collection</h2>
+        
+        
         </div>
        
         
@@ -294,11 +401,28 @@ $('#autreslivres').append(livres.join(''));
         <script type="text/javascript">
             app.initialize();
 			
-			  $("#btnInfo").click(function (){
+			  $("#histoire").click(function (){
 
-        
+          $(".collection").toggleClass("visible");
 
-          $(".tutorial").toggleClass("visible");
+          });
+		  
+		   $(".collectionfermer").click(function (){
+
+          $(".collection").toggleClass("visible");
+
+          });
+		  
+		  
+		    $("#menu").click(function (){
+
+          $(".chapitres").toggleClass("visible");
+
+          });
+		  
+		   $(".chapitresfermer").click(function (){
+
+          $(".chapitres").toggleClass("visible");
 
           });
             </script>

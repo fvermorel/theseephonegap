@@ -28,26 +28,35 @@
 
 <!-- Load chapiter -->
 
-<div id="preloader">
-<div id="textechargement">
-    <center>
-        <br />
-        <br />
-        <br />
-        <br />
-        <font size="5em"  face="EccentricStd">Chapter 3</font><br />
-        <hr width="20%" size="1px" color="#FE2EC8">
-        The Tribute of Athens<br />
-    </center>
-    </div>
-    <div id="chargement"></div>
-</div>
+
 <!--  -->
 
 
 <div id="retourAccueil"><a href="index.html"><img src="../fr/img/home.png"/></a></div>
 <div class="swiper-container">
   <div class="swiper-wrapper"> 
+  
+   <div class="swiper-slide page0" data-hash="slide0">
+  <div id="text">
+  <div id="textechargement">
+    <center>
+        <br />
+        <br />
+        <br />
+        <br />
+        <font size="5em"  face="EccentricStd">3.</font><br />
+        <hr width="20%" size="1px" color="#FE2EC8">
+        The tribute of Athens<br />
+    </center>
+    </div>
+    <div id="chargement"></div>
+    <div class="prev"><A href="chapitre2.html"><img id="prev" src="../fr/img/prev-chap.png" alt="menu" /></A></div>
+    <div class="next"> <img id="next" src="../fr/img/next.png" alt="menu" class="arrow-right" /> </div>
+    </div>
+    
+    
+  </div>
+  
     <!-- Fin page 8-->
     
     <div class="swiper-slide page9" data-hash="slide9">
@@ -72,9 +81,10 @@
         <div id="bulle1BIG"> The son of Minos, Androgeus, had been assassinated in Athens, and Aegeus could not find the murderers. It was for this reason that Crete waged war against Athens and defeated it.  </div>
         <div id="yeux"></div>
         <div id="chouette1"></div>
-        <div class="prev"> <a href="chapitre2.html#fin"><img id="prev" src="../fr/img/prev.png" alt="menu" /></a></div>
+    
         
           <div class="next"> <img id="next" src="../fr/img/next.png" alt="menu" class="arrow-right" /> </div>
+           <div class="prev"> <img id="prev" src="../fr/img/prev.png" alt="menu" class="arrow-left" /></div>
            
       </div>
     </div>
@@ -173,7 +183,7 @@
         <div id="coeur6"></div>
          
            <div class="prev"> <img id="prev" src="../fr/img/prev.png" alt="menu" class="arrow-left" /></div>
-        <div class="next"> <a href="chapitre4.html"><img id="next" src="../fr/img/next.png" alt="menu" /></a> </div>
+        <div class="next"> <a href="chapitre4.html"><img id="next" src="../fr/img/next-chap.png" alt="menu" /></a> </div>
       </div>
     </div>
     
@@ -184,20 +194,35 @@
   <div id="nav">
     <div id="menu"> <img id="menuImg" src="../fr/img/menu.png" alt="menu" /> </div>
   </div>
-  <div id="chapters">
-     <a href="chapitre1.html"> <img src="../fr/resources/menu1.jpg"  alt=""/> </a>
-           <a href="chapitre2.html"> <img src="../fr/resources/menu2.jpg"  alt=""/> </a>
-           <a href="chapitre3.html"> <img src="../fr/resources/menu3.jpg"  alt=""/> </a>
-           <a href="chapitre4.html"> <img src="../fr/resources/menu4.jpg"  alt=""/> </a>
-           <a href="chapitre5.html"> <img src="../fr/resources/menu5.jpg"  alt=""/> </a>
-           <a href="chapitre6.html"> <img src="../fr/resources/menu6.jpg"  alt=""/> </a>
-   </div>
+    <div class="popup chapitres">
+        <div class="croixfermeture chapitresfermer"><img src="img/croix.png"  alt=""/></div>
+        <h2>Table des matières</h2>
+       <div class="imageschapitres">  <a href="chapitre1.html"> <img src="../fr/resources/menu1.jpg" class=""  alt=""/> </a></div>
+          <div class="imageschapitres"> <a href="chapitre2.html"> <img src="../fr/resources/menu2.jpg"  alt=""/> </a></div>
+           <div class="imageschapitres"><a href="chapitre3.html"> <img src="../fr/resources/menu3.jpg"  alt=""/> </a></div>
+         <div class="imageschapitres">  <a href="chapitre4.html"> <img src="../fr/resources/menu4.jpg"  alt=""/> </a></div>
+          <div class="imageschapitres"> <a href="chapitre5.html"> <img src="../fr/resources/menu5.jpg"  alt=""/> </a></div>
+           <div class="imageschapitres"><a href="chapitre6.html"> <img src="../fr/resources/menu6.jpg"  alt=""/> </a></div>
+            <div class="imageschapitres"> <a href="coinmalin.html"> <img src="../fr/resources/menu7.jpg"  alt=""/> </a></div>
+        
+        </div>
 </div>
 <script src="../fr/js/idangerous.swiper-2.1.min.js"></script> 
 <script src="../fr/js/idangerous.swiper.hashnav-1.0.js"></script> 
 <script>
   var workflow = {
-  0: {
+	   0: {
+			play	: function() {
+				$("#chargement").css("animation-play-state", "running");
+				
+			},
+			pause	: function() {
+				$("#chargement").css("animation-play-state", "paused");
+			
+			}
+		},
+	  
+  1: {
 			play	: function() {
 			$("#yeux").css("animation-play-state", "running");
 			
@@ -214,7 +239,7 @@
 					$("#bruit1").pauseMedia();
 			}
 		},
-		1: {
+		2: {
 			play	: function() {
 					$("#nuage8").css("animation-play-state", "running");
 					$("#nuage9").css("animation-play-state", "running");
@@ -250,7 +275,7 @@
 		
 				 }
 		},
-		2: {
+		3: {
 			play	: function() {
 				$(".bulleb1").css("animation-play-state", "running");
 					$(".bulleb2").css("animation-play-state", "running");
@@ -273,7 +298,7 @@
 					$("#bruit3").pauseMedia();
 				}
 		},
-		3: {
+		4: {
 			play	: function() {
 					$("#coeur1").css("animation-play-state", "running");
 					$("#coeur2").css("animation-play-state", "running");
@@ -349,6 +374,17 @@
     e.preventDefault()
     mySwiper.swipeNext()
   })
+   $("#menu").click(function (){
+
+          $(".chapitres").toggleClass("visible");
+
+          });
+		  
+		   $(".chapitresfermer").click(function (){
+
+          $(".chapitres").toggleClass("visible");
+
+          });
   </script> 
 <script src="../fr/js/encart.js"></script>
 <script src="../fr/js/loading.js"></script> 
