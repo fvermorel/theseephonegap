@@ -305,10 +305,10 @@
 			pause	: function() {
 				$("#pasiphae").css("animation-play-state", "paused");
 				$("#bbminotaure").css("animation-play-state", "paused");
-				/*$('#voix3').pauseMedia();*/
 				$('#voix3').pauseMedia();
-					$('#bruit3').pauseMedia();
-				}
+				$('#voix3').pauseMedia();
+				$('#bruit3').pauseMedia();
+			}
 		},
 		4: {
 			play	: function() {
@@ -324,7 +324,7 @@
 				setTimeout (function(){
 				$("#voix4").playMedia();
 				},2000);
-				 },
+			},
 			pause	: function() {
 				
 			
@@ -334,9 +334,9 @@
 				$("#minotaure").css("animation-play-state", "paused");
 				$("#muravant").css("animation-play-state", "paused");
 				$("#liere").css("animation-play-state", "paused");				
-        $('#voix4').pauseMedia();
-					$('#bruit4').pauseMedia();
-				 }
+                $('#voix4').pauseMedia();
+				$('#bruit4').pauseMedia();
+			}
 		}
 	};
   
