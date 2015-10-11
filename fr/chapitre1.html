@@ -364,20 +364,53 @@
 			workflow[s.activeIndex].play();
 		}
 	  })
-	  	$play = true;
+	  	$play1 = true;
+	  	$play2 = true;
+	  	$play3 = true;
+	  	$play4 = true;
 		$('#son1').click(function() {
-			if ($play) {
-		$('#voix1').pauseMedia();
-		$play = false;
+			if ($play1) {
+		        $('#voix1').pauseMedia();
+		        $play1 = false;
 			}
 			else {
 				$('#voix1').playMedia();
-				$play = true;
+				$play1 = true;
 			}
-	});
+        });
+		$('#son2').click(function() {
+			if ($play2) {
+		        $('#voix2').pauseMedia();
+		        $play2 = false;
+			}
+			else {
+				$('#voix2').playMedia();
+				$play2 = true;
+			}
+        });
+		$('#son3').click(function() {
+			if ($play3) {
+		        $('#voix3').pauseMedia();
+		        $play3 = false;
+			}
+			else {
+				$('#voix3').playMedia();
+				$play3 = true;
+			}
+        });
+		$('#son4').click(function() {
+			if ($play4) {
+		        $('#voix4').pauseMedia();
+		        $play4 = false;
+			}
+			else {
+				$('#voix4').playMedia();
+				$play4 = true;
+			}
+        });
 	
 	
-	$('#son2').click(function() {
+	/*$('#son2').click(function() {
 		$('#voix2').pauseMedia();
 	});
 	$('#son3').click(function() {
@@ -385,7 +418,7 @@
 	});
 	$('#son4').click(function() {
 		$('#voix4').pauseMedia();
-	});
+	});*/
 	
 	 $('.arrow-left').on('click', function(e){
     e.preventDefault()
